@@ -1755,7 +1755,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fc9836639c101df4687a36266982f6b2, type: 3}
+  m_Sprite: {fileID: 5511363355103909234, guid: fc9836639c101df4687a36266982f6b2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2737,7 +2737,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!225 &1766028786
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -3299,7 +3299,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 8
-  m_Sprite: {fileID: 21300000, guid: 92da4b27fd53f634482e4306f363742f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: da04da6f0806f624a97530ab166c0016, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
