@@ -1,0 +1,70 @@
+﻿using UnityEngine;
+
+public class Brick : MonoBehaviour
+{
+    public SpriteRenderer spriteRenderer { get; private set; }
+    public Sprite[] states;
+    public int health { get; private set; }
+    public int points = 1;
+    public bool unbreakable;
+    public GameObject shatterEffectPrefab;
+    public AudioClip breakSound;
+
+    private void Awake()
+    {
+        this.spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
+    private void Start()
+    {
+        ResetBrick();
+    }
+
+    public void ResetBrick()
+    {
+        this.gameObject.SetActive(true);
+
+        if (!this.unbreakable)
+        {
+            this.health = this.states.Length;
+            this.spriteRenderer.sprite = this.states[this.health - 1];
+        }
+    }
+
+    private void Hit()
+    {
+        if (this.unbreakable)
+            return;
+
+        this.health--;
+
+        if (this.health <= 0)
+        {
+            if (breakSound != null)
+            {
+                AudioSource.PlayClipAtPoint(breakSound, transform.position);
+            }
+
+            // Instantiate visual effect
+            if (shatterEffectPrefab != null)
+            {
+                Instantiate(shatterEffectPrefab, transform.position, Quaternion.identity);
+            }
+
+            this.gameObject.SetActive(false);
+        }
+        else
+        {
+            this.spriteRenderer.sprite = this.states[this.health - 1];
+        }
+        FindFirstObjectByType<GameManager>().Hit(this);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.name == "Ball")
+        {
+            this.Hit();
+        }
+    }
+}

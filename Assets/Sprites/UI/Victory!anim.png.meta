@@ -1,0 +1,567 @@
+fileFormatVersion: 2
+guid: 065dad7d4ae3db64ebd11e1ad9038f0e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3168071875017321394
+    second: Victory!anim_0
+  - first:
+      213: 8933174261679660513
+    second: Victory!anim_1
+  - first:
+      213: -368493470653974546
+    second: Victory!anim_2
+  - first:
+      213: -7852215352661511540
+    second: Victory!anim_3
+  - first:
+      213: -5240037847938521036
+    second: Victory!anim_4
+  - first:
+      213: -8931688092806197003
+    second: Victory!anim_5
+  - first:
+      213: -1179246489622921238
+    second: Victory!anim_6
+  - first:
+      213: -4409382409788466501
+    second: Victory!anim_7
+  - first:
+      213: -409132442830474756
+    second: Victory!anim_8
+  - first:
+      213: 5081259634790666916
+    second: Victory!anim_9
+  - first:
+      213: -1978647194975517226
+    second: Victory!anim_10
+  - first:
+      213: -6244044071441343578
+    second: Victory!anim_11
+  - first:
+      213: 5024977025322588601
+    second: Victory!anim_12
+  - first:
+      213: -639265507615234940
+    second: Victory!anim_13
+  - first:
+      213: -5432615279988955542
+    second: Victory!anim_14
+  - first:
+      213: 5926666807109604959
+    second: Victory!anim_15
+  - first:
+      213: 4758335357881592161
+    second: Victory!anim_16
+  - first:
+      213: -9118949545273630227
+    second: Victory!anim_17
+  - first:
+      213: 7426459033972303458
+    second: Victory!anim_18
+  - first:
+      213: 8845613719862200510
+    second: Victory!anim_19
+  - first:
+      213: -979380191739393950
+    second: Victory!anim_20
+  - first:
+      213: 2204647844251536419
+    second: Victory!anim_21
+  - first:
+      213: 1969168119800807774
+    second: Victory!anim_22
+  - first:
+      213: 5885727899646524749
+    second: Victory!anim_23
+  - first:
+      213: 946101492089053463
+    second: Victory!anim_24
+  - first:
+      213: -7578939334029651020
+    second: Victory!anim_25
+  - first:
+      213: 1479911753495892289
+    second: Victory!anim_26
+  - first:
+      213: 4542399462746447252
+    second: Victory!anim_27
+  - first:
+      213: 884795281805778919
+    second: Victory!anim_28
+  - first:
+      213: -204529830267694313
+    second: Victory!anim_29
+  - first:
+      213: 4695756048478815848
+    second: Victory!anim_30
+  - first:
+      213: 212207316580313878
+    second: Victory!anim_31
+  - first:
+      213: 8816709595385857519
+    second: Victory!anim_32
+  - first:
+      213: -4339253155703041892
+    second: Victory!anim_33
+  - first:
+      213: -4850418501766385184
+    second: Victory!anim_34
+  - first:
+      213: 9084962174639896564
+    second: Victory!anim_35
+  - first:
+      213: 9018061840432761452
+    second: Victory!anim_36
+  - first:
+      213: -8671046292324341884
+    second: Victory!anim_37
+  - first:
+      213: 1590750976860418889
+    second: Victory!anim_38
+  - first:
+      213: 7255529412833770950
+    second: Victory!anim_39
+  - first:
+      213: 7752805899743778282
+    second: Victory!anim_40
+  - first:
+      213: 4529136867904299363
+    second: Victory!anim_41
+  - first:
+      213: -2491089511113759226
+    second: Victory!anim_42
+  - first:
+      213: -2385057240980849934
+    second: Victory!anim_43
+  - first:
+      213: 5521770983722237454
+    second: Victory!anim_44
+  - first:
+      213: 1443851605041830577
+    second: Victory!anim_45
+  - first:
+      213: 6039871784156088187
+    second: Victory!anim_46
+  - first:
+      213: -3957180233218616268
+    second: Victory!anim_47
+  - first:
+      213: -8850739200056109252
+    second: Victory!anim_48
+  - first:
+      213: 1673342535569252966
+    second: Victory!anim_49
+  - first:
+      213: -9047918415881196961
+    second: Victory!anim_50
+  - first:
+      213: 4160386469851467488
+    second: Victory!anim_51
+  - first:
+      213: 2048545273788315795
+    second: Victory!anim_52
+  - first:
+      213: 1432388642953950186
+    second: Victory!anim_53
+  - first:
+      213: 8254666805893645676
+    second: Victory!anim_54
+  - first:
+      213: -9120868399515934384
+    second: Victory!anim_55
+  - first:
+      213: 2135267146921630944
+    second: Victory!anim_56
+  - first:
+      213: -3614742057583137072
+    second: Victory!anim_57
+  - first:
+      213: 7603238082632662036
+    second: Victory!anim_58
+  - first:
+      213: -6917839776568494568
+    second: Victory!anim_59
+  - first:
+      213: -1321609333714728657
+    second: Victory!anim_60
+  - first:
+      213: -8810027248678257054
+    second: Victory!anim_61
+  - first:
+      213: 1546603880490787456
+    second: Victory!anim_62
+  - first:
+      213: -3344980209760582353
+    second: Victory!anim_63
+  - first:
+      213: 8615035332537724076
+    second: Victory!anim_64
+  - first:
+      213: 7773358859990192403
+    second: Victory!anim_65
+  - first:
+      213: -6095801505369330495
+    second: Victory!anim_66
+  - first:
+      213: -2008946264831575282
+    second: Victory!anim_67
+  - first:
+      213: 3581178741515259681
+    second: Victory!anim_68
+  - first:
+      213: -8582212335753512826
+    second: Victory!anim_69
+  - first:
+      213: -3560090116729780623
+    second: Victory!anim_70
+  - first:
+      213: 383344081727473922
+    second: Victory!anim_71
+  - first:
+      213: 7772297595521346717
+    second: Victory!anim_72
+  - first:
+      213: 8818489557133030194
+    second: Victory!anim_73
+  - first:
+      213: 5587000331870695499
+    second: Victory!anim_74
+  - first:
+      213: -6836511840995111342
+    second: Victory!anim_75
+  - first:
+      213: -1120292159432248807
+    second: Victory!anim_76
+  - first:
+      213: -4109529826015507269
+    second: Victory!anim_77
+  - first:
+      213: -5233236245875119821
+    second: Victory!anim_78
+  - first:
+      213: 8689804784565845272
+    second: Victory!anim_79
+  - first:
+      213: -3131193638637051758
+    second: Victory!anim_80
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Victory!anim_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 105
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44dfa23a6fb804d0800000000000000
+      internalID: -3168071875017321394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory!anim_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 105
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed141839a209fb70800000000000000
+      internalID: 8933174261679660513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory!anim_2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 105
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee77e9b0429d2eaf0800000000000000
+      internalID: -368493470653974546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory!anim_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 105
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82fdb45db3570390800000000000000
+      internalID: -7852215352661511540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory!anim_4
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 105
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438a5081755a747b0800000000000000
+      internalID: -5240037847938521036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory!anim_5
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 0
+        width: 105
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f053bf60054c0480800000000000000
+      internalID: -8931688092806197003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory!anim_6
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 105
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef366bc09972afe0800000000000000
+      internalID: -1179246489622921238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory!anim_7
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 0
+        width: 105
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbad3b96f0abec2c0800000000000000
+      internalID: -4409382409788466501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory!anim_8
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 105
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1700ff538725af0800000000000000
+      internalID: -409132442830474756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4e4254f72f868374ba1455f6b81fdbe2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Victory!anim_0: -3168071875017321394
+      Victory!anim_1: 8933174261679660513
+      Victory!anim_2: -368493470653974546
+      Victory!anim_3: -7852215352661511540
+      Victory!anim_4: -5240037847938521036
+      Victory!anim_5: -8931688092806197003
+      Victory!anim_6: -1179246489622921238
+      Victory!anim_7: -4409382409788466501
+      Victory!anim_8: -409132442830474756
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

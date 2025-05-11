@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Global.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Title Screen.unity
+    guid: 6a36fd80d8ea1724fb06cd1639353709
+  - enabled: 1
+    path: Assets/Scenes/Planets Screen.unity
+    guid: 245f8bd05d1973d4abc895f9cab42b07
+  - enabled: 1
+    path: Assets/Scenes/StageSelect_Holy.unity
+    guid: 252cde5ddbdfbc74383b99ef3e82c339
+  - enabled: 1
+    path: Assets/Scenes/Stages/Stage I Holy.unity
+    guid: 6a3490a96d8e35340991a3aeb486571d
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: bb5fcf1fe3e63084097f8a390e5f0081
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0
