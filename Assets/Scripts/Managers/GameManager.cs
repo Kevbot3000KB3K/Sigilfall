@@ -1,11 +1,16 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager Instance { get; private set; } 
+    public static GameManager Instance { get; private set; }
+
     [SerializeField] private string titleScreenSceneName = "TitleScreen";
+
     public Ball ball { get; private set; }
+    public AudioSource lifeLostAudio;
+
     public Paddle paddle { get; private set; }
     public Brick[] bricks { get; private set; }
     public GameObject startImage;
@@ -20,6 +25,7 @@ public class GameManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+
             if (!IsSceneLoaded(titleScreenSceneName))
             {
                 SceneManager.LoadScene(titleScreenSceneName, LoadSceneMode.Additive);
@@ -44,15 +50,10 @@ public class GameManager : MonoBehaviour
         return false;
     }
 
-    private void Start()
-    {
-        
-    }
-
     public void NewGame()
     {
-        this.score = 0;
-        this.lives = 3;
+        score = 0;
+        lives = 3;
         LoadLevel(1);
     }
 
@@ -65,23 +66,19 @@ public class GameManager : MonoBehaviour
     private void OnLevelLoaded(Scene scene, LoadSceneMode mode)
     {
         if (ball == null)
-        {
-            ball = FindObjectOfType<Ball>(); 
-        }
+            ball = FindObjectOfType<Ball>();
+
         if (paddle == null)
-        {
-            paddle = FindObjectOfType<Paddle>(); 
-        }
+            paddle = FindObjectOfType<Paddle>();
+
         if (bricks == null || bricks.Length == 0)
-        {
-            bricks = FindObjectsOfType<Brick>(); 
-        }
+            bricks = FindObjectsOfType<Brick>();
     }
 
     private void ResetLevel()
     {
-        this.ball.ResetBall();
-        this.paddle.ResetPaddle();
+        ball.ResetBall();
+        paddle.ResetPaddle();
     }
 
     private void GameOver()
@@ -91,11 +88,11 @@ public class GameManager : MonoBehaviour
 
     public void Miss()
     {
-        this.lives--;
+        lives--;
 
-        if (this.lives > 0)
+        if (lives > 0)
         {
-            ResetLevel();
+            StartCoroutine(MissSequence());
         }
         else
         {
@@ -103,29 +100,41 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private IEnumerator MissSequence()
+    {
+        if (ball != null)
+            ball.gameObject.SetActive(false);
+
+        if (lifeLostAudio != null)
+            lifeLostAudio.Play();
+
+
+        yield return new WaitForSeconds(1.5f);
+
+        ResetLevel();
+
+        if (ball != null)
+            ball.gameObject.SetActive(true);
+    }
+
     public void Hit(Brick brick)
     {
-        this.score += brick.points;
+        score += brick.points;
 
         if (Cleared())
         {
             VictoryManager victoryManager = FindObjectOfType<VictoryManager>();
             if (victoryManager != null)
-            {
                 victoryManager.ShowVictory();
-            }
         }
     }
 
-
     private bool Cleared()
     {
-        for (int i = 0; i < this.bricks.Length; i++)
+        foreach (Brick brick in bricks)
         {
-            if (this.bricks[i].gameObject.activeInHierarchy && !this.bricks[i].unbreakable)
-            {
+            if (brick.gameObject.activeInHierarchy && !brick.unbreakable)
                 return false;
-            }
         }
         return true;
     }

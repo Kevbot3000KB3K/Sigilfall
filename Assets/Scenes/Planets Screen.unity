@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 79042603}
   - component: {fileID: 79042602}
   - component: {fileID: 79042601}
+  - component: {fileID: 79042604}
   m_Layer: 5
   m_Name: Water Planet
   m_TagString: Untagged
@@ -210,7 +211,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ???
+          m_StringArgument: Water Planet
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &79042602
@@ -233,7 +234,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f9642c0807da1d4088288a9ff80b1e5, type: 3}
+  m_Sprite: {fileID: -4992678628903780660, guid: 66987c0156e75734fab1e344845e3d33, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -251,6 +252,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 79042599}
   m_CullTransparentMesh: 1
+--- !u!95 &79042604
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79042599}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3564bc42d6d35d5468d2d988ad38ebee, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &145240835
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,6 +286,7 @@ GameObject:
   - component: {fileID: 145240839}
   - component: {fileID: 145240838}
   - component: {fileID: 145240837}
+  - component: {fileID: 145240840}
   m_Layer: 5
   m_Name: Ghost Planet
   m_TagString: Untagged
@@ -342,7 +366,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ???
+          m_StringArgument: Ghost Planet
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &145240838
@@ -365,7 +389,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f9642c0807da1d4088288a9ff80b1e5, type: 3}
+  m_Sprite: {fileID: 8088884572211015062, guid: bdbc4aa7303d7e343a3f2c786b60a23f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -383,6 +407,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 145240835}
   m_CullTransparentMesh: 1
+--- !u!95 &145240840
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145240835}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ded8a1e25c5f46b4dad3a48ab462334a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &285936870
 GameObject:
   m_ObjectHideFlags: 0
@@ -710,6 +756,7 @@ GameObject:
   - component: {fileID: 641483157}
   - component: {fileID: 641483156}
   - component: {fileID: 641483155}
+  - component: {fileID: 641483158}
   m_Layer: 5
   m_Name: Dark Planet
   m_TagString: Untagged
@@ -789,7 +836,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ???
+          m_StringArgument: Dark Planet
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &641483156
@@ -812,7 +859,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f9642c0807da1d4088288a9ff80b1e5, type: 3}
+  m_Sprite: {fileID: 3826687288844731304, guid: 16f897bee9b176b45b4e43900eda4d46, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -830,6 +877,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 641483153}
   m_CullTransparentMesh: 1
+--- !u!95 &641483158
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641483153}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 98b0e9cbd9b710b4fba9937959fbc273, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &711204461
 GameObject:
   m_ObjectHideFlags: 0
@@ -963,6 +1032,7 @@ GameObject:
   - component: {fileID: 712931349}
   - component: {fileID: 712931348}
   - component: {fileID: 712931347}
+  - component: {fileID: 712931350}
   m_Layer: 5
   m_Name: Ice Planet
   m_TagString: Untagged
@@ -1042,7 +1112,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ???
+          m_StringArgument: Ice Planet
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &712931348
@@ -1065,7 +1135,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f9642c0807da1d4088288a9ff80b1e5, type: 3}
+  m_Sprite: {fileID: -3324017170076023671, guid: e5998fc3909b25d4a9f2cbd021177ad5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1083,6 +1153,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 712931345}
   m_CullTransparentMesh: 1
+--- !u!95 &712931350
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712931345}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 02caacb1de0d4aa4fb9df62bb87fe433, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &759437053
 GameObject:
   m_ObjectHideFlags: 0
@@ -1095,6 +1187,7 @@ GameObject:
   - component: {fileID: 759437057}
   - component: {fileID: 759437056}
   - component: {fileID: 759437055}
+  - component: {fileID: 759437058}
   m_Layer: 5
   m_Name: Wood Planet
   m_TagString: Untagged
@@ -1174,7 +1267,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ???
+          m_StringArgument: Wood Planet
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &759437056
@@ -1197,7 +1290,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f9642c0807da1d4088288a9ff80b1e5, type: 3}
+  m_Sprite: {fileID: 672044611940629179, guid: c1a3915543c0a2c49a662cbf95a4af9a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1215,6 +1308,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 759437053}
   m_CullTransparentMesh: 1
+--- !u!95 &759437058
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759437053}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 95aeaf632d275664ebc9e82f20139c58, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &933042439
 GameObject:
   m_ObjectHideFlags: 0
@@ -1227,6 +1342,7 @@ GameObject:
   - component: {fileID: 933042443}
   - component: {fileID: 933042442}
   - component: {fileID: 933042441}
+  - component: {fileID: 933042444}
   m_Layer: 5
   m_Name: Primal Planet
   m_TagString: Untagged
@@ -1306,7 +1422,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ???
+          m_StringArgument: Primal Planet
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &933042442
@@ -1329,7 +1445,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f9642c0807da1d4088288a9ff80b1e5, type: 3}
+  m_Sprite: {fileID: -6733386434358328645, guid: b016573b90500d549be0504552286dbb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1347,6 +1463,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 933042439}
   m_CullTransparentMesh: 1
+--- !u!95 &933042444
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933042439}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4425b6da675b9a647a64240369b0c3e5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &940667199
 GameObject:
   m_ObjectHideFlags: 0
@@ -1476,6 +1614,7 @@ GameObject:
   - component: {fileID: 979571451}
   - component: {fileID: 979571450}
   - component: {fileID: 979571449}
+  - component: {fileID: 979571452}
   m_Layer: 5
   m_Name: Rock Planet
   m_TagString: Untagged
@@ -1555,7 +1694,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ???
+          m_StringArgument: Rock Planet
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &979571450
@@ -1578,7 +1717,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f9642c0807da1d4088288a9ff80b1e5, type: 3}
+  m_Sprite: {fileID: 3585945260842410068, guid: 630fb5acab1d4984da81868ba47fff87, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1596,6 +1735,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 979571447}
   m_CullTransparentMesh: 1
+--- !u!95 &979571452
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979571447}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7c18ffa70680fad449a42b554699f7e2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1102536120
 GameObject:
   m_ObjectHideFlags: 0
@@ -1608,6 +1769,7 @@ GameObject:
   - component: {fileID: 1102536124}
   - component: {fileID: 1102536123}
   - component: {fileID: 1102536122}
+  - component: {fileID: 1102536125}
   m_Layer: 5
   m_Name: Lightning Planet
   m_TagString: Untagged
@@ -1687,7 +1849,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ???
+          m_StringArgument: Lightning Planet
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1102536123
@@ -1710,7 +1872,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f9642c0807da1d4088288a9ff80b1e5, type: 3}
+  m_Sprite: {fileID: 1354673354578367496, guid: 9f24bd5b2414f654aa2d9a2a3c0dcdc7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1728,6 +1890,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1102536120}
   m_CullTransparentMesh: 1
+--- !u!95 &1102536125
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102536120}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 03299c320c3911a47ad3af409877af95, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1265468273
 GameObject:
   m_ObjectHideFlags: 0
@@ -2289,6 +2473,7 @@ GameObject:
   - component: {fileID: 1930028343}
   - component: {fileID: 1930028342}
   - component: {fileID: 1930028341}
+  - component: {fileID: 1930028344}
   m_Layer: 5
   m_Name: Fire Planet
   m_TagString: Untagged
@@ -2368,7 +2553,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ???
+          m_StringArgument: Fire Planet
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1930028342
@@ -2391,7 +2576,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f9642c0807da1d4088288a9ff80b1e5, type: 3}
+  m_Sprite: {fileID: -5535569767371529314, guid: dd1db6cd50f70504ab71df4708f54dbb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2409,6 +2594,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930028339}
   m_CullTransparentMesh: 1
+--- !u!95 &1930028344
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930028339}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9676a4fee64ca5b4a8e1c503dfe7ddbb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1978925705
 GameObject:
   m_ObjectHideFlags: 0
@@ -2421,6 +2628,7 @@ GameObject:
   - component: {fileID: 1978925709}
   - component: {fileID: 1978925708}
   - component: {fileID: 1978925707}
+  - component: {fileID: 1978925710}
   m_Layer: 5
   m_Name: Arcane Planet
   m_TagString: Untagged
@@ -2500,7 +2708,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ???
+          m_StringArgument: Arcane Planet
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1978925708
@@ -2523,7 +2731,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f9642c0807da1d4088288a9ff80b1e5, type: 3}
+  m_Sprite: {fileID: -6283318919465738081, guid: 96854cd38c0fe22469214381ca0b446f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2541,6 +2749,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1978925705}
   m_CullTransparentMesh: 1
+--- !u!95 &1978925710
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978925705}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b73c757a8c5f64b4880b92c854bf4c58, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2106640356
 GameObject:
   m_ObjectHideFlags: 0
@@ -2553,6 +2783,7 @@ GameObject:
   - component: {fileID: 2106640360}
   - component: {fileID: 2106640359}
   - component: {fileID: 2106640358}
+  - component: {fileID: 2106640361}
   m_Layer: 5
   m_Name: Wind Planet
   m_TagString: Untagged
@@ -2632,7 +2863,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ???
+          m_StringArgument: Wind Planet
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2106640359
@@ -2655,7 +2886,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f9642c0807da1d4088288a9ff80b1e5, type: 3}
+  m_Sprite: {fileID: 9221031102436971101, guid: b7007d2d48835494d95963d779b8e229, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2673,6 +2904,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2106640356}
   m_CullTransparentMesh: 1
+--- !u!95 &2106640361
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2106640356}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 81a9e2b3f4a62c143bb2df6f27e4ea46, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2116087790
 GameObject:
   m_ObjectHideFlags: 0
@@ -2764,6 +3017,7 @@ GameObject:
   - component: {fileID: 2145065915}
   - component: {fileID: 2145065914}
   - component: {fileID: 2145065913}
+  - component: {fileID: 2145065916}
   m_Layer: 5
   m_Name: Holy Planet
   m_TagString: Untagged
@@ -2884,6 +3138,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2145065911}
   m_CullTransparentMesh: 1
+--- !u!95 &2145065916
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145065911}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e78cb073d240a824e8a4609ed327f229, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &7487196189567292875
 PrefabInstance:
   m_ObjectHideFlags: 0

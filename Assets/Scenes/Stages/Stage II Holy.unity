@@ -208,7 +208,6 @@ GameObject:
   - component: {fileID: 84914544}
   - component: {fileID: 84914547}
   - component: {fileID: 84914546}
-  - component: {fileID: 84914548}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -273,28 +272,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 84914543}
   m_CullTransparentMesh: 1
---- !u!95 &84914548
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 84914543}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2b093aa4e5c36574eba09fd27936db3e, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &118353610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3249,8 +3226,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0045933723, y: -0.0056757927}
-  m_Radius: 0.4662013
+  m_Offset: {x: -0.0045933723, y: 0}
+  m_Radius: 0.9179971
 --- !u!50 &2018059471
 Rigidbody2D:
   serializedVersion: 5
@@ -3263,7 +3240,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 4
+  m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0
   m_GravityScale: 0
@@ -3361,7 +3338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
-  distanceFromPaddle: 0.8
+  distanceFromPaddle: 1.5
   wallHitSFX: {fileID: 8300000, guid: 464331911fedadf47ba1279ee654e9d1, type: 3}
   brickHitSFX: {fileID: 8300000, guid: 42d74a6bc6a06ef4eb456e700f7cbbd7, type: 3}
   paddleHitSFX: {fileID: 8300000, guid: 2020e0e8d99f64548a08629f7b880853, type: 3}

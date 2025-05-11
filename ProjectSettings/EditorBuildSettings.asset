@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Planets Screen.unity
     guid: 245f8bd05d1973d4abc895f9cab42b07
   - enabled: 1
-    path: Assets/Scenes/StageSelect_Holy.unity
+    path: Assets/Scenes/Stage Selector/StageSelect_Holy.unity
     guid: 252cde5ddbdfbc74383b99ef3e82c339
   - enabled: 1
     path: Assets/Scenes/Stages/Stage I Holy.unity

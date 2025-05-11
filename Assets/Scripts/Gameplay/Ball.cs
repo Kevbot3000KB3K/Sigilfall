@@ -43,10 +43,13 @@ public class Ball : MonoBehaviour
 
     private void SetRandomTrajectory()
     {
-        Vector2 force = new Vector2(Random.Range(-1f, 1f), -1f);
-        force.Normalize(); 
-        this.rigidbody.AddForce(force * speed);
+        float x = Random.Range(-1f, 1f);
+        float y = Random.Range(-0.5f, -1f);
+
+        Vector2 direction = new Vector2(x, y).normalized;
+        this.rigidbody.AddForce(direction * speed);
     }
+
 
     private void Update()
     {
