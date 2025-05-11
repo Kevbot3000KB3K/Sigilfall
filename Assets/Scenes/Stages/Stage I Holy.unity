@@ -3226,8 +3226,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Offset: {x: -0.0045933723, y: 0}
+  m_Radius: 0.9179971
 --- !u!50 &2018059471
 Rigidbody2D:
   serializedVersion: 5
@@ -3319,7 +3319,7 @@ Transform:
   m_GameObject: {fileID: 2018059469}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.06, y: -7.2, z: 0}
+  m_LocalPosition: {x: 0.06, y: -6.16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3338,7 +3338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
-  distanceFromPaddle: 1
+  distanceFromPaddle: 1.5
   wallHitSFX: {fileID: 8300000, guid: 464331911fedadf47ba1279ee654e9d1, type: 3}
   brickHitSFX: {fileID: 8300000, guid: 42d74a6bc6a06ef4eb456e700f7cbbd7, type: 3}
   paddleHitSFX: {fileID: 8300000, guid: 2020e0e8d99f64548a08629f7b880853, type: 3}
