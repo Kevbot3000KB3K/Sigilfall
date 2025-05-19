@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Ardor
+  m_EditorClassIdentifier: 
+  sigilName: Ardor
+  sigilSprite: {fileID: 21300000, guid: 6474f4f82a55deb4bb659ff0e15e7417, type: 3}
+  IDNumber: '#191'
+  trailColor: {r: 0.47843137, g: 0.26666668, b: 0.19215687, a: 1}
+  family: {fileID: 11400000, guid: bd589d17b71088840835eaae40cc7b0f, type: 2}
+  advantage: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
+  special: {fileID: 11400000, guid: cde5ba3b867cc514785233f0bf35af92, type: 2}
+  difficulty: 2
+  ingredient1: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
+  ingredient2: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
+  ingredient3: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
+  description: This sigil burns with a quiet intensity, its surface warm and flickering
+    like a flame that never fades.

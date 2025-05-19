@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Tremor
+  m_EditorClassIdentifier: 
+  sigilName: Tremor
+  sigilSprite: {fileID: 21300000, guid: 42699f9336b5fcf47a53531858fe4f81, type: 3}
+  IDNumber: '#059'
+  trailColor: {r: 0.19215687, g: 0.14117648, b: 0.08235294, a: 1}
+  family: {fileID: 11400000, guid: cbfb1916c004682439aebd15bc697180, type: 2}
+  advantage: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
+  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
+  difficulty: 2
+  ingredient1: {fileID: 11400000, guid: a45931d484b858f4295025b23badaf5c, type: 2}
+  ingredient2: {fileID: 11400000, guid: a45931d484b858f4295025b23badaf5c, type: 2}
+  ingredient3: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
+  description: This sigil quakes softly in your grasp, its surface fractured and
+    shifting, like the ground stirred by a distant upheaval.

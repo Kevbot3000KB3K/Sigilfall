@@ -7,7 +7,6 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance { get; private set; }
 
     [SerializeField] private string titleScreenSceneName = "TitleScreen";
-
     public Ball ball { get; private set; }
     public AudioSource lifeLostAudio;
 
@@ -99,7 +98,12 @@ public class GameManager : MonoBehaviour
             GameOver();
         }
     }
-
+    public void GainLife()
+    {
+        lives++;
+        Debug.Log("Life gained! Total lives: " + lives);
+        // TODO: update UI if needed
+    }
     private IEnumerator MissSequence()
     {
         if (ball != null)

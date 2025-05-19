@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74384d9deff34c7458c56247e61cd162, type: 3}
+  m_Name: Critical I
+  m_EditorClassIdentifier: 
+  effectName: Critical I
+  description: 
+  effectIcon: {fileID: -6793324428431143251, guid: 30dac01c84ae36a42ad1f147263ba136, type: 3}
+  isTemporary: 1
+  duration: 5
+  criticalChance: 1
+  Icon: {fileID: -6793324428431143251, guid: 30dac01c84ae36a42ad1f147263ba136, type: 3}
+  criticalHitSound: {fileID: 8300000, guid: cd2c9aec1a1f4ee40aa2fa36c6271ca6, type: 3}

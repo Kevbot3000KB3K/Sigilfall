@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Truth
+  m_EditorClassIdentifier: 
+  sigilName: Truth
+  sigilSprite: {fileID: 21300000, guid: 80f83b631c39cb7449d2427530b8d4e0, type: 3}
+  IDNumber: '#292'
+  trailColor: {r: 0.7490196, g: 0.75686276, b: 0.7490196, a: 1}
+  family: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
+  advantage: {fileID: 11400000, guid: bd589d17b71088840835eaae40cc7b0f, type: 2}
+  special: {fileID: 11400000, guid: 8bb97d07a42541d40a3a0a950409474a, type: 2}
+  difficulty: 2
+  ingredient1: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
+  ingredient2: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
+  ingredient3: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
+  description: This sigil radiates pure, unwavering light, its surface flawless and
+    brilliant, like the unblemished symbol of ultimate truth.

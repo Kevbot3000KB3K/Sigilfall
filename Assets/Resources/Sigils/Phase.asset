@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Phase
+  m_EditorClassIdentifier: 
+  sigilName: Phase
+  sigilSprite: {fileID: 21300000, guid: 33459ee22f7b4ce4f9febb6cccc5b0dc, type: 3}
+  IDNumber: '#144'
+  trailColor: {r: 0.35686275, g: 0.7019608, b: 0.68235296, a: 1}
+  family: {fileID: 11400000, guid: 9a36df753cc75a9458e290092ff173cb, type: 2}
+  advantage: {fileID: 11400000, guid: a0295b76cae2ecf4c8c05d8e2cfc43d6, type: 2}
+  special: {fileID: 11400000, guid: a9a586c14a6173e408d5f6e8f5e13028, type: 2}
+  difficulty: 5
+  ingredient1: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
+  ingredient2: {fileID: 11400000, guid: a45931d484b858f4295025b23badaf5c, type: 2}
+  ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
+  description: This sigil pulses with fluctuating energy, its surface shifting in
+    and out of focus, like a phase caught between states of being.

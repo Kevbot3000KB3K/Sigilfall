@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Evergreen
+  m_EditorClassIdentifier: 
+  sigilName: Evergreen
+  sigilSprite: {fileID: 21300000, guid: 7b45edb60480de7429120c33078c4e78, type: 3}
+  IDNumber: '#137'
+  trailColor: {r: 0.32941177, g: 0.37254903, b: 0.10980392, a: 1}
+  family: {fileID: 11400000, guid: dea1f0d2a8fadf942981f4b06c853479, type: 2}
+  advantage: {fileID: 11400000, guid: f36e3519c41ac4a41b833d25d2d45f51, type: 2}
+  special: {fileID: 11400000, guid: 2053ebda035fe074e9b272b289df4b6b, type: 2}
+  difficulty: 4
+  ingredient1: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
+  ingredient2: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
+  ingredient3: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
+  description: This sigil pulses with timeless strength, its surface textured, like
+    an ancient evergreen.

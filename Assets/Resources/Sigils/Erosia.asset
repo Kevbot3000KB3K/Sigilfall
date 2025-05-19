@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Erosia
+  m_EditorClassIdentifier: 
+  sigilName: Erosia
+  sigilSprite: {fileID: 21300000, guid: b509f5f625b4b684db980e20930a8306, type: 3}
+  IDNumber: '#225'
+  trailColor: {r: 0.5921569, g: 0.49803922, b: 0.3764706, a: 1}
+  family: {fileID: 11400000, guid: a0295b76cae2ecf4c8c05d8e2cfc43d6, type: 2}
+  advantage: {fileID: 11400000, guid: 72af06d072ce3594d812569a68d3c9ed, type: 2}
+  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
+  difficulty: 2
+  ingredient1: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
+  ingredient2: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
+  ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
+  description: This sigil wears the marks of time, its surface weathered..

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Sylva
+  m_EditorClassIdentifier: 
+  sigilName: Sylva
+  sigilSprite: {fileID: 21300000, guid: 47daeeea98cce604e876aab7b88d5ef7, type: 3}
+  IDNumber: '#166'
+  trailColor: {r: 0.41568628, g: 0.5686275, b: 0.08627451, a: 1}
+  family: {fileID: 11400000, guid: dea1f0d2a8fadf942981f4b06c853479, type: 2}
+  advantage: {fileID: 11400000, guid: bd589d17b71088840835eaae40cc7b0f, type: 2}
+  special: {fileID: 11400000, guid: 122fd27955b73d347ad5fd26fd654fca, type: 2}
+  difficulty: 2
+  ingredient1: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
+  ingredient2: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
+  ingredient3: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
+  description: The sigil is smooth and earthy, its surface marked with delicate patterns,
+    like the bark of an ancient tree bathed in soft sunlight.

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Marble
+  m_EditorClassIdentifier: 
+  sigilName: Marble
+  sigilSprite: {fileID: 21300000, guid: 32e52f9f6764db14eae9c0490a106dfb, type: 3}
+  IDNumber: '#321'
+  trailColor: {r: 0.8352941, g: 0.8235294, b: 0.7764706, a: 1}
+  family: {fileID: 11400000, guid: 9296f4a181ada5c40925a0a2a9139a00, type: 2}
+  advantage: {fileID: 11400000, guid: bd589d17b71088840835eaae40cc7b0f, type: 2}
+  special: {fileID: 11400000, guid: cde5ba3b867cc514785233f0bf35af92, type: 2}
+  difficulty: 4
+  ingredient1: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
+  ingredient2: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
+  ingredient3: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
+  description: This sigil exudes timeless strength, its surface smooth and cool,
+    like veins of marble running through ancient stone.

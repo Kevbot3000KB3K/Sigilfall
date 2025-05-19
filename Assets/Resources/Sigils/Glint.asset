@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Glint
+  m_EditorClassIdentifier: 
+  sigilName: Glint
+  sigilSprite: {fileID: 21300000, guid: b13d2e96dd448164eab5fa336e5ca45a, type: 3}
+  IDNumber: '#262'
+  trailColor: {r: 0.6627451, g: 0.84705883, b: 0.5529412, a: 1}
+  family: {fileID: 11400000, guid: cbfb1916c004682439aebd15bc697180, type: 2}
+  advantage: {fileID: 11400000, guid: bd589d17b71088840835eaae40cc7b0f, type: 2}
+  special: {fileID: 11400000, guid: 3350f55698b68404bb01b82b28c19401, type: 2}
+  difficulty: 1
+  ingredient1: {fileID: 11400000, guid: a45931d484b858f4295025b23badaf5c, type: 2}
+  ingredient2: {fileID: 11400000, guid: a45931d484b858f4295025b23badaf5c, type: 2}
+  ingredient3: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
+  description: This sigil sparkles with fleeting brilliance, its surface sharp and
+    gleaming, like a shard of light caught in the dark.

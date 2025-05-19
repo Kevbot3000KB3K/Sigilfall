@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Flower
+  m_EditorClassIdentifier: 
+  sigilName: Flower
+  sigilSprite: {fileID: 21300000, guid: cfd45de48303c944ba03d98a13bec1ed, type: 3}
+  IDNumber: '#343'
+  trailColor: {r: 0.91764706, g: 0.84705883, b: 0.72156864, a: 1}
+  family: {fileID: 11400000, guid: dea1f0d2a8fadf942981f4b06c853479, type: 2}
+  advantage: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
+  special: {fileID: 11400000, guid: 2053ebda035fe074e9b272b289df4b6b, type: 2}
+  difficulty: 1
+  ingredient1: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
+  ingredient2: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
+  ingredient3: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
+  description: This sigil blooms with gentle grace, its surface delicate, like the
+    petals of a freshly opened flower.

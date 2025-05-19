@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Sonar
+  m_EditorClassIdentifier: 
+  sigilName: Sonar
+  sigilSprite: {fileID: 21300000, guid: 624dd85f4de3c614fac3b1915f8eaf9b, type: 3}
+  IDNumber: '#054'
+  trailColor: {r: 0.16470589, g: 0.79607844, b: 0.03529412, a: 1}
+  family: {fileID: 11400000, guid: cbfb1916c004682439aebd15bc697180, type: 2}
+  advantage: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
+  special: {fileID: 11400000, guid: 122fd27955b73d347ad5fd26fd654fca, type: 2}
+  difficulty: 5
+  ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
+  ingredient2: {fileID: 11400000, guid: a45931d484b858f4295025b23badaf5c, type: 2}
+  ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
+  description: The sigil is vibrating gently, its surface pulsing with rhythmic waves,
+    like the faint echo of sound traveling through water.

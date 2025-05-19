@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Trance
+  m_EditorClassIdentifier: 
+  sigilName: Trance
+  sigilSprite: {fileID: 21300000, guid: 60867f660b05b5d4e82360e663e28add, type: 3}
+  IDNumber: '#249'
+  trailColor: {r: 0.63529414, g: 0.2, b: 0.92941177, a: 1}
+  family: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
+  advantage: {fileID: 11400000, guid: f36e3519c41ac4a41b833d25d2d45f51, type: 2}
+  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
+  difficulty: 1
+  ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
+  ingredient2: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
+  ingredient3: {fileID: 11400000, guid: a45931d484b858f4295025b23badaf5c, type: 2}
+  description: This sigil pulses with a rhythmic energy, its surface smooth and hypnotic,
+    like the mesmerizing flow of a dream.

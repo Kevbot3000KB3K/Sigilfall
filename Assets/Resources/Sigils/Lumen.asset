@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Lumen
+  m_EditorClassIdentifier: 
+  sigilName: Lumen
+  sigilSprite: {fileID: 21300000, guid: 1016dd59925055549b481ab220fdad98, type: 3}
+  IDNumber: '#302'
+  trailColor: {r: 0.7764706, g: 0.77254903, b: 0.59607846, a: 1}
+  family: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
+  advantage: {fileID: 11400000, guid: bd589d17b71088840835eaae40cc7b0f, type: 2}
+  special: {fileID: 11400000, guid: 2053ebda035fe074e9b272b289df4b6b, type: 2}
+  difficulty: 2
+  ingredient1: {fileID: 11400000, guid: a45931d484b858f4295025b23badaf5c, type: 2}
+  ingredient2: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
+  ingredient3: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
+  description: This sigil radiates pure light, its surface glowing softly, like dawn
+    breaking over a tranquil horizon.

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Heavy
+  m_EditorClassIdentifier: 
+  sigilName: Heavy
+  sigilSprite: {fileID: 21300000, guid: 24aa90a40c9cfb943a425392e0a43bb5, type: 3}
+  IDNumber: '#039'
+  trailColor: {r: 0.13333334, g: 0.15294118, b: 0.10980392, a: 1}
+  family: {fileID: 11400000, guid: f36e3519c41ac4a41b833d25d2d45f51, type: 2}
+  advantage: {fileID: 11400000, guid: 72af06d072ce3594d812569a68d3c9ed, type: 2}
+  special: {fileID: 11400000, guid: d3dd90ee77730694f8b552f354b1e358, type: 2}
+  difficulty: 1
+  ingredient1: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
+  ingredient2: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
+  ingredient3: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
+  description: "39\tHeavy\t22271c\t\U0001F9CA\t\U0001F319\tMagnet\t1\t\U0001F9CA\t\U0001F9CA\t\U0001F5FB\tThis
+    sigil thrums with weighty power, its surface dense and unyielding, like stone
+    pressed by unseen hands.\t\t"

@@ -156,4 +156,4 @@ MonoBehaviour:
   points: 1
   unbreakable: 0
   shatterEffectPrefab: {fileID: 6061269018977642957, guid: ecc1c17027e7b31429dd4038a272d737, type: 3}
-  breakSound: {fileID: 8300000, guid: 33824784723f30f4480672881522e407, type: 3}
+  breakSound: {fileID: 8300000, guid: 304d58ec780665b4e9c124b17d99a798, type: 3}

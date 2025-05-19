@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Phantom
+  m_EditorClassIdentifier: 
+  sigilName: Phantom
+  sigilSprite: {fileID: 21300000, guid: 836397edc3db0d24e820375f96244e15, type: 3}
+  IDNumber: '#065'
+  trailColor: {r: 0.21176471, g: 0.2509804, b: 0.25490198, a: 1}
+  family: {fileID: 11400000, guid: a0295b76cae2ecf4c8c05d8e2cfc43d6, type: 2}
+  advantage: {fileID: 11400000, guid: cbfb1916c004682439aebd15bc697180, type: 2}
+  special: {fileID: 0}
+  difficulty: 4
+  ingredient1: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
+  ingredient2: {fileID: 11400000, guid: a45931d484b858f4295025b23badaf5c, type: 2}
+  ingredient3: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
+  description: This sigil flickers with elusive energy, its surface shifting and
+    ghostly, like a phantom fading in and out of sight.

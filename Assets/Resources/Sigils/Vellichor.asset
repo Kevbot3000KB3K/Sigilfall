@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Vellichor
+  m_EditorClassIdentifier: 
+  sigilName: Vellichor
+  sigilSprite: {fileID: 21300000, guid: 3c88426f3d8453b4d898a5eda1b825e8, type: 3}
+  IDNumber: '#342'
+  trailColor: {r: 0.91764706, g: 0.7294118, b: 0.18039216, a: 1}
+  family: {fileID: 11400000, guid: 9a36df753cc75a9458e290092ff173cb, type: 2}
+  advantage: {fileID: 11400000, guid: a0295b76cae2ecf4c8c05d8e2cfc43d6, type: 2}
+  special: {fileID: 11400000, guid: 2053ebda035fe074e9b272b289df4b6b, type: 2}
+  difficulty: 4
+  ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
+  ingredient2: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
+  ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
+  description: This sigil carries an ancient aura, its surface worn and faded, like
+    the pages of a long-forgotten tome.

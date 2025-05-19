@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Draco
+  m_EditorClassIdentifier: 
+  sigilName: Draco
+  sigilSprite: {fileID: 21300000, guid: 918f2f824a2bd634c9acaffd3096d045, type: 3}
+  IDNumber: '#131'
+  trailColor: {r: 0.3254902, g: 0.08235294, b: 0.13725491, a: 1}
+  family: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
+  advantage: {fileID: 11400000, guid: cbfb1916c004682439aebd15bc697180, type: 2}
+  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
+  difficulty: 4
+  ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
+  ingredient2: {fileID: 11400000, guid: a45931d484b858f4295025b23badaf5c, type: 2}
+  ingredient3: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
+  description: This sigil breathes with draconic power, its surface scale-like, like
+    the glowing embers of a fire-breathing serpent.

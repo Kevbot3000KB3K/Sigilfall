@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Blaze
+  m_EditorClassIdentifier: 
+  sigilName: Blaze
+  sigilSprite: {fileID: 21300000, guid: f8865821df7135940ae444bdd3df8233, type: 3}
+  IDNumber: '#221'
+  trailColor: {r: 0.5764706, g: 0.15294118, b: 0.0627451, a: 1}
+  family: {fileID: 11400000, guid: bd589d17b71088840835eaae40cc7b0f, type: 2}
+  advantage: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
+  special: {fileID: 11400000, guid: d3bb8be874ba06146813c41a8e647812, type: 2}
+  difficulty: 3
+  ingredient1: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
+  ingredient2: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
+  ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
+  description: This sigil burns with intense heat, its surface flickering with flame,
+    like the heart of an unrelenting fire.

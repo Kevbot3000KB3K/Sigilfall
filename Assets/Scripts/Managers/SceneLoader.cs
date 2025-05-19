@@ -1,17 +1,20 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Collections;
 
 public class SceneLoader : MonoBehaviour
 {
+    [Header("Default Scene To Load (optional)")]
     public string sceneToLoad = "Level1";
+
     public bool callNewGameAfterLoad = false;
     public AudioClip clickSFX;
     public float fadeDuration = 1f;
     public Image fadeImage;
 
     private AudioSource audioSource;
+    private string sceneNameOverride = null;
 
     private void Start()
     {
@@ -19,8 +22,17 @@ public class SceneLoader : MonoBehaviour
         StartCoroutine(FadeIn());
     }
 
+    // ✅ New public method you can assign in Button > OnClick
+    public void LoadSceneWithFade(string sceneName)
+    {
+        sceneNameOverride = sceneName;
+        StartCoroutine(LoadSceneRoutine());
+    }
+
+    // ✅ Optional fallback if you just want to use the inspector's default
     public void LoadSceneWithFade()
     {
+        sceneNameOverride = null;
         StartCoroutine(LoadSceneRoutine());
     }
 
@@ -32,7 +44,9 @@ public class SceneLoader : MonoBehaviour
         }
 
         yield return FadeOut();
-        SceneManager.LoadScene(sceneToLoad);
+
+        string finalSceneName = string.IsNullOrEmpty(sceneNameOverride) ? sceneToLoad : sceneNameOverride;
+        SceneManager.LoadScene(finalSceneName);
         yield return null;
 
         if (callNewGameAfterLoad)

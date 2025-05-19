@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Ripple
+  m_EditorClassIdentifier: 
+  sigilName: Ripple
+  sigilSprite: {fileID: 21300000, guid: 9ba4a1d1be8e7a248887f2f643f0c644, type: 3}
+  IDNumber: '#199'
+  trailColor: {r: 0.5058824, g: 0.7882353, b: 0.99215686, a: 1}
+  family: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
+  advantage: {fileID: 11400000, guid: bd589d17b71088840835eaae40cc7b0f, type: 2}
+  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
+  difficulty: 3
+  ingredient1: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
+  ingredient2: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
+  ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
+  description: This sigil radiates with gentle waves, its surface undulating and
+    fluid, like ripples spreading across calm water.

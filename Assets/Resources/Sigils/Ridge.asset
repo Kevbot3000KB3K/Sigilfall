@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Ridge
+  m_EditorClassIdentifier: 
+  sigilName: Ridge
+  sigilSprite: {fileID: 21300000, guid: 31243a80e27d64c4c922c6de4a9a2fca, type: 3}
+  IDNumber: '#186'
+  trailColor: {r: 0.45882353, g: 0.42352942, b: 0.26666668, a: 1}
+  family: {fileID: 11400000, guid: 9a36df753cc75a9458e290092ff173cb, type: 2}
+  advantage: {fileID: 11400000, guid: 72af06d072ce3594d812569a68d3c9ed, type: 2}
+  special: {fileID: 11400000, guid: 1527504ee8e5a6c41a7945cd64ae0a50, type: 2}
+  difficulty: 3
+  ingredient1: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
+  ingredient2: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
+  ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
+  description: This sigil hums with steadfast energy, its surface jagged and elevated,
+    like a ridge cutting through the landscape.

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Numb
+  m_EditorClassIdentifier: 
+  sigilName: Numb
+  sigilSprite: {fileID: 21300000, guid: b4c489255d92c584c89c80279f4d0382, type: 3}
+  IDNumber: '#151'
+  trailColor: {r: 0.38431373, g: 0.5921569, b: 0.6039216, a: 1}
+  family: {fileID: 11400000, guid: f36e3519c41ac4a41b833d25d2d45f51, type: 2}
+  advantage: {fileID: 11400000, guid: cbfb1916c004682439aebd15bc697180, type: 2}
+  special: {fileID: 11400000, guid: 3350f55698b68404bb01b82b28c19401, type: 2}
+  difficulty: 1
+  ingredient1: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
+  ingredient2: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
+  ingredient3: {fileID: 11400000, guid: a45931d484b858f4295025b23badaf5c, type: 2}
+  description: This sigil exudes a cold, paralyzing energy, its surface still and
+    unfeeling, like frost slowly freezing everything it touches.

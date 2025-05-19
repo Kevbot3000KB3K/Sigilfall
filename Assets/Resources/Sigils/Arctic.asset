@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Arctic
+  m_EditorClassIdentifier: 
+  sigilName: Arctic
+  sigilSprite: {fileID: 21300000, guid: e9dec2ad382c1f347b42b6f2cedf0c04, type: 3}
+  IDNumber: '#311'
+  trailColor: {r: 0.8039216, g: 0.8980392, b: 0.91764706, a: 1}
+  family: {fileID: 11400000, guid: 9a36df753cc75a9458e290092ff173cb, type: 2}
+  advantage: {fileID: 11400000, guid: a0295b76cae2ecf4c8c05d8e2cfc43d6, type: 2}
+  special: {fileID: 11400000, guid: 122fd27955b73d347ad5fd26fd654fca, type: 2}
+  difficulty: 2
+  ingredient1: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
+  ingredient2: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
+  ingredient3: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
+  description: This sigil exudes a biting cold, its surface etched with frost, as
+    if it carries the chill of the endless winter.

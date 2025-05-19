@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Beluga
+  m_EditorClassIdentifier: 
+  sigilName: Beluga
+  sigilSprite: {fileID: 21300000, guid: fb564b02ac705eb4fb283ca0667a3f98, type: 3}
+  IDNumber: '#178'
+  trailColor: {r: 0.4392157, g: 0.5921569, b: 0.6509804, a: 1}
+  family: {fileID: 11400000, guid: f36e3519c41ac4a41b833d25d2d45f51, type: 2}
+  advantage: {fileID: 11400000, guid: bd589d17b71088840835eaae40cc7b0f, type: 2}
+  special: {fileID: 11400000, guid: d3dd90ee77730694f8b552f354b1e358, type: 2}
+  difficulty: 3
+  ingredient1: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
+  ingredient2: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
+  ingredient3: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
+  description: This sigil shimmers with a soft, flowing energy, its surface smooth
+    and undulating, like the gentle motion of water.

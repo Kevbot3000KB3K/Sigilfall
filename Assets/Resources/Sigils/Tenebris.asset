@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Tenebris
+  m_EditorClassIdentifier: 
+  sigilName: Tenebris
+  sigilSprite: {fileID: 21300000, guid: 711744a04cc11c840b333211a22e71c6, type: 3}
+  IDNumber: '#169'
+  trailColor: {r: 0.41960785, g: 0.34509805, b: 0.24705882, a: 1}
+  family: {fileID: 11400000, guid: 72af06d072ce3594d812569a68d3c9ed, type: 2}
+  advantage: {fileID: 11400000, guid: bd589d17b71088840835eaae40cc7b0f, type: 2}
+  special: {fileID: 11400000, guid: d3bb8be874ba06146813c41a8e647812, type: 2}
+  difficulty: 3
+  ingredient1: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
+  ingredient2: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
+  ingredient3: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
+  description: The sigil is dark and heavy, its surface shadowed with intricate patterns,
+    like the depths of an impenetrable night.

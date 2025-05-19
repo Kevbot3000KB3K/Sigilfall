@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Shadow
+  m_EditorClassIdentifier: 
+  sigilName: Shadow
+  sigilSprite: {fileID: 21300000, guid: 250809089bf076a4e996397adaf55362, type: 3}
+  IDNumber: '#037'
+  trailColor: {r: 0.1254902, g: 0.13333334, b: 0.12156863, a: 1}
+  family: {fileID: 11400000, guid: 72af06d072ce3594d812569a68d3c9ed, type: 2}
+  advantage: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
+  special: {fileID: 11400000, guid: a9a586c14a6173e408d5f6e8f5e13028, type: 2}
+  difficulty: 1
+  ingredient1: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
+  ingredient2: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
+  ingredient3: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
+  description: The sigil feels cold and smooth, its surface shifting subtly, as if
+    it draws the light into its depths.

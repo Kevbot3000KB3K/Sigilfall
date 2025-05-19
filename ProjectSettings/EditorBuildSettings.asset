@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Title Screen.unity
     guid: 6a36fd80d8ea1724fb06cd1639353709
   - enabled: 1
+    path: Assets/Scenes/Sigil Lab.unity
+    guid: f39bb170754343442842d52df553f005
+  - enabled: 1
     path: Assets/Scenes/Planets Screen.unity
     guid: 245f8bd05d1973d4abc895f9cab42b07
   - enabled: 1

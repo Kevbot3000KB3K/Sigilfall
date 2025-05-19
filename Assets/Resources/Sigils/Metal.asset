@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Metal
+  m_EditorClassIdentifier: 
+  sigilName: Metal
+  sigilSprite: {fileID: 21300000, guid: f5871898fb6830b40b6e7864a21eff66, type: 3}
+  IDNumber: '#068'
+  trailColor: {r: 0.21960784, g: 0.21568628, b: 0.21568628, a: 1}
+  family: {fileID: 11400000, guid: 9296f4a181ada5c40925a0a2a9139a00, type: 2}
+  advantage: {fileID: 11400000, guid: f36e3519c41ac4a41b833d25d2d45f51, type: 2}
+  special: {fileID: 11400000, guid: d3bb8be874ba06146813c41a8e647812, type: 2}
+  difficulty: 4
+  ingredient1: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
+  ingredient2: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
+  ingredient3: {fileID: 11400000, guid: a45931d484b858f4295025b23badaf5c, type: 2}
+  description: This sigil hums with solid strength, its surface cold and unyielding,
+    like a slab of forged metal.

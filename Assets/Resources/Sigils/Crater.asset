@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Crater
+  m_EditorClassIdentifier: 
+  sigilName: Crater
+  sigilSprite: {fileID: 21300000, guid: 7f3963cd57d936140af315a2ba7e6d4e, type: 3}
+  IDNumber: '#042'
+  trailColor: {r: 0.14509805, g: 0.105882354, b: 0.0627451, a: 1}
+  family: {fileID: 11400000, guid: 9296f4a181ada5c40925a0a2a9139a00, type: 2}
+  advantage: {fileID: 11400000, guid: 9296f4a181ada5c40925a0a2a9139a00, type: 2}
+  special: {fileID: 11400000, guid: d3dd90ee77730694f8b552f354b1e358, type: 2}
+  difficulty: 3
+  ingredient1: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
+  ingredient2: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
+  ingredient3: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
+  description: This sigil hums with deep, resonant power, its surface pocked and
+    uneven, like the scar of an ancient impact.

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 195d2963aa6c18643b670ad2fd6f2e84, type: 3}
+  m_Name: Random Angle I
+  m_EditorClassIdentifier: 
+  effectName: Random Angle I
+  description: 
+  effectIcon: {fileID: -3944999576198567550, guid: 30dac01c84ae36a42ad1f147263ba136, type: 3}
+  isTemporary: 0
+  duration: 5
+  chance: 0.25
+  Icon: {fileID: -3944999576198567550, guid: 30dac01c84ae36a42ad1f147263ba136, type: 3}

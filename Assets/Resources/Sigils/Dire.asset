@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Dire
+  m_EditorClassIdentifier: 
+  sigilName: Dire
+  sigilSprite: {fileID: 21300000, guid: 9249d974f3c556a449a445d984c9ae18, type: 3}
+  IDNumber: '#075'
+  trailColor: {r: 0.22352941, g: 0.20784314, b: 0.12941177, a: 1}
+  family: {fileID: 11400000, guid: 72af06d072ce3594d812569a68d3c9ed, type: 2}
+  advantage: {fileID: 11400000, guid: f36e3519c41ac4a41b833d25d2d45f51, type: 2}
+  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
+  difficulty: 4
+  ingredient1: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
+  ingredient2: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
+  ingredient3: {fileID: 11400000, guid: a45931d484b858f4295025b23badaf5c, type: 2}
+  description: This sigil emanates with ominous resolve, its surface shadowed, like
+    the edge of a stormcloud before chaos strikes.

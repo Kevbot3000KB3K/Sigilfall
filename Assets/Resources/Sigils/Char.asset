@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Char
+  m_EditorClassIdentifier: 
+  sigilName: Char
+  sigilSprite: {fileID: 21300000, guid: 21c2972da4f49ec4a905d7c3edb8702f, type: 3}
+  IDNumber: '#234'
+  trailColor: {r: 0.6156863, g: 0.14117648, b: 0, a: 1}
+  family: {fileID: 11400000, guid: bd589d17b71088840835eaae40cc7b0f, type: 2}
+  advantage: {fileID: 11400000, guid: 9296f4a181ada5c40925a0a2a9139a00, type: 2}
+  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
+  difficulty: 2
+  ingredient1: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
+  ingredient2: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
+  ingredient3: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
+  description: This sigil smolders with faint embers, its surface dark and cracked,
+    like the remnants of a once-blazing fire.

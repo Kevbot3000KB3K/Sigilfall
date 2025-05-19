@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Deluge
+  m_EditorClassIdentifier: 
+  sigilName: Deluge
+  sigilSprite: {fileID: 21300000, guid: 86a7d65e1ad89854399a145e2b62da93, type: 3}
+  IDNumber: '#021'
+  trailColor: {r: 0.03529412, g: 0.29803923, b: 0.6117647, a: 1}
+  family: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
+  advantage: {fileID: 11400000, guid: dea1f0d2a8fadf942981f4b06c853479, type: 2}
+  special: {fileID: 11400000, guid: 4ac7fc6d64ee3ae4f947a05a118153b8, type: 2}
+  difficulty: 5
+  ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
+  ingredient2: {fileID: 11400000, guid: a45931d484b858f4295025b23badaf5c, type: 2}
+  ingredient3: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
+  description: This sigil surges with a torrential energy, its surface fluid, like
+    the crest of a relentless wave.

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Hydra
+  m_EditorClassIdentifier: 
+  sigilName: Hydra
+  sigilSprite: {fileID: 21300000, guid: 73d63f971780a3041b913f3605eebe3b, type: 3}
+  IDNumber: '#228'
+  trailColor: {r: 0.6039216, g: 0.79607844, b: 0.35686275, a: 1}
+  family: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
+  advantage: {fileID: 11400000, guid: cbfb1916c004682439aebd15bc697180, type: 2}
+  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
+  difficulty: 2
+  ingredient1: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
+  ingredient2: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
+  ingredient3: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
+  description: This sigil writhes with restless energy, its surface shifting and
+    growing, like serpentine heads rising from a dark pool.

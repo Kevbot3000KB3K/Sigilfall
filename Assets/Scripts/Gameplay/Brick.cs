@@ -31,6 +31,21 @@ public class Brick : MonoBehaviour
         }
     }
 
+    public void TakeDamage(float damage = 1)
+    {
+        if (unbreakable)
+            return;
+
+        // Apply damage
+        int intDamage = Mathf.CeilToInt(damage); // Round up to ensure visible effect
+        for (int i = 0; i < intDamage; i++)
+        {
+            Hit(); // Existing logic handles sprite changes and deactivation
+            if (!gameObject.activeSelf) break; // Exit early if destroyed
+        }
+    }
+
+
     private void Hit()
     {
         if (this.unbreakable)

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Vapor
+  m_EditorClassIdentifier: 
+  sigilName: Vapor
+  sigilSprite: {fileID: 21300000, guid: 2ae423bd6c8ef8b41acea14c8c71088a, type: 3}
+  IDNumber: '#195'
+  trailColor: {r: 0.4862745, g: 0.50980395, b: 0.54901963, a: 1}
+  family: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
+  advantage: {fileID: 11400000, guid: cbfb1916c004682439aebd15bc697180, type: 2}
+  special: {fileID: 11400000, guid: 122fd27955b73d347ad5fd26fd654fca, type: 2}
+  difficulty: 4
+  ingredient1: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
+  ingredient2: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
+  ingredient3: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
+  description: This sigil shimmers with an ethereal mist, its surface fluid and shifting,
+    like the wisps of a fading fog.

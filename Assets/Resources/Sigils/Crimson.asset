@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Crimson
+  m_EditorClassIdentifier: 
+  sigilName: Crimson
+  sigilSprite: {fileID: 21300000, guid: 1334a44d2c0dee543943b2248b98c616, type: 3}
+  IDNumber: '#360'
+  trailColor: {r: 1, g: 0.3372549, b: 0.25882354, a: 1}
+  family: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
+  advantage: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
+  special: {fileID: 11400000, guid: 8bb97d07a42541d40a3a0a950409474a, type: 2}
+  difficulty: 4
+  ingredient1: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
+  ingredient2: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
+  ingredient3: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
+  description: This sigil glows with a deep, intense red, its surface rich and vivid,
+    like the pulse of life itself.

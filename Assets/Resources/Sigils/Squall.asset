@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e699c7343a7a940821723dc76f1d53, type: 3}
+  m_Name: Squall
+  m_EditorClassIdentifier: 
+  sigilName: Squall
+  sigilSprite: {fileID: 21300000, guid: cf2bfb36789d8dc43aaedbdaf2b021b4, type: 3}
+  IDNumber: '#241'
+  trailColor: {r: 0.61960787, g: 0.7176471, b: 0.67058825, a: 1}
+  family: {fileID: 11400000, guid: 9a36df753cc75a9458e290092ff173cb, type: 2}
+  advantage: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
+  special: {fileID: 11400000, guid: d3dd90ee77730694f8b552f354b1e358, type: 2}
+  difficulty: 3
+  ingredient1: {fileID: 11400000, guid: a45931d484b858f4295025b23badaf5c, type: 2}
+  ingredient2: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
+  ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
+  description: The sigil is sharp and turbulent, its surface trembling with energy,
+    like the sudden rush of a fierce storm.
