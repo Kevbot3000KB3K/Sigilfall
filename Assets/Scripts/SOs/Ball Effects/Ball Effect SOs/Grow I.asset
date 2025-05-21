@@ -16,8 +16,7 @@ MonoBehaviour:
   description: 
   effectIcon: {fileID: -4726989572891161537, guid: 30dac01c84ae36a42ad1f147263ba136, type: 3}
   isTemporary: 1
-  duration: 5
-  growDuration: 8
+  duration: 4
+  growDuration: 4
   growScale: 2
   growSound: {fileID: 8300000, guid: 63e447511c7010e468e22176c9c379b7, type: 3}
-  Icon: {fileID: -4726989572891161537, guid: 30dac01c84ae36a42ad1f147263ba136, type: 3}

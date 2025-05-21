@@ -77,9 +77,13 @@ public class Brick : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name == "Ball")
+        Ball ball = collision.gameObject.GetComponent<Ball>();
+        if (ball != null)
         {
-            this.Hit();
+            TakeDamage(ball.damage); // ✅ Apply actual ball damage
         }
     }
+
+
+
 }

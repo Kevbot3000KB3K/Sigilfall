@@ -181,7 +181,8 @@ public class LibraryTabController : MonoBehaviour
 
     public void EquipSigil()
     {
-        // Your equip logic...
+        PlayerData.Instance.EquipSigil(LibraryTabController.Instance.currentSelectedSlot.sigilData);
+
         SLSoundFX.Instance?.PlaySFX(SLSoundFX.Instance.equipSigil);
     }
 

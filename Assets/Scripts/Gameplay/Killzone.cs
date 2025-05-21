@@ -1,12 +1,13 @@
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Killzone : MonoBehaviour
+public class KillzoneTrigger : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.name == "Ball")
+        Ball ball = other.GetComponent<Ball>();
+        if (ball != null)
         {
-            FindFirstObjectByType<GameManager>().Miss();
+            ball.OnHitKillzone(); // ✅ Trigger the destruction and GameManager tracking
         }
     }
 }

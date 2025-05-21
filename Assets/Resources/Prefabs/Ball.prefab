@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.06, y: -6.16, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -171,9 +171,13 @@ MonoBehaviour:
   distanceFromPaddle: 0.8
   damage: 1
   activeEffects: []
+  attachedToPaddle: 0
+  skipInitialReset: 0
   wallHitSFX: {fileID: 8300000, guid: 464331911fedadf47ba1279ee654e9d1, type: 3}
   brickHitSFX: {fileID: 8300000, guid: 42d74a6bc6a06ef4eb456e700f7cbbd7, type: 3}
   paddleHitSFX: {fileID: 8300000, guid: 2020e0e8d99f64548a08629f7b880853, type: 3}
+  launchSFX: {fileID: 8300000, guid: 424cafe9c5f4d01449a1d26a66879935, type: 3}
+  isGrown: 0
   hasKillzoneReflectPowerup: 0
 --- !u!96 &3508074601683953089
 TrailRenderer:

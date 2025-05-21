@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
 
@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     public int level = 1;
     public int score = 0;
     public int lives = 3;
+    private int ballsInPlay = 0;
 
     private void Awake()
     {
@@ -76,9 +77,36 @@ public class GameManager : MonoBehaviour
 
     private void ResetLevel()
     {
-        ball.ResetBall();
-        paddle.ResetPaddle();
+        ballsInPlay = 0;
+
+        // Destroy all remaining balls
+        foreach (Ball b in FindObjectsOfType<Ball>())
+        {
+            Destroy(b.gameObject);
+        }
+
+        // Instantiate a new ball
+        GameObject ballPrefab = Resources.Load<GameObject>("Prefabs/Ball"); // adjust path!
+        if (ballPrefab != null)
+        {
+            GameObject newBallObj = Instantiate(ballPrefab);
+            ball = newBallObj.GetComponent<Ball>();
+            ball.ResetBall(); // make it follow the paddle again
+        }
+        else
+        {
+            Debug.LogError("Ball prefab not found in Resources/Prefabs!");
+        }
+
+        // Reset paddle
+        if (paddle != null)
+        {
+            paddle.ResetPaddle();
+        }
     }
+
+
+
 
     private void GameOver()
     {
@@ -98,12 +126,14 @@ public class GameManager : MonoBehaviour
             GameOver();
         }
     }
+
     public void GainLife()
     {
         lives++;
         Debug.Log("Life gained! Total lives: " + lives);
         // TODO: update UI if needed
     }
+
     private IEnumerator MissSequence()
     {
         if (ball != null)
@@ -111,7 +141,6 @@ public class GameManager : MonoBehaviour
 
         if (lifeLostAudio != null)
             lifeLostAudio.Play();
-
 
         yield return new WaitForSeconds(1.5f);
 
@@ -137,9 +166,43 @@ public class GameManager : MonoBehaviour
     {
         foreach (Brick brick in bricks)
         {
-            if (brick.gameObject.activeInHierarchy && !brick.unbreakable)
+            if (brick == null) continue; // ✅ Check if reference is missing
+
+            // ✅ Safe access of GameObject
+            if (brick.gameObject != null && brick.gameObject.activeInHierarchy && !brick.unbreakable)
                 return false;
         }
         return true;
+
+    // ✅ Destroy all balls
+    Ball[] allBalls = FindObjectsOfType<Ball>();
+        foreach (Ball b in allBalls)
+        {
+            Destroy(b.gameObject);
+        }
+
+        // ✅ Reset tracking
+        ballsInPlay = 0;
+
+        return true;
     }
+
+    public void RegisterBall()
+    {
+        ballsInPlay++;
+        Debug.Log("🟢 Ball registered. Total: " + ballsInPlay);
+    }
+
+    public void OnBallDestroyed()
+    {
+        ballsInPlay--;
+        Debug.Log("🔴 Ball destroyed. Remaining: " + ballsInPlay);
+
+        if (ballsInPlay <= 0)
+        {
+            Debug.Log("💀 All balls lost. Losing a life.");
+            Miss();
+        }
+    }
+
 }

@@ -19,3 +19,5 @@ MonoBehaviour:
   duration: 5
   chance: 0.3
   Icon: {fileID: 8894809710159120113, guid: 30dac01c84ae36a42ad1f147263ba136, type: 3}
+  stickSound: {fileID: 8300000, guid: b461f51bcc269ad419715e8fa959ddea, type: 3}
+  stickEffectPrefab: {fileID: 0}

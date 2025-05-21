@@ -1,2 +1,15 @@
 fileFormatVersion: 2
 guid: 30dd665abe6f3c542b67aa304f371434
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - effectIcon: {instanceID: 0}
+  - ballPrefab: {fileID: 4789336972199287518, guid: 0f12369e985ec0742bf7e9ef5b9d9bf1, type: 3}
+  - multiplySFX: {fileID: 8300000, guid: f419bd4716dc0be4ab3f517c145b1167, type: 3}
+  - uiFeedbackPrefab: {fileID: 6686186628940204474, guid: 2e57b6e2b1dc88445b94662607e2cf9b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

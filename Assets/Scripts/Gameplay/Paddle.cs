@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Paddle : MonoBehaviour
 {
@@ -47,15 +47,21 @@ public class Paddle : MonoBehaviour
             Vector3 paddlePosition = this.transform.position;
             Vector2 contactPoint = collision.GetContact(0).point;
 
-            float offset = paddlePosition.x - contactPoint.x;
+            float offset = contactPoint.x - paddlePosition.x; // ✅ flipped
             float width = collision.otherCollider.bounds.size.x / 2f;
 
-            float currentAngle = Vector2.SignedAngle(Vector2.up, ball.rigidbody.linearVelocity);
+            // Calculate bounce angle
             float bounceAngle = (offset / width) * this.maxBounceAngle;
-            float newAngle = Mathf.Clamp(currentAngle + bounceAngle, -this.maxBounceAngle, this.maxBounceAngle);
+            float clampedAngle = Mathf.Clamp(bounceAngle, -this.maxBounceAngle, this.maxBounceAngle);
 
-            Quaternion rotation = Quaternion.AngleAxis(newAngle, Vector3.forward);
-            ball.rigidbody.linearVelocity = rotation * Vector2.up * ball.rigidbody.linearVelocity.magnitude;
+            // Create new direction vector
+            float angleInRadians = clampedAngle * Mathf.Deg2Rad;
+            Vector2 newDirection = new Vector2(Mathf.Sin(angleInRadians), 1f).normalized;
+
+            // Forcefully apply new consistent velocity
+            ball.rigidbody.linearVelocity = newDirection * ball.speed;
         }
     }
+
+
 }

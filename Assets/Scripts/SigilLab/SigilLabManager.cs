@@ -428,6 +428,21 @@ public class SigilLabManager : MonoBehaviour
         StartCoroutine(AnimateSigilToLibraryAndReset());
 
     }
+    public void EquipSigil()
+    {
+        if (LibraryTabController.Instance.currentSelectedSlot != null && LibraryTabController.Instance.currentSelectedSlot.sigilData != null)
+
+        {
+            PlayerData.Instance.EquipSigil(LibraryTabController.Instance.currentSelectedSlot.sigilData);
+
+            SLSoundFX.Instance?.PlaySFX(SLSoundFX.Instance.equipSigil);
+        }
+        else
+        {
+            Debug.LogWarning("⚠️ No sigil selected to equip.");
+            SLSoundFX.Instance?.PlaySFX(SLSoundFX.Instance.error); // Optional error feedback
+        }
+    }
 
 
 }

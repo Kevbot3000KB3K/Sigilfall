@@ -18,5 +18,7 @@ MonoBehaviour:
   isTemporary: 1
   duration: 5
   explodeChance: 0.1
-  explosionRadius: 1.5
+  explosionRadiusMultiplier: 4
+  explosionSound: {fileID: 8300000, guid: f9c283185eec26d47a55c26fdf5a2cc8, type: 3}
+  explosionEffectPrefab: {fileID: 7259543297144895813, guid: 8a1de7770d7bda74d815c6737cc2ce2f, type: 3}
   Icon: {fileID: -3852114409406085539, guid: 30dac01c84ae36a42ad1f147263ba136, type: 3}
