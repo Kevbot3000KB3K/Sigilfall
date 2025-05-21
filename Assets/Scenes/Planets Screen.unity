@@ -2044,7 +2044,7 @@ MonoBehaviour:
   selectionClip: {fileID: 8300000, guid: c029cac6049f29d4ab02a70f6109134e, type: 3}
   confirmClip: {fileID: 8300000, guid: 3a74b58cdbe1e19448d129b81de31b97, type: 3}
   errorClip: {fileID: 8300000, guid: e021324f873c0d64f8877aa57c7a1db8, type: 3}
-  backgroundMusic: {fileID: 8300000, guid: bd435d2fd9a1caf45ba4c86138b2c8fa, type: 3}
+  backgroundMusic: {fileID: 8300000, guid: f3a0adb7f815ef049a78e2ce86977349, type: 3}
 --- !u!4 &1265468276
 Transform:
   m_ObjectHideFlags: 0
