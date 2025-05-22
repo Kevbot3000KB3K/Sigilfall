@@ -18,5 +18,5 @@ MonoBehaviour:
   isTemporary: 1
   duration: 5
   magnetSFX: {fileID: 8300000, guid: 0b652cea167c32649bdbf27bfa2aa973, type: 3}
-  magnetEffectPrefab: {fileID: 0}
+  magnetEffectPrefab: {fileID: 2054074428521936038, guid: 431ae56a715af3e45b4f2811f1406593, type: 3}
   Icon: {fileID: -5653400913895696842, guid: 30dac01c84ae36a42ad1f147263ba136, type: 3}
