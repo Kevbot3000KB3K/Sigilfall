@@ -22,6 +22,6 @@ MonoBehaviour:
   difficulty: 2
   ingredient1: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
   ingredient2: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
-  ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
+  ingredient3: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
   description: The sigil is smooth and rounded, pulsing faintly with a warmth that
     feels alive, like a dormant seed ready to sprout.
