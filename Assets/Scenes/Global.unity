@@ -419,7 +419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e29eeb8c1db2664e95705ca23b8d573, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  equippedSigil: {fileID: 11400000, guid: fbb5b8fb83669b24f81e9119126063c5, type: 2}
+  equippedSigil: {fileID: 11400000, guid: 6f5144f13883f9841b597542304cef7f, type: 2}
 --- !u!4 &1425661042
 Transform:
   m_ObjectHideFlags: 0

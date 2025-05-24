@@ -16,6 +16,8 @@ MonoBehaviour:
   description: 
   effectIcon: {fileID: -7792521413606327676, guid: 30dac01c84ae36a42ad1f147263ba136, type: 3}
   isTemporary: 0
-  duration: 5
-  lifegainChance: 0.05
+  duration: 1
+  lifegainChance: 0.444
   Icon: {fileID: -7792521413606327676, guid: 30dac01c84ae36a42ad1f147263ba136, type: 3}
+  lifegainVFXPrefab: {fileID: 814565514260394808, guid: f7a9e47ea27efe743ae0ce297fa795f8, type: 3}
+  lifegainSFX: {fileID: 8300000, guid: 763452629b3bdb14d8da931bce139e84, type: 3}

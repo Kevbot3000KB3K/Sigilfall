@@ -27,6 +27,7 @@ public class PlanetSelector : MonoBehaviour
     public TextMeshProUGUI planetNameText;
     private Button lastSelectedPlanetButton;
     public GameObject[] planetHighlightImages;
+    private Animator lastSelectedAnimator;
 
     private string currentPlanetName;
 
@@ -43,7 +44,29 @@ public class PlanetSelector : MonoBehaviour
         if (audioManager != null)
             audioManager.PlaySelectionSound();
     }
+    public void SelectPlanet(string planetName, Animator planetAnimator)
+    {
+        currentPlanetName = planetName;
+        PlanetToStageManager.Instance.selectedPlanetName = planetName;
+        planetNameText.text = planetName;
 
+        if (audioManager != null)
+            audioManager.PlaySelectionSound();
+
+        // Stop the previous animation if needed
+        if (lastSelectedAnimator != null && lastSelectedAnimator != planetAnimator)
+        {
+            lastSelectedAnimator.ResetTrigger("Selected");
+            lastSelectedAnimator.SetTrigger("Idle");
+        }
+
+
+        // Play selected planet's animation
+        planetAnimator.ResetTrigger("Idle");
+        planetAnimator.SetTrigger("Selected");
+        lastSelectedAnimator = planetAnimator;
+
+    }
     public void OnTravelButtonClicked()
     {
         if (currentPlanetName == "???")
