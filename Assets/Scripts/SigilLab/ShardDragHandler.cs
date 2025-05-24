@@ -3,32 +3,48 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using System.Collections.Generic;
 
+/// <summary>
+/// Handles the drag-and-drop behavior for shard icons.
+/// Allows shards to be picked up from inventory and dropped into AlterSlots.
+/// </summary>
 public class ShardDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    public Shard shardData; // ScriptableObject reference
+    [Tooltip("The shard ScriptableObject data associated with this UI element.")]
+    public Shard shardData;
+
+    [Tooltip("Reference to the image representing the shard.")]
     public Image icon;
-    public ShardSlotUI originSlotUI; // The source UI for refunding
+
+    [Tooltip("Reference to the originating UI slot (for potential refunds).")]
+    public ShardSlotUI originSlotUI;
+
     private RectTransform rectTransform;
     private Canvas canvas;
     private CanvasGroup canvasGroup;
     private Transform originalParent;
-    private GameObject draggingIcon;
     private Vector3 originalPosition;
+    private GameObject draggingIcon;
 
+    /// <summary>
+    /// Initializes references and ensures the shard icon is properly displayed.
+    /// </summary>
     private void Awake()
     {
         canvas = GetComponentInParent<Canvas>();
         rectTransform = GetComponent<RectTransform>();
         canvasGroup = GetComponent<CanvasGroup>();
 
-        // 🔧 Try to assign icon sprite if missing
-        Image img = GetComponent<Image>();
-        if (img != null && shardData != null)
+        // Automatically assign icon sprite if available
+        if (icon != null && shardData != null)
         {
-            img.sprite = shardData.icon;
-            img.preserveAspect = true;
+            icon.sprite = shardData.icon;
+            icon.preserveAspect = true;
         }
     }
+
+    /// <summary>
+    /// Called when drag begins. Clones the shard icon and prepares it for dragging.
+    /// </summary>
     public void OnBeginDrag(PointerEventData eventData)
     {
         originalParent = transform.parent;
@@ -37,11 +53,14 @@ public class ShardDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, 
         draggingIcon = Instantiate(gameObject, canvas.transform);
         draggingIcon.transform.SetAsLastSibling();
 
-        CanvasGroup group = draggingIcon.GetComponent<CanvasGroup>();
+        var group = draggingIcon.GetComponent<CanvasGroup>();
         if (group == null) group = draggingIcon.AddComponent<CanvasGroup>();
-        group.blocksRaycasts = false;
+        group.blocksRaycasts = false; // Needed to raycast into drop targets
     }
 
+    /// <summary>
+    /// Updates the position of the dragging icon to follow the mouse.
+    /// </summary>
     public void OnDrag(PointerEventData eventData)
     {
         if (draggingIcon != null)
@@ -50,6 +69,10 @@ public class ShardDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, 
         }
     }
 
+    /// <summary>
+    /// Called when the drag ends. Attempts to place the shard into an AlterSlot.
+    /// If placement fails, returns to original position.
+    /// </summary>
     public void OnEndDrag(PointerEventData eventData)
     {
         List<RaycastResult> results = new List<RaycastResult>();
@@ -62,6 +85,7 @@ public class ShardDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, 
             GameObject current = result.gameObject;
             AlterSlot alterSlot = current.GetComponent<AlterSlot>();
 
+            // Traverse up the hierarchy to find a valid AlterSlot
             while (alterSlot == null && current.transform.parent != null)
             {
                 current = current.transform.parent.gameObject;
@@ -79,11 +103,13 @@ public class ShardDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, 
 
         if (!placed)
         {
+            // Return to original location
             transform.position = originalPosition;
             transform.SetParent(originalParent);
-            Debug.Log("Shard was not placed in any alter.");
+            Debug.Log("❌ Shard was not placed in any alter.");
         }
 
+        // Clean up visual clone
         Destroy(draggingIcon);
     }
 }

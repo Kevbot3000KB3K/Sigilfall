@@ -1,89 +1,111 @@
 ﻿using UnityEngine;
 
+/// <summary>
+/// Controls the behavior of a single brick, including health, visuals, and destruction logic.
+/// </summary>
 public class Brick : MonoBehaviour
 {
-    public SpriteRenderer spriteRenderer { get; private set; }
-    public Sprite[] states;
-    public int health { get; private set; }
-    public int points = 1;
-    public bool unbreakable;
-    public GameObject shatterEffectPrefab;
-    public AudioClip breakSound;
+    [Header("Brick Settings")]
+    public Sprite[] states;                          // Different sprite visuals for each damage state
+    public int points = 1;                           // Points awarded when destroyed
+    public bool unbreakable;                         // If true, cannot be damaged or destroyed
 
+    [Header("Effects")]
+    public GameObject shatterEffectPrefab;           // Optional particle effect on destruction
+    public AudioClip breakSound;                     // Optional sound effect on break
+
+    public int health { get; private set; }          // Current health of the brick
+    public SpriteRenderer spriteRenderer { get; private set; }
+
+    /// <summary>
+    /// Cache reference to SpriteRenderer.
+    /// </summary>
     private void Awake()
     {
-        this.spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
+    /// <summary>
+    /// Initialize/reset brick state.
+    /// </summary>
     private void Start()
     {
         ResetBrick();
     }
 
+    /// <summary>
+    /// Resets the brick to its starting state.
+    /// </summary>
     public void ResetBrick()
     {
-        this.gameObject.SetActive(true);
+        gameObject.SetActive(true);
 
-        if (!this.unbreakable)
+        if (!unbreakable)
         {
-            this.health = this.states.Length;
-            this.spriteRenderer.sprite = this.states[this.health - 1];
+            health = states.Length;
+            spriteRenderer.sprite = states[health - 1];
         }
     }
 
+    /// <summary>
+    /// Applies damage to the brick and updates its appearance or destroys it.
+    /// </summary>
+    /// <param name="damage">Amount of damage to apply.</param>
     public void TakeDamage(float damage = 1)
     {
         if (unbreakable)
             return;
 
-        // Apply damage
-        int intDamage = Mathf.CeilToInt(damage); // Round up to ensure visible effect
+        int intDamage = Mathf.CeilToInt(damage);
+
         for (int i = 0; i < intDamage; i++)
         {
-            Hit(); // Existing logic handles sprite changes and deactivation
-            if (!gameObject.activeSelf) break; // Exit early if destroyed
+            Hit();
+            if (!gameObject.activeSelf) break;
         }
     }
 
-
+    /// <summary>
+    /// Internal function to handle being hit once.
+    /// </summary>
     private void Hit()
     {
-        if (this.unbreakable)
+        if (unbreakable)
             return;
 
-        this.health--;
+        health--;
 
-        if (this.health <= 0)
+        if (health <= 0)
         {
             if (breakSound != null)
-            {
                 AudioSource.PlayClipAtPoint(breakSound, transform.position);
-            }
 
-            // Instantiate visual effect
             if (shatterEffectPrefab != null)
-            {
                 Instantiate(shatterEffectPrefab, transform.position, Quaternion.identity);
-            }
 
-            this.gameObject.SetActive(false);
+            gameObject.SetActive(false);
         }
         else
         {
-            this.spriteRenderer.sprite = this.states[this.health - 1];
+            spriteRenderer.sprite = states[health - 1];
         }
-        FindFirstObjectByType<GameManager>().Hit(this);
+
+        GameManager gm = FindFirstObjectByType<GameManager>();
+        if (gm != null)
+        {
+            gm.Hit(this);
+        }
     }
 
+    /// <summary>
+    /// Detects ball collision and applies damage.
+    /// </summary>
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Ball ball = collision.gameObject.GetComponent<Ball>();
         if (ball != null)
         {
-            TakeDamage(ball.damage); // ✅ Apply actual ball damage
+            TakeDamage(ball.damage);
         }
     }
-
-
-
 }

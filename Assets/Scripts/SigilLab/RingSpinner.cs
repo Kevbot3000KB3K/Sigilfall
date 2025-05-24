@@ -1,13 +1,19 @@
 using UnityEngine;
 
+/// <summary>
+/// Continuously rotates the attached GameObject around the Z-axis.
+/// Useful for spinning UI elements like rings or dials.
+/// </summary>
 public class RingSpinner : MonoBehaviour
 {
-    // Speed of rotation in degrees per second
+    [Tooltip("Speed of rotation in degrees per second.")]
     public float rotationSpeed = 100f;
 
-    void Update()
+    /// <summary>
+    /// Called every frame. Rotates the GameObject around the Z-axis.
+    /// </summary>
+    private void Update()
     {
-        // Rotate around Z-axis (UI elements are 2D, so we rotate in Z)
         transform.Rotate(0f, 0f, rotationSpeed * Time.deltaTime);
     }
 }
