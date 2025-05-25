@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 1dcd33cf293c96540b6364016a4c178a, type: 3}
   IDNumber: '#320'
   trailColor: {r: 0.8235294, g: 0.94509804, b: 0.5372549, a: 1}
+  description: This sigil shines with noble elegance, its surface lustrous, like
+    a jeweled circlet kissed by light.
   family: {fileID: 11400000, guid: f36e3519c41ac4a41b833d25d2d45f51, type: 2}
-  advantage: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
-  special: {fileID: 11400000, guid: cde5ba3b867cc514785233f0bf35af92, type: 2}
+  vsHoly: 1
+  vsDark: 3
+  vsRock: 4
+  vsWind: 2
+  vsFire: 3
+  vsWater: 2
+  vsLightning: 3
+  vsIce: 1
+  vsWood: 1
+  vsGhost: 2
+  vsPrimal: 3
+  vsArcane: 3
   difficulty: 5
+  special: {fileID: 11400000, guid: cde5ba3b867cc514785233f0bf35af92, type: 2}
   ingredient1: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
   ingredient2: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
   ingredient3: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
-  description: This sigil shines with noble elegance, its surface lustrous, like
-    a jeweled circlet kissed by light.

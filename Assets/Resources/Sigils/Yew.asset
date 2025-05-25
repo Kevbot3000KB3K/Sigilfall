@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 9ddf113e50a41cb489964dfa9ed69be1, type: 3}
   IDNumber: '#325'
   trailColor: {r: 0.8627451, g: 0.69411767, b: 0.44705883, a: 1}
+  description: This sigil feels sturdy and timeless, its surface etched with smooth,
+    flowing lines, like the enduring wood of a yew tree.
   family: {fileID: 11400000, guid: dea1f0d2a8fadf942981f4b06c853479, type: 2}
-  advantage: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  special: {fileID: 11400000, guid: cde5ba3b867cc514785233f0bf35af92, type: 2}
+  vsHoly: 3
+  vsDark: 3
+  vsRock: 1
+  vsWind: 1
+  vsFire: 3
+  vsWater: 5
+  vsLightning: 3
+  vsIce: 2
+  vsWood: 2
+  vsGhost: 1
+  vsPrimal: 2
+  vsArcane: 2
   difficulty: 4
+  special: {fileID: 11400000, guid: cde5ba3b867cc514785233f0bf35af92, type: 2}
   ingredient1: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   ingredient2: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
   ingredient3: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
-  description: This sigil feels sturdy and timeless, its surface etched with smooth,
-    flowing lines, like the enduring wood of a yew tree.

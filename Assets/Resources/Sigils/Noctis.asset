@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 3947d579b426df346b4e187296afee6f, type: 3}
   IDNumber: '#023'
   trailColor: {r: 0.05490196, g: 0.043137256, b: 0.1882353, a: 1}
+  description: This sigil pulses with deep, shadowed energy, its surface swirling
+    and dim, like the quiet embrace of a moonless night.
   family: {fileID: 11400000, guid: 72af06d072ce3594d812569a68d3c9ed, type: 2}
-  advantage: {fileID: 11400000, guid: f36e3519c41ac4a41b833d25d2d45f51, type: 2}
-  special: {fileID: 11400000, guid: 122fd27955b73d347ad5fd26fd654fca, type: 2}
+  vsHoly: 1
+  vsDark: 2
+  vsRock: 2
+  vsWind: 4
+  vsFire: 1
+  vsWater: 2
+  vsLightning: 4
+  vsIce: 2
+  vsWood: 3
+  vsGhost: 3
+  vsPrimal: 2
+  vsArcane: 2
   difficulty: 2
+  special: {fileID: 11400000, guid: 122fd27955b73d347ad5fd26fd654fca, type: 2}
   ingredient1: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient2: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
-  description: This sigil pulses with deep, shadowed energy, its surface swirling
-    and dim, like the quiet embrace of a moonless night.

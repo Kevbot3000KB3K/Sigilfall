@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: e5dc1189c8417ac44a8fff76be1f525b, type: 3}
   IDNumber: '#140'
   trailColor: {r: 0.34117648, g: 0.21568628, b: 0.25882354, a: 1}
+  description: This sigil reeks with hunger, its surface jagged and gaping, like
+    an endless maw ready to devour all in its path.
   family: {fileID: 11400000, guid: 72af06d072ce3594d812569a68d3c9ed, type: 2}
-  advantage: {fileID: 11400000, guid: cbfb1916c004682439aebd15bc697180, type: 2}
-  special: {fileID: 11400000, guid: d3dd90ee77730694f8b552f354b1e358, type: 2}
+  vsHoly: 1
+  vsDark: 3
+  vsRock: 4
+  vsWind: 1
+  vsFire: 3
+  vsWater: 1
+  vsLightning: 4
+  vsIce: 2
+  vsWood: 3
+  vsGhost: 3
+  vsPrimal: 1
+  vsArcane: 2
   difficulty: 5
+  special: {fileID: 11400000, guid: d3dd90ee77730694f8b552f354b1e358, type: 2}
   ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient2: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient3: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
-  description: This sigil reeks with hunger, its surface jagged and gaping, like
-    an endless maw ready to devour all in its path.

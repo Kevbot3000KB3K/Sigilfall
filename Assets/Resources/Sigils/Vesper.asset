@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 2f174eb9668134447af43c24e45a4ab0, type: 3}
   IDNumber: '#077'
   trailColor: {r: 0.23921569, g: 0.07058824, b: 0.27058825, a: 1}
+  description: This sigil glows softly, its surface smooth and calm, like the tranquil
+    light of the evening star.
   family: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
-  advantage: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  special: {fileID: 11400000, guid: 2053ebda035fe074e9b272b289df4b6b, type: 2}
+  vsHoly: 2
+  vsDark: 1
+  vsRock: 2
+  vsWind: 3
+  vsFire: 1
+  vsWater: 4
+  vsLightning: 5
+  vsIce: 2
+  vsWood: 1
+  vsGhost: 1
+  vsPrimal: 3
+  vsArcane: 3
   difficulty: 4
+  special: {fileID: 11400000, guid: 2053ebda035fe074e9b272b289df4b6b, type: 2}
   ingredient1: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
   ingredient2: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
   ingredient3: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
-  description: This sigil glows softly, its surface smooth and calm, like the tranquil
-    light of the evening star.

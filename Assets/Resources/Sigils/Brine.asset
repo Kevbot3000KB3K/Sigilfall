@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 46487f7aa11d8c043809c075fe6aa73d, type: 3}
   IDNumber: '#126'
   trailColor: {r: 0.3137255, g: 0.6117647, b: 0.58431375, a: 1}
+  description: This sigil exudes a salty, bracing energy, its surface slick and damp,
+    like the sting of ocean mist on the skin.
   family: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  advantage: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
-  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
+  vsHoly: 2
+  vsDark: 2
+  vsRock: 4
+  vsWind: 3
+  vsFire: 1
+  vsWater: 1
+  vsLightning: 5
+  vsIce: 2
+  vsWood: 4
+  vsGhost: 1
+  vsPrimal: 1
+  vsArcane: 2
   difficulty: 1
+  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
   ingredient1: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   ingredient2: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   ingredient3: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
-  description: This sigil exudes a salty, bracing energy, its surface slick and damp,
-    like the sting of ocean mist on the skin.

@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 375f2131e65319e47b960ee025013fd0, type: 3}
   IDNumber: '#051'
   trailColor: {r: 0.16470589, g: 0.11764706, b: 0.13725491, a: 1}
+  description: This sigil swirls with restless energy, its surface spiraled and turbulent,
+    like the heart of a fierce, twisting storm.
   family: {fileID: 11400000, guid: 9a36df753cc75a9458e290092ff173cb, type: 2}
-  advantage: {fileID: 11400000, guid: a0295b76cae2ecf4c8c05d8e2cfc43d6, type: 2}
-  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
+  vsHoly: 5
+  vsDark: 1
+  vsRock: 2
+  vsWind: 2
+  vsFire: 4
+  vsWater: 2
+  vsLightning: 1
+  vsIce: 3
+  vsWood: 2
+  vsGhost: 2
+  vsPrimal: 2
+  vsArcane: 2
   difficulty: 5
+  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
   ingredient1: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
   ingredient2: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
   ingredient3: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
-  description: This sigil swirls with restless energy, its surface spiraled and turbulent,
-    like the heart of a fierce, twisting storm.

@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 81601df0819df174283d39431dceac3d, type: 3}
   IDNumber: '#210'
   trailColor: {r: 0.54901963, g: 0.46666667, b: 0.28627452, a: 1}
+  description: The sigil feels grainy and dry, its surface shifting subtly, as if
+    tiny grains of sand were flowing just beneath your touch.
   family: {fileID: 11400000, guid: 9a36df753cc75a9458e290092ff173cb, type: 2}
-  advantage: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
-  special: {fileID: 11400000, guid: 3350f55698b68404bb01b82b28c19401, type: 2}
+  vsHoly: 3
+  vsDark: 3
+  vsRock: 1
+  vsWind: 2
+  vsFire: 2
+  vsWater: 2
+  vsLightning: 1
+  vsIce: 3
+  vsWood: 2
+  vsGhost: 1
+  vsPrimal: 5
+  vsArcane: 3
   difficulty: 4
+  special: {fileID: 11400000, guid: 3350f55698b68404bb01b82b28c19401, type: 2}
   ingredient1: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
   ingredient2: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
   ingredient3: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
-  description: The sigil feels grainy and dry, its surface shifting subtly, as if
-    tiny grains of sand were flowing just beneath your touch.

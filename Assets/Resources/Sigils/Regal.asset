@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 56e3d02cde9b98644a00f4637a304eae, type: 3}
   IDNumber: '#240'
   trailColor: {r: 0.61960787, g: 0.54901963, b: 0.105882354, a: 1}
+  description: This sigil radiates with noble power, its surface smooth and intricate,
+    like a crown worn by a sovereign.
   family: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
-  advantage: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
-  special: {fileID: 11400000, guid: d3bb8be874ba06146813c41a8e647812, type: 2}
+  vsHoly: 2
+  vsDark: 1
+  vsRock: 3
+  vsWind: 2
+  vsFire: 2
+  vsWater: 5
+  vsLightning: 1
+  vsIce: 4
+  vsWood: 2
+  vsGhost: 1
+  vsPrimal: 2
+  vsArcane: 3
   difficulty: 4
+  special: {fileID: 11400000, guid: d3bb8be874ba06146813c41a8e647812, type: 2}
   ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient2: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
   ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
-  description: This sigil radiates with noble power, its surface smooth and intricate,
-    like a crown worn by a sovereign.

@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 3170887630062486385, guid: fad4d59d360db084ea88a88f5bccd72a, type: 3}
   IDNumber: '#346'
   trailColor: {r: 0.9254902, g: 0.96862745, b: 0.08235294, a: 1}
+  description: This sigil gleams with radiant elegance, its surface polished and
+    lustrous, like a treasure forged in the heart of the sun.
   family: {fileID: 11400000, guid: 9296f4a181ada5c40925a0a2a9139a00, type: 2}
-  advantage: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  special: {fileID: 11400000, guid: 3350f55698b68404bb01b82b28c19401, type: 2}
+  vsHoly: 2
+  vsDark: 4
+  vsRock: 4
+  vsWind: 4
+  vsFire: 3
+  vsWater: 1
+  vsLightning: 1
+  vsIce: 1
+  vsWood: 1
+  vsGhost: 1
+  vsPrimal: 4
+  vsArcane: 2
   difficulty: 5
+  special: {fileID: 11400000, guid: 3350f55698b68404bb01b82b28c19401, type: 2}
   ingredient1: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
   ingredient2: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
   ingredient3: {fileID: 11400000, guid: a45931d484b858f4295025b23badaf5c, type: 2}
-  description: This sigil gleams with radiant elegance, its surface polished and
-    lustrous, like a treasure forged in the heart of the sun.

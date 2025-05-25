@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 67a6006caed687d4abb28db3eb13c158, type: 3}
   IDNumber: '#073'
   trailColor: {r: 0.21960784, g: 0.38431373, b: 0.22352941, a: 1}
+  description: The sigil is damp and textured, its surface rough with moss-like ridges,
+    like the murky earth of a forgotten swamp.
   family: {fileID: 11400000, guid: dea1f0d2a8fadf942981f4b06c853479, type: 2}
-  advantage: {fileID: 11400000, guid: 9a36df753cc75a9458e290092ff173cb, type: 2}
-  special: {fileID: 11400000, guid: d84b240c9a530564a830baf37c0faf3b, type: 2}
+  vsHoly: 2
+  vsDark: 5
+  vsRock: 2
+  vsWind: 4
+  vsFire: 1
+  vsWater: 5
+  vsLightning: 1
+  vsIce: 1
+  vsWood: 2
+  vsGhost: 1
+  vsPrimal: 3
+  vsArcane: 1
   difficulty: 3
+  special: {fileID: 11400000, guid: d84b240c9a530564a830baf37c0faf3b, type: 2}
   ingredient1: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient2: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   ingredient3: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
-  description: The sigil is damp and textured, its surface rough with moss-like ridges,
-    like the murky earth of a forgotten swamp.

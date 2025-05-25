@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 250809089bf076a4e996397adaf55362, type: 3}
   IDNumber: '#037'
   trailColor: {r: 0.1254902, g: 0.13333334, b: 0.12156863, a: 1}
+  description: The sigil feels cold and smooth, its surface shifting subtly, as if
+    it draws the light into its depths.
   family: {fileID: 11400000, guid: 72af06d072ce3594d812569a68d3c9ed, type: 2}
-  advantage: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
-  special: {fileID: 11400000, guid: a9a586c14a6173e408d5f6e8f5e13028, type: 2}
+  vsHoly: 1
+  vsDark: 1
+  vsRock: 1
+  vsWind: 4
+  vsFire: 4
+  vsWater: 2
+  vsLightning: 3
+  vsIce: 2
+  vsWood: 2
+  vsGhost: 2
+  vsPrimal: 3
+  vsArcane: 3
   difficulty: 1
+  special: {fileID: 11400000, guid: a9a586c14a6173e408d5f6e8f5e13028, type: 2}
   ingredient1: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient2: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
   ingredient3: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
-  description: The sigil feels cold and smooth, its surface shifting subtly, as if
-    it draws the light into its depths.

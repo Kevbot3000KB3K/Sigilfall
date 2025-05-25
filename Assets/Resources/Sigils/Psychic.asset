@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 758090506d53f12419c4a84f17410bd4, type: 3}
   IDNumber: '#252'
   trailColor: {r: 0.6431373, g: 0.41960785, b: 0.8156863, a: 1}
+  description: This sigil hums with mental energy, its surface shifting and ethereal,
+    like thoughts swirling in the depths of the mind.
   family: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
-  advantage: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  special: {fileID: 11400000, guid: cde5ba3b867cc514785233f0bf35af92, type: 2}
+  vsHoly: 3
+  vsDark: 1
+  vsRock: 2
+  vsWind: 2
+  vsFire: 2
+  vsWater: 4
+  vsLightning: 1
+  vsIce: 4
+  vsWood: 2
+  vsGhost: 3
+  vsPrimal: 1
+  vsArcane: 3
   difficulty: 5
+  special: {fileID: 11400000, guid: cde5ba3b867cc514785233f0bf35af92, type: 2}
   ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient2: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
   ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
-  description: This sigil hums with mental energy, its surface shifting and ethereal,
-    like thoughts swirling in the depths of the mind.

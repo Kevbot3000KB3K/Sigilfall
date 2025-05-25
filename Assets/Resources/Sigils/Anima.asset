@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 1f13e17df1c15954f94d3970f5ca8b0d, type: 3}
   IDNumber: '#314'
   trailColor: {r: 0.8117647, g: 0.6, b: 0.23921569, a: 1}
+  description: This sigil pulses with a soft, lifeforce energy, its surface alive
+    with subtle motion, as if it embodies the spirit of existence itself.
   family: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
-  advantage: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
-  special: {fileID: 11400000, guid: 2053ebda035fe074e9b272b289df4b6b, type: 2}
+  vsHoly: 2
+  vsDark: 1
+  vsRock: 5
+  vsWind: 4
+  vsFire: 1
+  vsWater: 2
+  vsLightning: 1
+  vsIce: 1
+  vsWood: 5
+  vsGhost: 3
+  vsPrimal: 2
+  vsArcane: 1
   difficulty: 3
+  special: {fileID: 11400000, guid: 2053ebda035fe074e9b272b289df4b6b, type: 2}
   ingredient1: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
   ingredient2: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
   ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
-  description: This sigil pulses with a soft, lifeforce energy, its surface alive
-    with subtle motion, as if it embodies the spirit of existence itself.

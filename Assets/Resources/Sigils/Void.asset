@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: c227525af47c3494e926202c29133ffd, type: 3}
   IDNumber: '#018'
   trailColor: {r: 0.007843138, g: 0.003921569, b: 0.003921569, a: 1}
+  description: This sigil exudes an unsettling emptiness, its surface dark and hollow,
+    like the vast silence of the void.
   family: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  advantage: {fileID: 11400000, guid: 9a36df753cc75a9458e290092ff173cb, type: 2}
-  special: {fileID: 11400000, guid: 1527504ee8e5a6c41a7945cd64ae0a50, type: 2}
+  vsHoly: 2
+  vsDark: 1
+  vsRock: 2
+  vsWind: 3
+  vsFire: 2
+  vsWater: 4
+  vsLightning: 1
+  vsIce: 2
+  vsWood: 2
+  vsGhost: 3
+  vsPrimal: 5
+  vsArcane: 1
   difficulty: 1
+  special: {fileID: 11400000, guid: 1527504ee8e5a6c41a7945cd64ae0a50, type: 2}
   ingredient1: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   ingredient2: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   ingredient3: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
-  description: This sigil exudes an unsettling emptiness, its surface dark and hollow,
-    like the vast silence of the void.

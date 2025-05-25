@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: b7d568ee23d9b3044a4dabe70eea94fc, type: 3}
   IDNumber: '#015'
   trailColor: {r: 0.32941177, g: 0.3137255, b: 0.38431373, a: 1}
+  description: This sigil radiates fierce power, its surface jagged and worn, like
+    the battle-scarred emblem of a long-fought war.
   family: {fileID: 11400000, guid: 72af06d072ce3594d812569a68d3c9ed, type: 2}
-  advantage: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
-  special: {fileID: 11400000, guid: 8bb97d07a42541d40a3a0a950409474a, type: 2}
+  vsHoly: 1
+  vsDark: 2
+  vsRock: 5
+  vsWind: 3
+  vsFire: 3
+  vsWater: 2
+  vsLightning: 3
+  vsIce: 2
+  vsWood: 1
+  vsGhost: 1
+  vsPrimal: 2
+  vsArcane: 3
   difficulty: 3
+  special: {fileID: 11400000, guid: 8bb97d07a42541d40a3a0a950409474a, type: 2}
   ingredient1: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient2: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient3: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
-  description: This sigil radiates fierce power, its surface jagged and worn, like
-    the battle-scarred emblem of a long-fought war.

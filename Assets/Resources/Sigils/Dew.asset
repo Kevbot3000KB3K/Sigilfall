@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: acbbb48077d407542a385302ea24c02b, type: 3}
   IDNumber: '#288'
   trailColor: {r: 0.73333335, g: 0.9843137, b: 0.9019608, a: 1}
+  description: This sigil shimmers with gentle vitality, its surface glistening,
+    like morning drops clinging to a leaf.
   family: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  advantage: {fileID: 11400000, guid: 9296f4a181ada5c40925a0a2a9139a00, type: 2}
-  special: {fileID: 11400000, guid: a9a586c14a6173e408d5f6e8f5e13028, type: 2}
+  vsHoly: 1
+  vsDark: 2
+  vsRock: 3
+  vsWind: 2
+  vsFire: 1
+  vsWater: 2
+  vsLightning: 2
+  vsIce: 4
+  vsWood: 2
+  vsGhost: 2
+  vsPrimal: 5
+  vsArcane: 2
   difficulty: 3
+  special: {fileID: 11400000, guid: a9a586c14a6173e408d5f6e8f5e13028, type: 2}
   ingredient1: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
   ingredient2: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
   ingredient3: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
-  description: This sigil shimmers with gentle vitality, its surface glistening,
-    like morning drops clinging to a leaf.

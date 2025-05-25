@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 7f287130d5d9c47419d800bc4110fe7b, type: 3}
   IDNumber: '#177'
   trailColor: {r: 0.4392157, g: 0.2901961, b: 0.26666668, a: 1}
+  description: This sigil crackles with corrosive energy, its surface pitted and
+    worn, like metal left to rust in the open air.
   family: {fileID: 11400000, guid: 9a36df753cc75a9458e290092ff173cb, type: 2}
-  advantage: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
-  special: {fileID: 11400000, guid: 8bb97d07a42541d40a3a0a950409474a, type: 2}
+  vsHoly: 3
+  vsDark: 2
+  vsRock: 2
+  vsWind: 5
+  vsFire: 2
+  vsWater: 3
+  vsLightning: 2
+  vsIce: 2
+  vsWood: 1
+  vsGhost: 1
+  vsPrimal: 1
+  vsArcane: 4
   difficulty: 2
+  special: {fileID: 11400000, guid: 8bb97d07a42541d40a3a0a950409474a, type: 2}
   ingredient1: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient2: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
-  description: This sigil crackles with corrosive energy, its surface pitted and
-    worn, like metal left to rust in the open air.

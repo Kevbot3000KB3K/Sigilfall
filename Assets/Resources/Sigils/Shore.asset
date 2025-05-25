@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: b1b3ab83611c6764fbde816f11cd744b, type: 3}
   IDNumber: '#295'
   trailColor: {r: 0.75686276, g: 0.7529412, b: 0.27058825, a: 1}
+  description: The sigil is cool and gritty, its surface textured like weathered
+    sand, carrying a faint, briny scent of the sea.
   family: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  advantage: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
-  special: {fileID: 11400000, guid: d3dd90ee77730694f8b552f354b1e358, type: 2}
+  vsHoly: 3
+  vsDark: 2
+  vsRock: 2
+  vsWind: 3
+  vsFire: 3
+  vsWater: 1
+  vsLightning: 3
+  vsIce: 4
+  vsWood: 1
+  vsGhost: 1
+  vsPrimal: 2
+  vsArcane: 3
   difficulty: 1
+  special: {fileID: 11400000, guid: d3dd90ee77730694f8b552f354b1e358, type: 2}
   ingredient1: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
   ingredient2: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
   ingredient3: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
-  description: The sigil is cool and gritty, its surface textured like weathered
-    sand, carrying a faint, briny scent of the sea.

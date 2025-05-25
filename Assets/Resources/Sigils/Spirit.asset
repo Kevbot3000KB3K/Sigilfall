@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 8e38ebc3977d2324e82bd5bf99667fad, type: 3}
   IDNumber: '#011'
   trailColor: {r: 0.84705883, g: 0.7411765, b: 0.30980393, a: 1}
+  description: The sigil is light and airy, its surface shimmering with a faint glow,
+    like a presence just beyond the physical realm.
   family: {fileID: 11400000, guid: a0295b76cae2ecf4c8c05d8e2cfc43d6, type: 2}
-  advantage: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
-  special: {fileID: 11400000, guid: 2053ebda035fe074e9b272b289df4b6b, type: 2}
+  vsHoly: 1
+  vsDark: 1
+  vsRock: 3
+  vsWind: 1
+  vsFire: 5
+  vsWater: 3
+  vsLightning: 3
+  vsIce: 1
+  vsWood: 2
+  vsGhost: 3
+  vsPrimal: 3
+  vsArcane: 2
   difficulty: 2
+  special: {fileID: 11400000, guid: 2053ebda035fe074e9b272b289df4b6b, type: 2}
   ingredient1: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
   ingredient2: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
   ingredient3: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
-  description: The sigil is light and airy, its surface shimmering with a faint glow,
-    like a presence just beyond the physical realm.

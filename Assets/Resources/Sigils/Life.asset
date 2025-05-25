@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 7e3b4a2c0ce6bb24c812049eab4037c2, type: 3}
   IDNumber: '#008'
   trailColor: {r: 0.68235296, g: 0.3019608, b: 0.21568628, a: 1}
+  description: This sigil radiates vibrant energy, its surface glowing and pulsing,
+    like the heartbeat of a thriving organism.
   family: {fileID: 11400000, guid: dea1f0d2a8fadf942981f4b06c853479, type: 2}
-  advantage: {fileID: 11400000, guid: a0295b76cae2ecf4c8c05d8e2cfc43d6, type: 2}
-  special: {fileID: 11400000, guid: 2053ebda035fe074e9b272b289df4b6b, type: 2}
+  vsHoly: 3
+  vsDark: 3
+  vsRock: 3
+  vsWind: 2
+  vsFire: 1
+  vsWater: 3
+  vsLightning: 3
+  vsIce: 3
+  vsWood: 2
+  vsGhost: 2
+  vsPrimal: 2
+  vsArcane: 1
   difficulty: 5
+  special: {fileID: 11400000, guid: 2053ebda035fe074e9b272b289df4b6b, type: 2}
   ingredient1: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
   ingredient2: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
   ingredient3: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
-  description: This sigil radiates vibrant energy, its surface glowing and pulsing,
-    like the heartbeat of a thriving organism.

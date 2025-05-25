@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 101b30b69a7e43f479ff14e9a8d077bf, type: 3}
   IDNumber: '#318'
   trailColor: {r: 0.8156863, g: 0.9098039, b: 0.98039216, a: 1}
+  description: This sigil radiates triumph, its surface bold and polished, like the
+    gleaming trophy of a hard-won victory.
   family: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
-  advantage: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  special: {fileID: 11400000, guid: 2053ebda035fe074e9b272b289df4b6b, type: 2}
+  vsHoly: 2
+  vsDark: 3
+  vsRock: 1
+  vsWind: 3
+  vsFire: 1
+  vsWater: 1
+  vsLightning: 2
+  vsIce: 2
+  vsWood: 4
+  vsGhost: 3
+  vsPrimal: 5
+  vsArcane: 1
   difficulty: 5
+  special: {fileID: 11400000, guid: 2053ebda035fe074e9b272b289df4b6b, type: 2}
   ingredient1: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
   ingredient2: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
   ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
-  description: This sigil radiates triumph, its surface bold and polished, like the
-    gleaming trophy of a hard-won victory.

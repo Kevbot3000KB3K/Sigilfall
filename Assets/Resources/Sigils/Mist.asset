@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 6492424416415be4d8a558ecbb946492, type: 3}
   IDNumber: '#175'
   trailColor: {r: 0.42745098, g: 0.7764706, b: 0.70980394, a: 1}
+  description: This sigil swirls with ethereal energy, its surface soft and shifting,
+    like mist drifting through the early morning air.
   family: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
-  advantage: {fileID: 11400000, guid: dea1f0d2a8fadf942981f4b06c853479, type: 2}
-  special: {fileID: 11400000, guid: 4ac7fc6d64ee3ae4f947a05a118153b8, type: 2}
+  vsHoly: 2
+  vsDark: 2
+  vsRock: 1
+  vsWind: 2
+  vsFire: 3
+  vsWater: 3
+  vsLightning: 3
+  vsIce: 2
+  vsWood: 3
+  vsGhost: 3
+  vsPrimal: 2
+  vsArcane: 2
   difficulty: 1
+  special: {fileID: 11400000, guid: 4ac7fc6d64ee3ae4f947a05a118153b8, type: 2}
   ingredient1: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
   ingredient2: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
   ingredient3: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
-  description: This sigil swirls with ethereal energy, its surface soft and shifting,
-    like mist drifting through the early morning air.

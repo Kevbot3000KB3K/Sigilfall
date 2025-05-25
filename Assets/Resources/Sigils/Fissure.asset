@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 7245eea8da776a4478e6091dabf03209, type: 3}
   IDNumber: '#156'
   trailColor: {r: 0.39607844, g: 0.3019608, b: 0.49411765, a: 1}
+  description: This sigil trembles with unstable energy, its surface cracked, like
+    the yawning split of a shattered earth.
   family: {fileID: 11400000, guid: bd589d17b71088840835eaae40cc7b0f, type: 2}
-  advantage: {fileID: 11400000, guid: f36e3519c41ac4a41b833d25d2d45f51, type: 2}
-  special: {fileID: 11400000, guid: d3bb8be874ba06146813c41a8e647812, type: 2}
+  vsHoly: 2
+  vsDark: 2
+  vsRock: 4
+  vsWind: 3
+  vsFire: 1
+  vsWater: 1
+  vsLightning: 1
+  vsIce: 3
+  vsWood: 2
+  vsGhost: 4
+  vsPrimal: 3
+  vsArcane: 2
   difficulty: 2
+  special: {fileID: 11400000, guid: d3bb8be874ba06146813c41a8e647812, type: 2}
   ingredient1: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
   ingredient2: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
   ingredient3: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
-  description: This sigil trembles with unstable energy, its surface cracked, like
-    the yawning split of a shattered earth.

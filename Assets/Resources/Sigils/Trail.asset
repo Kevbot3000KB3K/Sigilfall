@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: db3ac74532d6d3c4e97a713f824cfa5a, type: 3}
   IDNumber: '#170'
   trailColor: {r: 0.42352942, g: 0.40784314, b: 0.3019608, a: 1}
+  description: This sigil carries a subtle warmth, its surface etched with winding
+    grooves, like the well-worn path of a long journey.
   family: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
-  advantage: {fileID: 11400000, guid: f36e3519c41ac4a41b833d25d2d45f51, type: 2}
-  special: {fileID: 11400000, guid: 122fd27955b73d347ad5fd26fd654fca, type: 2}
+  vsHoly: 2
+  vsDark: 3
+  vsRock: 1
+  vsWind: 1
+  vsFire: 2
+  vsWater: 2
+  vsLightning: 3
+  vsIce: 2
+  vsWood: 2
+  vsGhost: 2
+  vsPrimal: 5
+  vsArcane: 3
   difficulty: 2
+  special: {fileID: 11400000, guid: 122fd27955b73d347ad5fd26fd654fca, type: 2}
   ingredient1: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
   ingredient2: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
   ingredient3: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
-  description: This sigil carries a subtle warmth, its surface etched with winding
-    grooves, like the well-worn path of a long journey.

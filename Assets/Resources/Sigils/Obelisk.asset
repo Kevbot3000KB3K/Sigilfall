@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: d84edc84c4abf9046bab675f4f63f5ed, type: 3}
   IDNumber: '#236'
   trailColor: {r: 0.6156863, g: 0.5294118, b: 0.35686275, a: 1}
+  description: This sigil stands with unwavering strength, its surface sharp and
+    angular, like an ancient obelisk reaching toward the sky.
   family: {fileID: 11400000, guid: 72af06d072ce3594d812569a68d3c9ed, type: 2}
-  advantage: {fileID: 11400000, guid: cbfb1916c004682439aebd15bc697180, type: 2}
-  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
+  vsHoly: 3
+  vsDark: 3
+  vsRock: 3
+  vsWind: 2
+  vsFire: 4
+  vsWater: 2
+  vsLightning: 1
+  vsIce: 2
+  vsWood: 1
+  vsGhost: 2
+  vsPrimal: 3
+  vsArcane: 2
   difficulty: 2
+  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
   ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient2: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient3: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
-  description: This sigil stands with unwavering strength, its surface sharp and
-    angular, like an ancient obelisk reaching toward the sky.

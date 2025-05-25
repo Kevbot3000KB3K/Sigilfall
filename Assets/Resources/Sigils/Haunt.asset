@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 06531ab7da880424c8b46d6fee455c3d, type: 3}
   IDNumber: '#323'
   trailColor: {r: 0.8392157, g: 0.8156863, b: 0.84313726, a: 1}
+  description: This sigil whispers with eerie echoes, its surface cold and fleeting,
+    like shadows that vanish when chased.
   family: {fileID: 11400000, guid: a0295b76cae2ecf4c8c05d8e2cfc43d6, type: 2}
-  advantage: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
-  special: {fileID: 11400000, guid: a9a586c14a6173e408d5f6e8f5e13028, type: 2}
+  vsHoly: 3
+  vsDark: 1
+  vsRock: 3
+  vsWind: 3
+  vsFire: 1
+  vsWater: 3
+  vsLightning: 2
+  vsIce: 2
+  vsWood: 2
+  vsGhost: 5
+  vsPrimal: 1
+  vsArcane: 2
   difficulty: 1
+  special: {fileID: 11400000, guid: a9a586c14a6173e408d5f6e8f5e13028, type: 2}
   ingredient1: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
   ingredient2: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
   ingredient3: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
-  description: This sigil whispers with eerie echoes, its surface cold and fleeting,
-    like shadows that vanish when chased.

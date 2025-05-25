@@ -16,13 +16,24 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 6cf0743d07e3a2d4a8df65f69d889efe, type: 3}
   IDNumber: '#070'
   trailColor: {r: 0.21960784, g: 0.2901961, b: 0.5803922, a: 1}
-  family: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
-  advantage: {fileID: 11400000, guid: cbfb1916c004682439aebd15bc697180, type: 2}
-  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
-  difficulty: 2
-  ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
-  ingredient2: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
-  ingredient3: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   description: "70\tNebula\t384a94\t\U0001F320\t\u26A1\tExplode\t2\t\U0001F320\t\U0001F5FB\t\U0001F4A7\tThis
     sigil glows with cosmic energy, its surface swirling and shifting, like a nebula
     expanding in the depths of space.\t\t"
+  family: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
+  vsHoly: 2
+  vsDark: 2
+  vsRock: 2
+  vsWind: 2
+  vsFire: 2
+  vsWater: 2
+  vsLightning: 2
+  vsIce: 2
+  vsWood: 4
+  vsGhost: 2
+  vsPrimal: 3
+  vsArcane: 3
+  difficulty: 2
+  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
+  ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
+  ingredient2: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
+  ingredient3: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}

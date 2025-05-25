@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 0ea35aa90a9399f4cb0783d9fea6df95, type: 3}
   IDNumber: '#129'
   trailColor: {r: 0.31764707, g: 0.68235296, b: 0.8509804, a: 1}
+  description: The sigil is smooth and fluid, its surface rippling gently, like the
+    ebb and flow of the ocean's tide.
   family: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  advantage: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
-  special: {fileID: 11400000, guid: d3dd90ee77730694f8b552f354b1e358, type: 2}
+  vsHoly: 5
+  vsDark: 4
+  vsRock: 2
+  vsWind: 1
+  vsFire: 2
+  vsWater: 3
+  vsLightning: 2
+  vsIce: 2
+  vsWood: 1
+  vsGhost: 1
+  vsPrimal: 2
+  vsArcane: 3
   difficulty: 4
+  special: {fileID: 11400000, guid: d3dd90ee77730694f8b552f354b1e358, type: 2}
   ingredient1: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   ingredient2: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
-  description: The sigil is smooth and fluid, its surface rippling gently, like the
-    ebb and flow of the ocean's tide.

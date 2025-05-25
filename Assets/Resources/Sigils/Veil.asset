@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 994248e188f297146a10e326b71ac61f, type: 3}
   IDNumber: '#124'
   trailColor: {r: 0.3137255, g: 0.31764707, b: 0.5568628, a: 1}
+  description: This sigil flickers with hidden depths, its surface cloaked in shifting
+    shadows, like an unseen presence.
   family: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  advantage: {fileID: 11400000, guid: 9296f4a181ada5c40925a0a2a9139a00, type: 2}
-  special: {fileID: 11400000, guid: d84b240c9a530564a830baf37c0faf3b, type: 2}
+  vsHoly: 1
+  vsDark: 4
+  vsRock: 1
+  vsWind: 1
+  vsFire: 1
+  vsWater: 2
+  vsLightning: 3
+  vsIce: 3
+  vsWood: 4
+  vsGhost: 4
+  vsPrimal: 3
+  vsArcane: 1
   difficulty: 5
+  special: {fileID: 11400000, guid: d84b240c9a530564a830baf37c0faf3b, type: 2}
   ingredient1: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient2: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
   ingredient3: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
-  description: This sigil flickers with hidden depths, its surface cloaked in shifting
-    shadows, like an unseen presence.

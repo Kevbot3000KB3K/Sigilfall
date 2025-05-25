@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: ef95382bd194ae2409682eea7692eb94, type: 3}
   IDNumber: '#172'
   trailColor: {r: 0.42745098, g: 0.28627452, b: 0.27058825, a: 1}
+  description: This sigil glows with piercing intensity, its surface jagged, like
+    the gaze of a waiting predator.
   family: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
-  advantage: {fileID: 11400000, guid: 9a36df753cc75a9458e290092ff173cb, type: 2}
-  special: {fileID: 11400000, guid: d3bb8be874ba06146813c41a8e647812, type: 2}
+  vsHoly: 2
+  vsDark: 2
+  vsRock: 4
+  vsWind: 2
+  vsFire: 3
+  vsWater: 1
+  vsLightning: 1
+  vsIce: 3
+  vsWood: 4
+  vsGhost: 1
+  vsPrimal: 2
+  vsArcane: 3
   difficulty: 3
+  special: {fileID: 11400000, guid: d3bb8be874ba06146813c41a8e647812, type: 2}
   ingredient1: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient2: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
   ingredient3: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
-  description: This sigil glows with piercing intensity, its surface jagged, like
-    the gaze of a waiting predator.

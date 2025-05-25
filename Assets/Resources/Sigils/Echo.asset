@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 1679bd3435608e3408e228ceb3ea8b95, type: 3}
   IDNumber: '#290'
   trailColor: {r: 0.7411765, g: 0.84313726, b: 0.80784315, a: 1}
+  description: This sigil resonates with lingering power, its surface rippled, like
+    the fading reverberation of a distant sound.
   family: {fileID: 11400000, guid: a0295b76cae2ecf4c8c05d8e2cfc43d6, type: 2}
-  advantage: {fileID: 11400000, guid: f36e3519c41ac4a41b833d25d2d45f51, type: 2}
-  special: {fileID: 11400000, guid: 4ac7fc6d64ee3ae4f947a05a118153b8, type: 2}
+  vsHoly: 2
+  vsDark: 1
+  vsRock: 3
+  vsWind: 1
+  vsFire: 5
+  vsWater: 4
+  vsLightning: 4
+  vsIce: 2
+  vsWood: 1
+  vsGhost: 1
+  vsPrimal: 1
+  vsArcane: 3
   difficulty: 4
+  special: {fileID: 11400000, guid: 4ac7fc6d64ee3ae4f947a05a118153b8, type: 2}
   ingredient1: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
   ingredient2: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
   ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
-  description: This sigil resonates with lingering power, its surface rippled, like
-    the fading reverberation of a distant sound.

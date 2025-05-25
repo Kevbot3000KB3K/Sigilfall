@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 0c0d68dc193b72d408d0ef45c0b5322f, type: 3}
   IDNumber: '#111'
   trailColor: {r: 0.28627452, g: 0.39215687, b: 0.1764706, a: 1}
+  description: This sigil grows with quiet persistence, its surface soft and textured,
+    like moss slowly creeping over a stone.
   family: {fileID: 11400000, guid: dea1f0d2a8fadf942981f4b06c853479, type: 2}
-  advantage: {fileID: 11400000, guid: cbfb1916c004682439aebd15bc697180, type: 2}
-  special: {fileID: 11400000, guid: 4ac7fc6d64ee3ae4f947a05a118153b8, type: 2}
+  vsHoly: 4
+  vsDark: 3
+  vsRock: 2
+  vsWind: 2
+  vsFire: 1
+  vsWater: 3
+  vsLightning: 3
+  vsIce: 2
+  vsWood: 3
+  vsGhost: 2
+  vsPrimal: 1
+  vsArcane: 2
   difficulty: 1
+  special: {fileID: 11400000, guid: 4ac7fc6d64ee3ae4f947a05a118153b8, type: 2}
   ingredient1: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
   ingredient2: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
   ingredient3: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
-  description: This sigil grows with quiet persistence, its surface soft and textured,
-    like moss slowly creeping over a stone.

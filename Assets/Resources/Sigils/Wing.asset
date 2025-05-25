@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: d6515dc4a0621d844899124de64d83d3, type: 3}
   IDNumber: '#291'
   trailColor: {r: 0.7490196, g: 0.7411765, b: 0.7254902, a: 1}
+  description: This sigil flutters with freedom, its surface light and airy, like
+    the delicate feathers of a soaring wing.
   family: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
-  advantage: {fileID: 11400000, guid: dea1f0d2a8fadf942981f4b06c853479, type: 2}
-  special: {fileID: 11400000, guid: d84b240c9a530564a830baf37c0faf3b, type: 2}
+  vsHoly: 2
+  vsDark: 4
+  vsRock: 2
+  vsWind: 1
+  vsFire: 3
+  vsWater: 3
+  vsLightning: 2
+  vsIce: 2
+  vsWood: 1
+  vsGhost: 3
+  vsPrimal: 2
+  vsArcane: 3
   difficulty: 4
+  special: {fileID: 11400000, guid: d84b240c9a530564a830baf37c0faf3b, type: 2}
   ingredient1: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
   ingredient2: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
   ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
-  description: This sigil flutters with freedom, its surface light and airy, like
-    the delicate feathers of a soaring wing.

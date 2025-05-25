@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: b5946c66bbe578e4badf2bbf06998f1a, type: 3}
   IDNumber: '#269'
   trailColor: {r: 0.68235296, g: 0.5764706, b: 0.91764706, a: 1}
+  description: This sigil bursts with intense light, its surface flickering and radiant,
+    like a star igniting in the vastness of space.
   family: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
-  advantage: {fileID: 11400000, guid: 9a36df753cc75a9458e290092ff173cb, type: 2}
-  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
+  vsHoly: 2
+  vsDark: 2
+  vsRock: 3
+  vsWind: 5
+  vsFire: 1
+  vsWater: 2
+  vsLightning: 3
+  vsIce: 3
+  vsWood: 2
+  vsGhost: 1
+  vsPrimal: 2
+  vsArcane: 2
   difficulty: 3
+  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
   ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient2: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient3: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
-  description: This sigil bursts with intense light, its surface flickering and radiant,
-    like a star igniting in the vastness of space.

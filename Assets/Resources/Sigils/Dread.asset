@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: e5652fc6c234cd9449db4a7aa0558704, type: 3}
   IDNumber: '#063'
   trailColor: {r: 0.20784314, g: 0.21960784, b: 0.21960784, a: 1}
+  description: This sigil radiates with chilling foreboding, its surface cracked,
+    like the cold, empty gaze of a lurking shadow.
   family: {fileID: 11400000, guid: 72af06d072ce3594d812569a68d3c9ed, type: 2}
-  advantage: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
-  special: {fileID: 11400000, guid: d84b240c9a530564a830baf37c0faf3b, type: 2}
+  vsHoly: 1
+  vsDark: 1
+  vsRock: 5
+  vsWind: 4
+  vsFire: 4
+  vsWater: 3
+  vsLightning: 2
+  vsIce: 1
+  vsWood: 1
+  vsGhost: 2
+  vsPrimal: 2
+  vsArcane: 2
   difficulty: 1
+  special: {fileID: 11400000, guid: d84b240c9a530564a830baf37c0faf3b, type: 2}
   ingredient1: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient2: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
   ingredient3: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
-  description: This sigil radiates with chilling foreboding, its surface cracked,
-    like the cold, empty gaze of a lurking shadow.

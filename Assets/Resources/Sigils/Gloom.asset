@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 1e31f56267904104892d5daf02f03809, type: 3}
   IDNumber: '#084'
   trailColor: {r: 0.2509804, g: 0.3254902, b: 0.24705882, a: 1}
+  description: This sigil exudes with shadowed power, its surface rough and dim,
+    like the deepening darkness before the storm.
   family: {fileID: 11400000, guid: 9a36df753cc75a9458e290092ff173cb, type: 2}
-  advantage: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
-  special: {fileID: 0}
+  vsHoly: 3
+  vsDark: 1
+  vsRock: 1
+  vsWind: 1
+  vsFire: 2
+  vsWater: 1
+  vsLightning: 2
+  vsIce: 3
+  vsWood: 5
+  vsGhost: 3
+  vsPrimal: 3
+  vsArcane: 3
   difficulty: 1
+  special: {fileID: 0}
   ingredient1: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
   ingredient2: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
   ingredient3: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
-  description: This sigil exudes with shadowed power, its surface rough and dim,
-    like the deepening darkness before the storm.

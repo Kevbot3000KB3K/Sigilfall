@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 3d99c19332456104e9ecbefc25cc643f, type: 3}
   IDNumber: '#118'
   trailColor: {r: 0.3019608, g: 0.3372549, b: 0.33333334, a: 1}
+  description: This sigil shimmers with ghostly energy, its surface ethereal and
+    shifting, like the fleeting presence of a wraith.
   family: {fileID: 11400000, guid: a0295b76cae2ecf4c8c05d8e2cfc43d6, type: 2}
-  advantage: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
-  special: {fileID: 11400000, guid: 4ac7fc6d64ee3ae4f947a05a118153b8, type: 2}
+  vsHoly: 3
+  vsDark: 1
+  vsRock: 3
+  vsWind: 2
+  vsFire: 5
+  vsWater: 2
+  vsLightning: 2
+  vsIce: 3
+  vsWood: 2
+  vsGhost: 2
+  vsPrimal: 2
+  vsArcane: 1
   difficulty: 3
+  special: {fileID: 11400000, guid: 4ac7fc6d64ee3ae4f947a05a118153b8, type: 2}
   ingredient1: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
   ingredient2: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
   ingredient3: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
-  description: This sigil shimmers with ghostly energy, its surface ethereal and
-    shifting, like the fleeting presence of a wraith.

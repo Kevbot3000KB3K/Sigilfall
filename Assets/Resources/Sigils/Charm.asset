@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 7a8af87ceb260e04ebab7efb48dc7a7f, type: 3}
   IDNumber: '#359'
   trailColor: {r: 1, g: 0.19607843, b: 0.56078434, a: 1}
+  description: This sigil shimmers with an enchanting glow, its surface captivating,
+    like the pull of an irresistible spell.
   family: {fileID: 11400000, guid: 9296f4a181ada5c40925a0a2a9139a00, type: 2}
-  advantage: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
-  special: {fileID: 11400000, guid: 122fd27955b73d347ad5fd26fd654fca, type: 2}
+  vsHoly: 2
+  vsDark: 3
+  vsRock: 5
+  vsWind: 1
+  vsFire: 4
+  vsWater: 2
+  vsLightning: 1
+  vsIce: 2
+  vsWood: 1
+  vsGhost: 2
+  vsPrimal: 2
+  vsArcane: 3
   difficulty: 1
+  special: {fileID: 11400000, guid: 122fd27955b73d347ad5fd26fd654fca, type: 2}
   ingredient1: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
   ingredient2: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
   ingredient3: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
-  description: This sigil shimmers with an enchanting glow, its surface captivating,
-    like the pull of an irresistible spell.

@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: f2a9ceab6d9a1eb4d941031187703ba6, type: 3}
   IDNumber: '#035'
   trailColor: {r: 0.10980392, g: 0.16470589, b: 0.06666667, a: 1}
+  description: This sigil oozes a noxious energy, its surface slick and corroded,
+    like metal eaten away by venomous fumes.
   family: {fileID: 11400000, guid: dea1f0d2a8fadf942981f4b06c853479, type: 2}
-  advantage: {fileID: 11400000, guid: 9296f4a181ada5c40925a0a2a9139a00, type: 2}
-  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
+  vsHoly: 2
+  vsDark: 1
+  vsRock: 4
+  vsWind: 2
+  vsFire: 1
+  vsWater: 1
+  vsLightning: 3
+  vsIce: 3
+  vsWood: 4
+  vsGhost: 4
+  vsPrimal: 2
+  vsArcane: 1
   difficulty: 4
+  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
   ingredient1: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
   ingredient2: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
   ingredient3: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
-  description: This sigil oozes a noxious energy, its surface slick and corroded,
-    like metal eaten away by venomous fumes.

@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 3e1ef7f0520f9f242ab22c6ec15a0a11, type: 3}
   IDNumber: '#188'
   trailColor: {r: 0.4627451, g: 0.5254902, b: 0.60784316, a: 1}
+  description: The sigil is slick and cold, its surface glimmering with a thin, icy
+    layer, like frozen rain caught in mid-fall.
   family: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  advantage: {fileID: 11400000, guid: cbfb1916c004682439aebd15bc697180, type: 2}
-  special: {fileID: 11400000, guid: a9a586c14a6173e408d5f6e8f5e13028, type: 2}
+  vsHoly: 1
+  vsDark: 1
+  vsRock: 3
+  vsWind: 2
+  vsFire: 2
+  vsWater: 5
+  vsLightning: 2
+  vsIce: 2
+  vsWood: 2
+  vsGhost: 1
+  vsPrimal: 4
+  vsArcane: 3
   difficulty: 4
+  special: {fileID: 11400000, guid: a9a586c14a6173e408d5f6e8f5e13028, type: 2}
   ingredient1: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   ingredient2: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   ingredient3: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
-  description: The sigil is slick and cold, its surface glimmering with a thin, icy
-    layer, like frozen rain caught in mid-fall.

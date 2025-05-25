@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: b343d02ddff90e74fb796a568f5010df, type: 3}
   IDNumber: '#125'
   trailColor: {r: 0.3137255, g: 0.54509807, b: 0.9098039, a: 1}
+  description: This sigil ripples with calm energy, its surface smooth and reflective,
+    like the still waters of a quiet lake.
   family: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  advantage: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
-  special: {fileID: 11400000, guid: 122fd27955b73d347ad5fd26fd654fca, type: 2}
+  vsHoly: 4
+  vsDark: 2
+  vsRock: 1
+  vsWind: 2
+  vsFire: 1
+  vsWater: 1
+  vsLightning: 4
+  vsIce: 1
+  vsWood: 5
+  vsGhost: 1
+  vsPrimal: 2
+  vsArcane: 4
   difficulty: 5
+  special: {fileID: 11400000, guid: 122fd27955b73d347ad5fd26fd654fca, type: 2}
   ingredient1: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   ingredient2: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   ingredient3: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
-  description: This sigil ripples with calm energy, its surface smooth and reflective,
-    like the still waters of a quiet lake.

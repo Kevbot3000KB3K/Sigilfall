@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 0f96845b1d7d1a04c899164ee601ae9f, type: 3}
   IDNumber: '#306'
   trailColor: {r: 0.7882353, g: 1, b: 0.8901961, a: 1}
+  description: This sigil carries a gentle, refreshing flow, its surface light and
+    shifting, like a soft wind on a warm day.
   family: {fileID: 11400000, guid: 9a36df753cc75a9458e290092ff173cb, type: 2}
-  advantage: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
-  special: {fileID: 11400000, guid: d3dd90ee77730694f8b552f354b1e358, type: 2}
+  vsHoly: 1
+  vsDark: 3
+  vsRock: 1
+  vsWind: 1
+  vsFire: 3
+  vsWater: 2
+  vsLightning: 4
+  vsIce: 3
+  vsWood: 2
+  vsGhost: 2
+  vsPrimal: 3
+  vsArcane: 3
   difficulty: 4
+  special: {fileID: 11400000, guid: d3dd90ee77730694f8b552f354b1e358, type: 2}
   ingredient1: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
   ingredient2: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
   ingredient3: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
-  description: This sigil carries a gentle, refreshing flow, its surface light and
-    shifting, like a soft wind on a warm day.

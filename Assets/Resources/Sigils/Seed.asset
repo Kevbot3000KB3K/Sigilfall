@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 81ff32ab216daf9488f1bcd0c73305e6, type: 3}
   IDNumber: '#097'
   trailColor: {r: 0.26666668, g: 0.22352941, b: 0.14509805, a: 1}
+  description: The sigil is smooth and rounded, pulsing faintly with a warmth that
+    feels alive, like a dormant seed ready to sprout.
   family: {fileID: 11400000, guid: dea1f0d2a8fadf942981f4b06c853479, type: 2}
-  advantage: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
-  special: {fileID: 11400000, guid: 2053ebda035fe074e9b272b289df4b6b, type: 2}
+  vsHoly: 1
+  vsDark: 2
+  vsRock: 1
+  vsWind: 3
+  vsFire: 3
+  vsWater: 3
+  vsLightning: 2
+  vsIce: 3
+  vsWood: 2
+  vsGhost: 1
+  vsPrimal: 3
+  vsArcane: 4
   difficulty: 2
+  special: {fileID: 11400000, guid: 2053ebda035fe074e9b272b289df4b6b, type: 2}
   ingredient1: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
   ingredient2: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   ingredient3: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
-  description: The sigil is smooth and rounded, pulsing faintly with a warmth that
-    feels alive, like a dormant seed ready to sprout.

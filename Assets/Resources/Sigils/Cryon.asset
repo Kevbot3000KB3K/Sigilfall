@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 1ce0db563c4a8af49a8ff368424c9201, type: 3}
   IDNumber: '#009'
   trailColor: {r: 0.7058824, g: 0.8666667, b: 0.92156863, a: 1}
+  description: This sigil chills with a tranquil power, its surface frozen, like
+    the peak of a snow-covered glacier.
   family: {fileID: 11400000, guid: f36e3519c41ac4a41b833d25d2d45f51, type: 2}
-  advantage: {fileID: 11400000, guid: cbfb1916c004682439aebd15bc697180, type: 2}
-  special: {fileID: 11400000, guid: d3dd90ee77730694f8b552f354b1e358, type: 2}
+  vsHoly: 5
+  vsDark: 1
+  vsRock: 2
+  vsWind: 2
+  vsFire: 1
+  vsWater: 4
+  vsLightning: 2
+  vsIce: 3
+  vsWood: 2
+  vsGhost: 3
+  vsPrimal: 1
+  vsArcane: 2
   difficulty: 4
+  special: {fileID: 11400000, guid: d3dd90ee77730694f8b552f354b1e358, type: 2}
   ingredient1: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
   ingredient2: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
   ingredient3: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
-  description: This sigil chills with a tranquil power, its surface frozen, like
-    the peak of a snow-covered glacier.

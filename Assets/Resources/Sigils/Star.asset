@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: d27aa09a2aa34e445900f18b66485468, type: 3}
   IDNumber: '#345'
   trailColor: {r: 0.9254902, g: 0.3647059, b: 0.96862745, a: 1}
+  description: The sigil is radiant and crisp, its surface gleaming with tiny facets,
+    like a star shining brightly against the night sky.
   family: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
-  advantage: {fileID: 11400000, guid: 9296f4a181ada5c40925a0a2a9139a00, type: 2}
-  special: {fileID: 11400000, guid: d84b240c9a530564a830baf37c0faf3b, type: 2}
+  vsHoly: 2
+  vsDark: 2
+  vsRock: 2
+  vsWind: 4
+  vsFire: 1
+  vsWater: 2
+  vsLightning: 3
+  vsIce: 3
+  vsWood: 2
+  vsGhost: 3
+  vsPrimal: 3
+  vsArcane: 1
   difficulty: 3
+  special: {fileID: 11400000, guid: d84b240c9a530564a830baf37c0faf3b, type: 2}
   ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient2: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient3: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
-  description: The sigil is radiant and crisp, its surface gleaming with tiny facets,
-    like a star shining brightly against the night sky.

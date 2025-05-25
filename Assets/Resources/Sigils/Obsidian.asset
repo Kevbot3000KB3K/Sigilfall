@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 8cc9b64e954e65a4eb63b380749cc50c, type: 3}
   IDNumber: '#020'
   trailColor: {r: 0.03529412, g: 0.015686275, b: 0.22745098, a: 1}
+  description: This sigil glows with a dark, glossy sheen, its surface smooth and
+    sharp, like a shard of obsidian carved by time.
   family: {fileID: 11400000, guid: 72af06d072ce3594d812569a68d3c9ed, type: 2}
-  advantage: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  special: {fileID: 11400000, guid: 1527504ee8e5a6c41a7945cd64ae0a50, type: 2}
+  vsHoly: 3
+  vsDark: 3
+  vsRock: 2
+  vsWind: 1
+  vsFire: 4
+  vsWater: 1
+  vsLightning: 3
+  vsIce: 3
+  vsWood: 2
+  vsGhost: 1
+  vsPrimal: 4
+  vsArcane: 1
   difficulty: 2
+  special: {fileID: 11400000, guid: 1527504ee8e5a6c41a7945cd64ae0a50, type: 2}
   ingredient1: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient2: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient3: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
-  description: This sigil glows with a dark, glossy sheen, its surface smooth and
-    sharp, like a shard of obsidian carved by time.

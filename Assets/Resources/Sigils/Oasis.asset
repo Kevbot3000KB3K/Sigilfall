@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 89df63d6bb21afe4dbd035031c335253, type: 3}
   IDNumber: '#088'
   trailColor: {r: 0.25490198, g: 0.56078434, b: 0.7254902, a: 1}
+  description: This sigil hums with refreshing calm, its surface smooth and cool,
+    like the peaceful stillness of an oasis in a desert.
   family: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  advantage: {fileID: 11400000, guid: f36e3519c41ac4a41b833d25d2d45f51, type: 2}
-  special: {fileID: 11400000, guid: 2053ebda035fe074e9b272b289df4b6b, type: 2}
+  vsHoly: 1
+  vsDark: 1
+  vsRock: 4
+  vsWind: 2
+  vsFire: 1
+  vsWater: 3
+  vsLightning: 3
+  vsIce: 3
+  vsWood: 2
+  vsGhost: 1
+  vsPrimal: 3
+  vsArcane: 4
   difficulty: 3
+  special: {fileID: 11400000, guid: 2053ebda035fe074e9b272b289df4b6b, type: 2}
   ingredient1: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
   ingredient2: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
   ingredient3: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
-  description: This sigil hums with refreshing calm, its surface smooth and cool,
-    like the peaceful stillness of an oasis in a desert.

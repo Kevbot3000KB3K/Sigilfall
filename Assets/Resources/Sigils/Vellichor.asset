@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 3c88426f3d8453b4d898a5eda1b825e8, type: 3}
   IDNumber: '#342'
   trailColor: {r: 0.91764706, g: 0.7294118, b: 0.18039216, a: 1}
+  description: This sigil carries an ancient aura, its surface worn and faded, like
+    the pages of a long-forgotten tome.
   family: {fileID: 11400000, guid: 9a36df753cc75a9458e290092ff173cb, type: 2}
-  advantage: {fileID: 11400000, guid: a0295b76cae2ecf4c8c05d8e2cfc43d6, type: 2}
-  special: {fileID: 11400000, guid: 2053ebda035fe074e9b272b289df4b6b, type: 2}
+  vsHoly: 4
+  vsDark: 3
+  vsRock: 3
+  vsWind: 1
+  vsFire: 2
+  vsWater: 1
+  vsLightning: 1
+  vsIce: 3
+  vsWood: 3
+  vsGhost: 1
+  vsPrimal: 4
+  vsArcane: 2
   difficulty: 4
+  special: {fileID: 11400000, guid: 2053ebda035fe074e9b272b289df4b6b, type: 2}
   ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient2: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
   ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
-  description: This sigil carries an ancient aura, its surface worn and faded, like
-    the pages of a long-forgotten tome.

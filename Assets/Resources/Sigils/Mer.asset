@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: f2caf51101addb8418ca0b4ec32e8f85, type: 3}
   IDNumber: '#085'
   trailColor: {r: 0.2509804, g: 0.54901963, b: 0.59607846, a: 1}
+  description: This sigil flows with fluid grace, its surface shimmering and shifting,
+    like waves lapping against a distant shore.
   family: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  advantage: {fileID: 11400000, guid: cbfb1916c004682439aebd15bc697180, type: 2}
-  special: {fileID: 11400000, guid: 3350f55698b68404bb01b82b28c19401, type: 2}
+  vsHoly: 1
+  vsDark: 4
+  vsRock: 2
+  vsWind: 3
+  vsFire: 2
+  vsWater: 1
+  vsLightning: 1
+  vsIce: 3
+  vsWood: 3
+  vsGhost: 2
+  vsPrimal: 5
+  vsArcane: 1
   difficulty: 4
+  special: {fileID: 11400000, guid: 3350f55698b68404bb01b82b28c19401, type: 2}
   ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient2: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
   ingredient3: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
-  description: This sigil flows with fluid grace, its surface shimmering and shifting,
-    like waves lapping against a distant shore.

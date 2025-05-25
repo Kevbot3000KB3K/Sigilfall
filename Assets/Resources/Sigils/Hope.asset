@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: aac0851662fca2b45bc8fe961d094a50, type: 3}
   IDNumber: '#349'
   trailColor: {r: 0.9372549, g: 0.8039216, b: 0.7607843, a: 1}
+  description: This sigil glows with a soft, radiant light, its surface warm and
+    uplifting, like dawn breaking through the darkest night.
   family: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
-  advantage: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
-  special: {fileID: 11400000, guid: a9a586c14a6173e408d5f6e8f5e13028, type: 2}
+  vsHoly: 2
+  vsDark: 4
+  vsRock: 3
+  vsWind: 3
+  vsFire: 2
+  vsWater: 1
+  vsLightning: 2
+  vsIce: 1
+  vsWood: 5
+  vsGhost: 1
+  vsPrimal: 2
+  vsArcane: 2
   difficulty: 3
+  special: {fileID: 11400000, guid: a9a586c14a6173e408d5f6e8f5e13028, type: 2}
   ingredient1: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
   ingredient2: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
   ingredient3: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
-  description: This sigil glows with a soft, radiant light, its surface warm and
-    uplifting, like dawn breaking through the darkest night.

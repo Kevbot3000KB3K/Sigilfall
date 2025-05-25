@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: d1eacf5cdbf47ab448ae6649be66e698, type: 3}
   IDNumber: '#030'
   trailColor: {r: 0.101960786, g: 0, b: 0.47843137, a: 1}
+  description: The sigil is smooth and glowing, its surface pulsing with a soft,
+    steady energy, like a reservoir of pure, untapped magic.
   family: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  advantage: {fileID: 11400000, guid: dea1f0d2a8fadf942981f4b06c853479, type: 2}
-  special: {fileID: 11400000, guid: d84b240c9a530564a830baf37c0faf3b, type: 2}
+  vsHoly: 2
+  vsDark: 3
+  vsRock: 2
+  vsWind: 3
+  vsFire: 4
+  vsWater: 2
+  vsLightning: 1
+  vsIce: 3
+  vsWood: 2
+  vsGhost: 2
+  vsPrimal: 3
+  vsArcane: 1
   difficulty: 5
+  special: {fileID: 11400000, guid: d84b240c9a530564a830baf37c0faf3b, type: 2}
   ingredient1: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   ingredient2: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   ingredient3: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
-  description: The sigil is smooth and glowing, its surface pulsing with a soft,
-    steady energy, like a reservoir of pure, untapped magic.

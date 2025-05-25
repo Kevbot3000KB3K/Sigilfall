@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 0f4492a2b0ee67d49880862643d46efa, type: 3}
   IDNumber: '#294'
   trailColor: {r: 0.7529412, g: 0.75686276, b: 0.7647059, a: 1}
+  description: The sigil is warm and misty, its surface soft to the touch, like the
+    rising vapor from a hot spring.
   family: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  advantage: {fileID: 11400000, guid: a0295b76cae2ecf4c8c05d8e2cfc43d6, type: 2}
-  special: {fileID: 11400000, guid: 1527504ee8e5a6c41a7945cd64ae0a50, type: 2}
+  vsHoly: 2
+  vsDark: 2
+  vsRock: 3
+  vsWind: 3
+  vsFire: 2
+  vsWater: 1
+  vsLightning: 3
+  vsIce: 3
+  vsWood: 2
+  vsGhost: 3
+  vsPrimal: 3
+  vsArcane: 1
   difficulty: 5
+  special: {fileID: 11400000, guid: 1527504ee8e5a6c41a7945cd64ae0a50, type: 2}
   ingredient1: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   ingredient2: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   ingredient3: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
-  description: The sigil is warm and misty, its surface soft to the touch, like the
-    rising vapor from a hot spring.

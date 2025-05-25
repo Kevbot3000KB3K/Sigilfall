@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 9d0ce30c491e3e548a7b3a3b750ec678, type: 3}
   IDNumber: '#231'
   trailColor: {r: 0.6117647, g: 0.44313726, b: 0.050980393, a: 1}
+  description: This sigil hums with the flow of time, its surface shifting and fleeting,
+    like the hands of a clock in motion.
   family: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
-  advantage: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
-  special: {fileID: 11400000, guid: d84b240c9a530564a830baf37c0faf3b, type: 2}
+  vsHoly: 3
+  vsDark: 5
+  vsRock: 3
+  vsWind: 3
+  vsFire: 3
+  vsWater: 1
+  vsLightning: 2
+  vsIce: 1
+  vsWood: 1
+  vsGhost: 2
+  vsPrimal: 1
+  vsArcane: 3
   difficulty: 1
+  special: {fileID: 11400000, guid: d84b240c9a530564a830baf37c0faf3b, type: 2}
   ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient2: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
   ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
-  description: This sigil hums with the flow of time, its surface shifting and fleeting,
-    like the hands of a clock in motion.

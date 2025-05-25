@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: fca23a834660c9b408f7f5dfa3631873, type: 3}
   IDNumber: '#242'
   trailColor: {r: 0.62352943, g: 0.41960785, b: 0.2509804, a: 1}
+  description: This sigil pulses with untamed energy, its surface rough and unpredictable,
+    like the fierce spirit of the wild.
   family: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
-  advantage: {fileID: 11400000, guid: cbfb1916c004682439aebd15bc697180, type: 2}
-  special: {fileID: 11400000, guid: cde5ba3b867cc514785233f0bf35af92, type: 2}
+  vsHoly: 1
+  vsDark: 2
+  vsRock: 4
+  vsWind: 2
+  vsFire: 1
+  vsWater: 1
+  vsLightning: 4
+  vsIce: 4
+  vsWood: 3
+  vsGhost: 2
+  vsPrimal: 2
+  vsArcane: 2
   difficulty: 5
+  special: {fileID: 11400000, guid: cde5ba3b867cc514785233f0bf35af92, type: 2}
   ingredient1: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
   ingredient2: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
   ingredient3: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
-  description: This sigil pulses with untamed energy, its surface rough and unpredictable,
-    like the fierce spirit of the wild.

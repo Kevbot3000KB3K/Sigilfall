@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 97c6f3fc1f1c2734dbb54b50597ef942, type: 3}
   IDNumber: '#139'
   trailColor: {r: 0.3372549, g: 0.22352941, b: 0.03137255, a: 1}
+  description: This sigil pulses with grounding energy, its surface textured and
+    intertwining, like roots spreading deep into the earth.
   family: {fileID: 11400000, guid: dea1f0d2a8fadf942981f4b06c853479, type: 2}
-  advantage: {fileID: 11400000, guid: dea1f0d2a8fadf942981f4b06c853479, type: 2}
-  special: {fileID: 11400000, guid: 3350f55698b68404bb01b82b28c19401, type: 2}
+  vsHoly: 1
+  vsDark: 3
+  vsRock: 1
+  vsWind: 2
+  vsFire: 1
+  vsWater: 3
+  vsLightning: 3
+  vsIce: 3
+  vsWood: 1
+  vsGhost: 3
+  vsPrimal: 5
+  vsArcane: 2
   difficulty: 2
+  special: {fileID: 11400000, guid: 3350f55698b68404bb01b82b28c19401, type: 2}
   ingredient1: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
   ingredient2: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
   ingredient3: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
-  description: This sigil pulses with grounding energy, its surface textured and
-    intertwining, like roots spreading deep into the earth.

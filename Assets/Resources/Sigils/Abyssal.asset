@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 59d893449bb29b44685baccb828bac03, type: 3}
   IDNumber: '#002'
   trailColor: {r: 0.18431373, g: 0.13725491, b: 0.19215687, a: 1}
+  description: This sigil pulses with a cold, unseen weight, as if it harbors the
+    darkness of forgotten depths.
   family: {fileID: 11400000, guid: 72af06d072ce3594d812569a68d3c9ed, type: 2}
-  advantage: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
-  special: {fileID: 11400000, guid: 1527504ee8e5a6c41a7945cd64ae0a50, type: 2}
+  vsHoly: 2
+  vsDark: 4
+  vsRock: 1
+  vsWind: 2
+  vsFire: 2
+  vsWater: 4
+  vsLightning: 4
+  vsIce: 1
+  vsWood: 2
+  vsGhost: 1
+  vsPrimal: 4
+  vsArcane: 1
   difficulty: 3
+  special: {fileID: 11400000, guid: 1527504ee8e5a6c41a7945cd64ae0a50, type: 2}
   ingredient1: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient2: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient3: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
-  description: This sigil pulses with a cold, unseen weight, as if it harbors the
-    darkness of forgotten depths.

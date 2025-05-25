@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 8b254760a3da03544966f45b310e0b61, type: 3}
   IDNumber: '#259'
   trailColor: {r: 0.654902, g: 0.5921569, b: 0.4862745, a: 1}
+  description: This sigil feels dry and cracked, its surface rough like sun-baked
+    earth, as if it holds the heat of a barren desert.
   family: {fileID: 11400000, guid: dea1f0d2a8fadf942981f4b06c853479, type: 2}
-  advantage: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
-  special: {fileID: 11400000, guid: d3dd90ee77730694f8b552f354b1e358, type: 2}
+  vsHoly: 3
+  vsDark: 2
+  vsRock: 4
+  vsWind: 2
+  vsFire: 3
+  vsWater: 3
+  vsLightning: 1
+  vsIce: 1
+  vsWood: 1
+  vsGhost: 2
+  vsPrimal: 2
+  vsArcane: 4
   difficulty: 2
+  special: {fileID: 11400000, guid: d3dd90ee77730694f8b552f354b1e358, type: 2}
   ingredient1: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
   ingredient2: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
   ingredient3: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
-  description: This sigil feels dry and cracked, its surface rough like sun-baked
-    earth, as if it holds the heat of a barren desert.

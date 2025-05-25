@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 39094eca53704104fb320586b61db96e, type: 3}
   IDNumber: '#123'
   trailColor: {r: 0.3137255, g: 0.25882354, b: 0.31764707, a: 1}
+  description: This sigil echoes with a haunting wail, its surface flickering like
+    a fading spirit, as if it carries the sorrow of the forgotten.
   family: {fileID: 11400000, guid: a0295b76cae2ecf4c8c05d8e2cfc43d6, type: 2}
-  advantage: {fileID: 11400000, guid: f36e3519c41ac4a41b833d25d2d45f51, type: 2}
-  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
+  vsHoly: 2
+  vsDark: 1
+  vsRock: 3
+  vsWind: 1
+  vsFire: 2
+  vsWater: 3
+  vsLightning: 4
+  vsIce: 3
+  vsWood: 2
+  vsGhost: 4
+  vsPrimal: 2
+  vsArcane: 1
   difficulty: 3
+  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
   ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient2: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
   ingredient3: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
-  description: This sigil echoes with a haunting wail, its surface flickering like
-    a fading spirit, as if it carries the sorrow of the forgotten.

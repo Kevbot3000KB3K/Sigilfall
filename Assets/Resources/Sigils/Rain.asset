@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: e494c8e6f366ba844abbe999755c097c, type: 3}
   IDNumber: '#119'
   trailColor: {r: 0.3019608, g: 0.5568628, b: 0.69803923, a: 1}
+  description: This sigil drips with refreshing energy, its surface soft and flowing,
+    like the steady fall of rain on a quiet day.
   family: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  advantage: {fileID: 11400000, guid: a0295b76cae2ecf4c8c05d8e2cfc43d6, type: 2}
-  special: {fileID: 11400000, guid: 4ac7fc6d64ee3ae4f947a05a118153b8, type: 2}
+  vsHoly: 2
+  vsDark: 2
+  vsRock: 2
+  vsWind: 1
+  vsFire: 5
+  vsWater: 3
+  vsLightning: 2
+  vsIce: 4
+  vsWood: 2
+  vsGhost: 2
+  vsPrimal: 1
+  vsArcane: 2
   difficulty: 3
+  special: {fileID: 11400000, guid: 4ac7fc6d64ee3ae4f947a05a118153b8, type: 2}
   ingredient1: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   ingredient2: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   ingredient3: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
-  description: This sigil drips with refreshing energy, its surface soft and flowing,
-    like the steady fall of rain on a quiet day.

@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 6d5e837aada24a34c95c7cf70d28ae92, type: 3}
   IDNumber: '#287'
   trailColor: {r: 0.73333335, g: 0.22745098, b: 0.16862746, a: 1}
+  description: This sigil glows with a deep, unyielding red, its surface etched with
+    delicate patterns that pulse like the beating heart of eternal flame.
   family: {fileID: 11400000, guid: dea1f0d2a8fadf942981f4b06c853479, type: 2}
-  advantage: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  special: {fileID: 11400000, guid: 8bb97d07a42541d40a3a0a950409474a, type: 2}
+  vsHoly: 2
+  vsDark: 2
+  vsRock: 2
+  vsWind: 3
+  vsFire: 5
+  vsWater: 2
+  vsLightning: 4
+  vsIce: 2
+  vsWood: 1
+  vsGhost: 1
+  vsPrimal: 2
+  vsArcane: 2
   difficulty: 4
+  special: {fileID: 11400000, guid: 8bb97d07a42541d40a3a0a950409474a, type: 2}
   ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient2: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
   ingredient3: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
-  description: This sigil glows with a deep, unyielding red, its surface etched with
-    delicate patterns that pulse like the beating heart of eternal flame.

@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: dfbb15959ffb98c4d99bdc19d42e2426, type: 3}
   IDNumber: '#220'
   trailColor: {r: 0.57254905, g: 0.6431373, b: 0.6156863, a: 1}
+  description: The sigil is cool and smooth, its layered surface resembling interlocking
+    scales that shimmer faintly with an iridescent sheen.
   family: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
-  advantage: {fileID: 11400000, guid: cbfb1916c004682439aebd15bc697180, type: 2}
-  special: {fileID: 11400000, guid: 4ac7fc6d64ee3ae4f947a05a118153b8, type: 2}
+  vsHoly: 1
+  vsDark: 2
+  vsRock: 2
+  vsWind: 2
+  vsFire: 5
+  vsWater: 2
+  vsLightning: 4
+  vsIce: 2
+  vsWood: 3
+  vsGhost: 1
+  vsPrimal: 1
+  vsArcane: 3
   difficulty: 4
+  special: {fileID: 11400000, guid: 4ac7fc6d64ee3ae4f947a05a118153b8, type: 2}
   ingredient1: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
   ingredient2: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
-  description: The sigil is cool and smooth, its layered surface resembling interlocking
-    scales that shimmer faintly with an iridescent sheen.

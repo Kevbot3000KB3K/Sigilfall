@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 6b9017a784739054d888f8b882d3626e, type: 3}
   IDNumber: '#266'
   trailColor: {r: 0.6784314, g: 0.5058824, b: 0.5294118, a: 1}
+  description: The sigil is smooth and warm, its surface glowing faintly with a soft
+    radiance, like holding a fragment of pure, untainted light.
   family: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
-  advantage: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  special: {fileID: 11400000, guid: 1527504ee8e5a6c41a7945cd64ae0a50, type: 2}
+  vsHoly: 4
+  vsDark: 2
+  vsRock: 3
+  vsWind: 2
+  vsFire: 3
+  vsWater: 1
+  vsLightning: 2
+  vsIce: 2
+  vsWood: 4
+  vsGhost: 2
+  vsPrimal: 1
+  vsArcane: 2
   difficulty: 2
+  special: {fileID: 11400000, guid: 1527504ee8e5a6c41a7945cd64ae0a50, type: 2}
   ingredient1: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
   ingredient2: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
   ingredient3: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
-  description: The sigil is smooth and warm, its surface glowing faintly with a soft
-    radiance, like holding a fragment of pure, untainted light.

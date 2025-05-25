@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 865f3397c56a864408a8d62e40ef5453, type: 3}
   IDNumber: '#222'
   trailColor: {r: 0.5764706, g: 0.70980394, b: 0.5686275, a: 1}
+  description: This sigil radiates with raw power, its surface solid, like an unyielding
+    force pushing through all.
   family: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
-  advantage: {fileID: 11400000, guid: 72af06d072ce3594d812569a68d3c9ed, type: 2}
-  special: {fileID: 11400000, guid: d3bb8be874ba06146813c41a8e647812, type: 2}
+  vsHoly: 2
+  vsDark: 3
+  vsRock: 2
+  vsWind: 2
+  vsFire: 3
+  vsWater: 2
+  vsLightning: 2
+  vsIce: 3
+  vsWood: 2
+  vsGhost: 2
+  vsPrimal: 4
+  vsArcane: 1
   difficulty: 4
+  special: {fileID: 11400000, guid: d3bb8be874ba06146813c41a8e647812, type: 2}
   ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient2: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
-  description: This sigil radiates with raw power, its surface solid, like an unyielding
-    force pushing through all.

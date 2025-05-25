@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 3614f9b9ba1d3894b88e3d56995bc11c, type: 3}
   IDNumber: '#316'
   trailColor: {r: 0.8156863, g: 0.8666667, b: 0.84313726, a: 1}
+  description: The sigil is smooth and radiant, its surface humming with a gentle
+    warmth, like the touch of divine wings.
   family: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
-  advantage: {fileID: 11400000, guid: 9296f4a181ada5c40925a0a2a9139a00, type: 2}
-  special: {fileID: 11400000, guid: 122fd27955b73d347ad5fd26fd654fca, type: 2}
+  vsHoly: 3
+  vsDark: 1
+  vsRock: 1
+  vsWind: 2
+  vsFire: 2
+  vsWater: 3
+  vsLightning: 2
+  vsIce: 3
+  vsWood: 1
+  vsGhost: 4
+  vsPrimal: 3
+  vsArcane: 3
   difficulty: 3
+  special: {fileID: 11400000, guid: 122fd27955b73d347ad5fd26fd654fca, type: 2}
   ingredient1: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
   ingredient2: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
   ingredient3: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
-  description: The sigil is smooth and radiant, its surface humming with a gentle
-    warmth, like the touch of divine wings.

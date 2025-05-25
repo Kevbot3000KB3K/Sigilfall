@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 8d25cf260713b6348909c1993c1f6ee9, type: 3}
   IDNumber: '#340'
   trailColor: {r: 0.9098039, g: 0.8156863, b: 0.8039216, a: 1}
+  description: This sigil glows with serene purity, its surface smooth and radiant,
+    like a symbol of unwavering devotion.
   family: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
-  advantage: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
-  special: {fileID: 11400000, guid: d84b240c9a530564a830baf37c0faf3b, type: 2}
+  vsHoly: 2
+  vsDark: 3
+  vsRock: 1
+  vsWind: 3
+  vsFire: 2
+  vsWater: 2
+  vsLightning: 3
+  vsIce: 5
+  vsWood: 3
+  vsGhost: 1
+  vsPrimal: 1
+  vsArcane: 2
   difficulty: 1
+  special: {fileID: 11400000, guid: d84b240c9a530564a830baf37c0faf3b, type: 2}
   ingredient1: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
   ingredient2: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
   ingredient3: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
-  description: This sigil glows with serene purity, its surface smooth and radiant,
-    like a symbol of unwavering devotion.

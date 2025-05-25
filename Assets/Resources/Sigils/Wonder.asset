@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 7587fd499b983b44b956437275925850, type: 3}
   IDNumber: '#313'
   trailColor: {r: 0.80784315, g: 0.67058825, b: 0.41568628, a: 1}
+  description: This sigil pulses with awe, its surface radiant and intricate, like
+    the breathtaking beauty of a hidden marvel.
   family: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
-  advantage: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
-  special: {fileID: 11400000, guid: cde5ba3b867cc514785233f0bf35af92, type: 2}
+  vsHoly: 5
+  vsDark: 3
+  vsRock: 1
+  vsWind: 2
+  vsFire: 2
+  vsWater: 2
+  vsLightning: 1
+  vsIce: 1
+  vsWood: 3
+  vsGhost: 2
+  vsPrimal: 4
+  vsArcane: 2
   difficulty: 4
+  special: {fileID: 11400000, guid: cde5ba3b867cc514785233f0bf35af92, type: 2}
   ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient2: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
   ingredient3: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
-  description: This sigil pulses with awe, its surface radiant and intricate, like
-    the breathtaking beauty of a hidden marvel.

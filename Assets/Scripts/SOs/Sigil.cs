@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 /// <summary>
 /// A Sigil is a crafted magical entity made from three Shards.
@@ -28,8 +28,42 @@ public class Sigil : ScriptableObject
     [Tooltip("The elemental family this Sigil belongs to (e.g., Fire, Ice).")]
     public Family family;
 
-    [Tooltip("A family this Sigil has an advantage over (for elemental matchups).")]
-    public Family advantage;
+    [Header("Advantage Modifiers")]
+    [Tooltip("Damage modifier vs Holy bricks (✨).")]
+    public int vsHoly;
+
+    [Tooltip("Damage modifier vs Dark bricks (🌙).")]
+    public int vsDark;
+
+    [Tooltip("Damage modifier vs Rock bricks (🗻).")]
+    public int vsRock;
+
+    [Tooltip("Damage modifier vs Wind bricks (💨).")]
+    public int vsWind;
+
+    [Tooltip("Damage modifier vs Fire bricks (🔥).")]
+    public int vsFire;
+
+    [Tooltip("Damage modifier vs Water bricks (💧).")]
+    public int vsWater;
+
+    [Tooltip("Damage modifier vs Lightning bricks (⚡).")]
+    public int vsLightning;
+
+    [Tooltip("Damage modifier vs Ice bricks (🧊).")]
+    public int vsIce;
+
+    [Tooltip("Damage modifier vs Wood bricks (🌳).")]
+    public int vsWood;
+
+    [Tooltip("Damage modifier vs Ghost bricks (👻).")]
+    public int vsGhost;
+
+    [Tooltip("Damage modifier vs Primal bricks (🐾).")]
+    public int vsPrimal;
+
+    [Tooltip("Damage modifier vs Arcane bricks (🌠).")]
+    public int vsArcane;
 
     [Header("Gameplay Properties")]
     [Tooltip("The difficulty rating of this Sigil from 1 (easy) to 5 (hard).")]
@@ -67,4 +101,24 @@ public class Sigil : ScriptableObject
             };
         }
     }
+    public int GetModifierAgainst(Family targetFamily)
+    {
+        return targetFamily.name switch
+        {
+            "Holy" => vsHoly,
+            "Dark" => vsDark,
+            "Rock" => vsRock,
+            "Wind" => vsWind,
+            "Fire" => vsFire,
+            "Water" => vsWater,
+            "Lightning" => vsLightning,
+            "Ice" => vsIce,
+            "Wood" => vsWood,
+            "Ghost" => vsGhost,
+            "Primal" => vsPrimal,
+            "Arcane" => vsArcane,
+            _ => 1 // default minimum damage
+        };
+    }
+
 }

@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 4179fdacf24586c439a8af426c6854a9, type: 3}
   IDNumber: '#071'
   trailColor: {r: 0.21960784, g: 0.3019608, b: 0.30980393, a: 1}
+  description: This sigil weaves with layered power, its surface shifting and intertwining,
+    like threads woven together into a single force.
   family: {fileID: 11400000, guid: dea1f0d2a8fadf942981f4b06c853479, type: 2}
-  advantage: {fileID: 11400000, guid: a0295b76cae2ecf4c8c05d8e2cfc43d6, type: 2}
-  special: {fileID: 11400000, guid: 1527504ee8e5a6c41a7945cd64ae0a50, type: 2}
+  vsHoly: 2
+  vsDark: 2
+  vsRock: 3
+  vsWind: 1
+  vsFire: 4
+  vsWater: 3
+  vsLightning: 1
+  vsIce: 2
+  vsWood: 4
+  vsGhost: 1
+  vsPrimal: 2
+  vsArcane: 3
   difficulty: 2
+  special: {fileID: 11400000, guid: 1527504ee8e5a6c41a7945cd64ae0a50, type: 2}
   ingredient1: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
   ingredient2: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
   ingredient3: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
-  description: This sigil weaves with layered power, its surface shifting and intertwining,
-    like threads woven together into a single force.

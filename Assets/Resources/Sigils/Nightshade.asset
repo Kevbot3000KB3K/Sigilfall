@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 6c6b31b11e258164ea4f94fe8de72bc0, type: 3}
   IDNumber: '#022'
   trailColor: {r: 0.047058824, g: 0.039215688, b: 0.07450981, a: 1}
+  description: This sigil radiates a dangerous allure, its surface dark and smooth,
+    like the ominous beauty of nightshade in bloom.
   family: {fileID: 11400000, guid: 72af06d072ce3594d812569a68d3c9ed, type: 2}
-  advantage: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
-  special: {fileID: 11400000, guid: 4ac7fc6d64ee3ae4f947a05a118153b8, type: 2}
+  vsHoly: 3
+  vsDark: 4
+  vsRock: 2
+  vsWind: 1
+  vsFire: 2
+  vsWater: 3
+  vsLightning: 1
+  vsIce: 1
+  vsWood: 2
+  vsGhost: 3
+  vsPrimal: 3
+  vsArcane: 3
   difficulty: 5
+  special: {fileID: 11400000, guid: 4ac7fc6d64ee3ae4f947a05a118153b8, type: 2}
   ingredient1: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient2: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient3: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
-  description: This sigil radiates a dangerous allure, its surface dark and smooth,
-    like the ominous beauty of nightshade in bloom.

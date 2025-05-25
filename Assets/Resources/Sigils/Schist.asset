@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 9ea39d8e01679084bbcf6d121e17e157, type: 3}
   IDNumber: '#206'
   trailColor: {r: 0.5372549, g: 0.5019608, b: 0.4745098, a: 1}
+  description: The sigil is rough and layered, its jagged striations flaking slightly
+    like weathered stone.
   family: {fileID: 11400000, guid: 9a36df753cc75a9458e290092ff173cb, type: 2}
-  advantage: {fileID: 11400000, guid: a0295b76cae2ecf4c8c05d8e2cfc43d6, type: 2}
-  special: {fileID: 11400000, guid: d3bb8be874ba06146813c41a8e647812, type: 2}
+  vsHoly: 3
+  vsDark: 2
+  vsRock: 2
+  vsWind: 2
+  vsFire: 2
+  vsWater: 2
+  vsLightning: 4
+  vsIce: 1
+  vsWood: 5
+  vsGhost: 1
+  vsPrimal: 2
+  vsArcane: 2
   difficulty: 1
+  special: {fileID: 11400000, guid: d3bb8be874ba06146813c41a8e647812, type: 2}
   ingredient1: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
   ingredient2: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
   ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
-  description: The sigil is rough and layered, its jagged striations flaking slightly
-    like weathered stone.

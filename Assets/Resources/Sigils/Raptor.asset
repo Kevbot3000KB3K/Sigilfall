@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: b9e2fdf0bdee3bb4c8ae7bc73959a234, type: 3}
   IDNumber: '#080'
   trailColor: {r: 0.23921569, g: 0.3254902, b: 0.07058824, a: 1}
+  description: This sigil pulses with fierce energy, its surface sharp and agile,
+    like the predatory gaze of a raptor in flight.
   family: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
-  advantage: {fileID: 11400000, guid: f36e3519c41ac4a41b833d25d2d45f51, type: 2}
-  special: {fileID: 11400000, guid: 8bb97d07a42541d40a3a0a950409474a, type: 2}
+  vsHoly: 2
+  vsDark: 5
+  vsRock: 2
+  vsWind: 2
+  vsFire: 3
+  vsWater: 2
+  vsLightning: 4
+  vsIce: 1
+  vsWood: 1
+  vsGhost: 1
+  vsPrimal: 2
+  vsArcane: 3
   difficulty: 3
+  special: {fileID: 11400000, guid: 8bb97d07a42541d40a3a0a950409474a, type: 2}
   ingredient1: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient2: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
   ingredient3: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
-  description: This sigil pulses with fierce energy, its surface sharp and agile,
-    like the predatory gaze of a raptor in flight.

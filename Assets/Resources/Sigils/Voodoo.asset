@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 2db7d91e4b683ad46b6f84ccb0e344cb, type: 3}
   IDNumber: '#072'
   trailColor: {r: 0.21960784, g: 0.32156864, b: 0.0627451, a: 1}
+  description: This sigil pulses with eerie energy, its surface etched with mysterious
+    symbols, like the dark charm of an ancient ritual.
   family: {fileID: 11400000, guid: 72af06d072ce3594d812569a68d3c9ed, type: 2}
-  advantage: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
-  special: {fileID: 11400000, guid: 1527504ee8e5a6c41a7945cd64ae0a50, type: 2}
+  vsHoly: 1
+  vsDark: 2
+  vsRock: 2
+  vsWind: 4
+  vsFire: 3
+  vsWater: 1
+  vsLightning: 3
+  vsIce: 1
+  vsWood: 2
+  vsGhost: 1
+  vsPrimal: 5
+  vsArcane: 3
   difficulty: 5
+  special: {fileID: 11400000, guid: 1527504ee8e5a6c41a7945cd64ae0a50, type: 2}
   ingredient1: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient2: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient3: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
-  description: This sigil pulses with eerie energy, its surface etched with mysterious
-    symbols, like the dark charm of an ancient ritual.

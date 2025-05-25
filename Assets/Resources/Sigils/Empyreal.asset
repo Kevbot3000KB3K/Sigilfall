@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 7353cac1603d2a04bb342aa88cb44946, type: 3}
   IDNumber: '#235'
   trailColor: {r: 0.6156863, g: 0.25490198, b: 0.6666667, a: 1}
+  description: This sigil shines with celestial brilliance, its surface radiant,
+    like the light of a thousand stars converging in the heavens.
   family: {fileID: 11400000, guid: 72af06d072ce3594d812569a68d3c9ed, type: 2}
-  advantage: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
-  special: {fileID: 11400000, guid: cde5ba3b867cc514785233f0bf35af92, type: 2}
+  vsHoly: 2
+  vsDark: 1
+  vsRock: 2
+  vsWind: 2
+  vsFire: 5
+  vsWater: 3
+  vsLightning: 1
+  vsIce: 3
+  vsWood: 2
+  vsGhost: 3
+  vsPrimal: 3
+  vsArcane: 1
   difficulty: 2
+  special: {fileID: 11400000, guid: cde5ba3b867cc514785233f0bf35af92, type: 2}
   ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient2: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
-  description: This sigil shines with celestial brilliance, its surface radiant,
-    like the light of a thousand stars converging in the heavens.

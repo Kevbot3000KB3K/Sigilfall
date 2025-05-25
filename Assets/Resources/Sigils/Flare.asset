@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: c8805c6239515b141b768cd1488ac841, type: 3}
   IDNumber: '#260'
   trailColor: {r: 0.65882355, g: 0.02745098, b: 0.25882354, a: 1}
+  description: This sigil blazes with intense light, its surface radiant, like a
+    burst of flame in the darkness.
   family: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
-  advantage: {fileID: 11400000, guid: f36e3519c41ac4a41b833d25d2d45f51, type: 2}
-  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
+  vsHoly: 2
+  vsDark: 3
+  vsRock: 3
+  vsWind: 2
+  vsFire: 3
+  vsWater: 2
+  vsLightning: 2
+  vsIce: 3
+  vsWood: 3
+  vsGhost: 2
+  vsPrimal: 2
+  vsArcane: 1
   difficulty: 4
+  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
   ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient2: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient3: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
-  description: This sigil blazes with intense light, its surface radiant, like a
-    burst of flame in the darkness.

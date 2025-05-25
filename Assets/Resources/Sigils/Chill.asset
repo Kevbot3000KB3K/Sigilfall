@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 9e956b7d592001b4da3708e418e80592, type: 3}
   IDNumber: '#203'
   trailColor: {r: 0.52156866, g: 0.88235295, b: 0.9019608, a: 1}
+  description: This sigil radiates a soothing cold, its surface frosted, like a breath
+    of winter's first air.
   family: {fileID: 11400000, guid: f36e3519c41ac4a41b833d25d2d45f51, type: 2}
-  advantage: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
-  special: {fileID: 11400000, guid: d3dd90ee77730694f8b552f354b1e358, type: 2}
+  vsHoly: 3
+  vsDark: 4
+  vsRock: 4
+  vsWind: 1
+  vsFire: 2
+  vsWater: 1
+  vsLightning: 1
+  vsIce: 2
+  vsWood: 1
+  vsGhost: 4
+  vsPrimal: 2
+  vsArcane: 3
   difficulty: 2
+  special: {fileID: 11400000, guid: d3dd90ee77730694f8b552f354b1e358, type: 2}
   ingredient1: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
   ingredient2: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
   ingredient3: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
-  description: This sigil radiates a soothing cold, its surface frosted, like a breath
-    of winter's first air.

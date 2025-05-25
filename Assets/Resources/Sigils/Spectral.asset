@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: c3ea295778209104f8685d237be2e7c4, type: 3}
   IDNumber: '#198'
   trailColor: {r: 0.5058824, g: 0.3529412, b: 0.25882354, a: 1}
+  description: The sigil is ethereal and cool, its surface faintly shimmering, like
+    a ghostly presence that flickers just beyond reach.
   family: {fileID: 11400000, guid: a0295b76cae2ecf4c8c05d8e2cfc43d6, type: 2}
-  advantage: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
-  special: {fileID: 11400000, guid: d84b240c9a530564a830baf37c0faf3b, type: 2}
+  vsHoly: 1
+  vsDark: 1
+  vsRock: 2
+  vsWind: 5
+  vsFire: 2
+  vsWater: 2
+  vsLightning: 2
+  vsIce: 1
+  vsWood: 5
+  vsGhost: 5
+  vsPrimal: 1
+  vsArcane: 1
   difficulty: 4
+  special: {fileID: 11400000, guid: d84b240c9a530564a830baf37c0faf3b, type: 2}
   ingredient1: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
   ingredient2: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
   ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
-  description: The sigil is ethereal and cool, its surface faintly shimmering, like
-    a ghostly presence that flickers just beyond reach.

@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: a2b875466da80f441ae2483d3c835e29, type: 3}
   IDNumber: '#078'
   trailColor: {r: 0.23921569, g: 0.1254902, b: 0.2901961, a: 1}
+  description: This sigil pulses with unwavering conviction, its surface etched,
+    like an ancient text carved in stone.
   family: {fileID: 11400000, guid: 72af06d072ce3594d812569a68d3c9ed, type: 2}
-  advantage: {fileID: 11400000, guid: 9296f4a181ada5c40925a0a2a9139a00, type: 2}
-  special: {fileID: 11400000, guid: 4ac7fc6d64ee3ae4f947a05a118153b8, type: 2}
+  vsHoly: 1
+  vsDark: 2
+  vsRock: 3
+  vsWind: 2
+  vsFire: 2
+  vsWater: 2
+  vsLightning: 4
+  vsIce: 2
+  vsWood: 2
+  vsGhost: 2
+  vsPrimal: 1
+  vsArcane: 5
   difficulty: 4
+  special: {fileID: 11400000, guid: 4ac7fc6d64ee3ae4f947a05a118153b8, type: 2}
   ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient2: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient3: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
-  description: This sigil pulses with unwavering conviction, its surface etched,
-    like an ancient text carved in stone.

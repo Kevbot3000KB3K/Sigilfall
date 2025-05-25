@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: d328541b07d5a6040b4d8006314cd6a1, type: 3}
   IDNumber: '#329'
   trailColor: {r: 0.87058824, g: 0.92941177, b: 0.972549, a: 1}
+  description: This sigil drifts with a light, airy energy, its surface soft and
+    shifting, like the wisps of a passing cloud.
   family: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  advantage: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
-  special: {fileID: 11400000, guid: 3350f55698b68404bb01b82b28c19401, type: 2}
+  vsHoly: 3
+  vsDark: 3
+  vsRock: 1
+  vsWind: 4
+  vsFire: 1
+  vsWater: 1
+  vsLightning: 2
+  vsIce: 3
+  vsWood: 2
+  vsGhost: 3
+  vsPrimal: 4
+  vsArcane: 1
   difficulty: 2
+  special: {fileID: 11400000, guid: 3350f55698b68404bb01b82b28c19401, type: 2}
   ingredient1: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
   ingredient2: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
-  description: This sigil drifts with a light, airy energy, its surface soft and
-    shifting, like the wisps of a passing cloud.

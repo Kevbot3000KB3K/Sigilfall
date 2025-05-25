@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 188a25e82cc700941b96c885b4d7f38d, type: 3}
   IDNumber: '#319'
   trailColor: {r: 0.8235294, g: 0.8862745, b: 0.9372549, a: 1}
+  description: The sigil is crisp and cold, its surface smooth and frosted, like
+    a delicate blanket of freshly fallen snow.
   family: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
-  advantage: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
-  special: {fileID: 11400000, guid: a9a586c14a6173e408d5f6e8f5e13028, type: 2}
+  vsHoly: 2
+  vsDark: 2
+  vsRock: 5
+  vsWind: 1
+  vsFire: 1
+  vsWater: 3
+  vsLightning: 2
+  vsIce: 1
+  vsWood: 4
+  vsGhost: 1
+  vsPrimal: 5
+  vsArcane: 1
   difficulty: 2
+  special: {fileID: 11400000, guid: a9a586c14a6173e408d5f6e8f5e13028, type: 2}
   ingredient1: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
   ingredient2: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
   ingredient3: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
-  description: The sigil is crisp and cold, its surface smooth and frosted, like
-    a delicate blanket of freshly fallen snow.

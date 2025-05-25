@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: b85b3a788850a6f44a2a50e433e75e41, type: 3}
   IDNumber: '#036'
   trailColor: {r: 0.11372549, g: 0.09411765, b: 0.2, a: 1}
+  description: This sigil glows with ancient knowledge, its surface etched with intricate
+    symbols, like a rune carved into stone by time.
   family: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
-  advantage: {fileID: 11400000, guid: cbfb1916c004682439aebd15bc697180, type: 2}
-  special: {fileID: 11400000, guid: 8bb97d07a42541d40a3a0a950409474a, type: 2}
+  vsHoly: 3
+  vsDark: 2
+  vsRock: 1
+  vsWind: 2
+  vsFire: 2
+  vsWater: 3
+  vsLightning: 1
+  vsIce: 2
+  vsWood: 3
+  vsGhost: 2
+  vsPrimal: 4
+  vsArcane: 3
   difficulty: 3
+  special: {fileID: 11400000, guid: 8bb97d07a42541d40a3a0a950409474a, type: 2}
   ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient2: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient3: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
-  description: This sigil glows with ancient knowledge, its surface etched with intricate
-    symbols, like a rune carved into stone by time.

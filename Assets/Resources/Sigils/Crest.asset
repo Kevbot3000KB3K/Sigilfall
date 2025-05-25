@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 8f415b0e0a92e844cb48fe65bad7841d, type: 3}
   IDNumber: '#108'
   trailColor: {r: 0.2784314, g: 0.8509804, b: 0.7137255, a: 1}
+  description: This sigil rises with a bold energy, its surface elevated, like the
+    peak of a proud mountain.
   family: {fileID: 11400000, guid: f36e3519c41ac4a41b833d25d2d45f51, type: 2}
-  advantage: {fileID: 11400000, guid: 72af06d072ce3594d812569a68d3c9ed, type: 2}
-  special: {fileID: 11400000, guid: d84b240c9a530564a830baf37c0faf3b, type: 2}
+  vsHoly: 2
+  vsDark: 1
+  vsRock: 2
+  vsWind: 1
+  vsFire: 1
+  vsWater: 5
+  vsLightning: 2
+  vsIce: 1
+  vsWood: 2
+  vsGhost: 5
+  vsPrimal: 4
+  vsArcane: 2
   difficulty: 3
+  special: {fileID: 11400000, guid: d84b240c9a530564a830baf37c0faf3b, type: 2}
   ingredient1: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
   ingredient2: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
   ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
-  description: This sigil rises with a bold energy, its surface elevated, like the
-    peak of a proud mountain.

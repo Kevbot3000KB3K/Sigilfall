@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 60659f3597f570e4aa0cf60a8b515644, type: 3}
   IDNumber: '#121'
   trailColor: {r: 0.30588236, g: 0.43137255, b: 0.77254903, a: 1}
+  description: This sigil radiates with unwavering protection, its surface solid
+    and engraved, like a shield forged to withstand any blow.
   family: {fileID: 11400000, guid: 9296f4a181ada5c40925a0a2a9139a00, type: 2}
-  advantage: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  special: {fileID: 11400000, guid: a9a586c14a6173e408d5f6e8f5e13028, type: 2}
+  vsHoly: 3
+  vsDark: 2
+  vsRock: 2
+  vsWind: 3
+  vsFire: 2
+  vsWater: 2
+  vsLightning: 1
+  vsIce: 4
+  vsWood: 4
+  vsGhost: 1
+  vsPrimal: 3
+  vsArcane: 1
   difficulty: 2
+  special: {fileID: 11400000, guid: a9a586c14a6173e408d5f6e8f5e13028, type: 2}
   ingredient1: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
   ingredient2: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
   ingredient3: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
-  description: This sigil radiates with unwavering protection, its surface solid
-    and engraved, like a shield forged to withstand any blow.

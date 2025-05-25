@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: b0c2901a73d196e4ba11bb1c51f8cbf3, type: 3}
   IDNumber: '#026'
   trailColor: {r: 0.08627451, g: 0.08235294, b: 0.039215688, a: 1}
+  description: This sigil feels deep and echoing, its surface cool and shadowed,
+    like the interior of a forgotten cave.
   family: {fileID: 11400000, guid: 9296f4a181ada5c40925a0a2a9139a00, type: 2}
-  advantage: {fileID: 11400000, guid: dea1f0d2a8fadf942981f4b06c853479, type: 2}
-  special: {fileID: 11400000, guid: cde5ba3b867cc514785233f0bf35af92, type: 2}
+  vsHoly: 5
+  vsDark: 2
+  vsRock: 1
+  vsWind: 1
+  vsFire: 1
+  vsWater: 2
+  vsLightning: 3
+  vsIce: 3
+  vsWood: 1
+  vsGhost: 4
+  vsPrimal: 2
+  vsArcane: 3
   difficulty: 2
+  special: {fileID: 11400000, guid: cde5ba3b867cc514785233f0bf35af92, type: 2}
   ingredient1: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
   ingredient2: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
   ingredient3: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
-  description: This sigil feels deep and echoing, its surface cool and shadowed,
-    like the interior of a forgotten cave.

@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 4d12280b03164474c92e9d8800d01c2d, type: 3}
   IDNumber: '#352'
   trailColor: {r: 0.972549, g: 0.12156863, b: 0.039215688, a: 1}
+  description: This sigil glows with a deep, vibrant red, its surface smooth and
+    rich, like the essence of a ripe cherry.
   family: {fileID: 11400000, guid: a0295b76cae2ecf4c8c05d8e2cfc43d6, type: 2}
-  advantage: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  special: {fileID: 11400000, guid: 1527504ee8e5a6c41a7945cd64ae0a50, type: 2}
+  vsHoly: 3
+  vsDark: 3
+  vsRock: 1
+  vsWind: 5
+  vsFire: 3
+  vsWater: 2
+  vsLightning: 1
+  vsIce: 3
+  vsWood: 1
+  vsGhost: 2
+  vsPrimal: 2
+  vsArcane: 2
   difficulty: 5
+  special: {fileID: 11400000, guid: 1527504ee8e5a6c41a7945cd64ae0a50, type: 2}
   ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient2: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
   ingredient3: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
-  description: This sigil glows with a deep, vibrant red, its surface smooth and
-    rich, like the essence of a ripe cherry.

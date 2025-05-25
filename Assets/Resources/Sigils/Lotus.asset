@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 9d689177a09c9fd40acac69a563979d3, type: 3}
   IDNumber: '#135'
   trailColor: {r: 0.32941177, g: 0.16862746, b: 0.2627451, a: 1}
+  description: This sigil blooms with serene grace, its surface delicate and unfolding,
+    like a lotus rising from still waters.
   family: {fileID: 11400000, guid: dea1f0d2a8fadf942981f4b06c853479, type: 2}
-  advantage: {fileID: 11400000, guid: dea1f0d2a8fadf942981f4b06c853479, type: 2}
-  special: {fileID: 11400000, guid: cde5ba3b867cc514785233f0bf35af92, type: 2}
+  vsHoly: 2
+  vsDark: 3
+  vsRock: 3
+  vsWind: 2
+  vsFire: 3
+  vsWater: 2
+  vsLightning: 3
+  vsIce: 2
+  vsWood: 2
+  vsGhost: 1
+  vsPrimal: 3
+  vsArcane: 2
   difficulty: 5
+  special: {fileID: 11400000, guid: cde5ba3b867cc514785233f0bf35af92, type: 2}
   ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient2: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
   ingredient3: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
-  description: This sigil blooms with serene grace, its surface delicate and unfolding,
-    like a lotus rising from still waters.

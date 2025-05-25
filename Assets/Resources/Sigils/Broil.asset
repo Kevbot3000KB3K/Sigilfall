@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 333582387d9ccaf4c82cbfbe423230ef, type: 3}
   IDNumber: '#142'
   trailColor: {r: 0.34117648, g: 0.5058824, b: 0.7058824, a: 1}
+  description: This sigil radiates intense heat, its surface crackling and smoldering,
+    like the core of a fire ready to erupt.
   family: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  advantage: {fileID: 11400000, guid: a0295b76cae2ecf4c8c05d8e2cfc43d6, type: 2}
-  special: {fileID: 11400000, guid: 8bb97d07a42541d40a3a0a950409474a, type: 2}
+  vsHoly: 2
+  vsDark: 1
+  vsRock: 1
+  vsWind: 1
+  vsFire: 4
+  vsWater: 5
+  vsLightning: 1
+  vsIce: 2
+  vsWood: 3
+  vsGhost: 5
+  vsPrimal: 1
+  vsArcane: 2
   difficulty: 2
+  special: {fileID: 11400000, guid: 8bb97d07a42541d40a3a0a950409474a, type: 2}
   ingredient1: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
   ingredient2: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
   ingredient3: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
-  description: This sigil radiates intense heat, its surface crackling and smoldering,
-    like the core of a fire ready to erupt.

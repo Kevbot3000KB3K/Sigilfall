@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: d8123eb3a52857b4ba39ced856c1b4a4, type: 3}
   IDNumber: '#179'
   trailColor: {r: 0.44705883, g: 0.70980394, b: 0.99215686, a: 1}
+  description: The sigil is light and airy, its surface smooth and cool, like a breeze
+    that shifts effortlessly through open skies.
   family: {fileID: 11400000, guid: 9a36df753cc75a9458e290092ff173cb, type: 2}
-  advantage: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
-  special: {fileID: 11400000, guid: a9a586c14a6173e408d5f6e8f5e13028, type: 2}
+  vsHoly: 1
+  vsDark: 4
+  vsRock: 2
+  vsWind: 1
+  vsFire: 4
+  vsWater: 2
+  vsLightning: 3
+  vsIce: 4
+  vsWood: 3
+  vsGhost: 1
+  vsPrimal: 1
+  vsArcane: 2
   difficulty: 1
+  special: {fileID: 11400000, guid: a9a586c14a6173e408d5f6e8f5e13028, type: 2}
   ingredient1: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
   ingredient2: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
   ingredient3: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
-  description: The sigil is light and airy, its surface smooth and cool, like a breeze
-    that shifts effortlessly through open skies.

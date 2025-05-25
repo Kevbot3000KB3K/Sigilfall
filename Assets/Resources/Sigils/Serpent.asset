@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: ce4a576c3ecac3549811a277e86deb2d, type: 3}
   IDNumber: '#069'
   trailColor: {r: 0.21960784, g: 0.25490198, b: 0.16078432, a: 1}
+  description: The sigil is sleek and cool, its surface twisting subtly under your
+    touch, like a coiled serpent ready to strike.
   family: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
-  advantage: {fileID: 11400000, guid: dea1f0d2a8fadf942981f4b06c853479, type: 2}
-  special: {fileID: 11400000, guid: 122fd27955b73d347ad5fd26fd654fca, type: 2}
+  vsHoly: 3
+  vsDark: 2
+  vsRock: 2
+  vsWind: 3
+  vsFire: 2
+  vsWater: 1
+  vsLightning: 2
+  vsIce: 2
+  vsWood: 1
+  vsGhost: 3
+  vsPrimal: 5
+  vsArcane: 2
   difficulty: 5
+  special: {fileID: 11400000, guid: 122fd27955b73d347ad5fd26fd654fca, type: 2}
   ingredient1: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
   ingredient2: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
   ingredient3: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
-  description: The sigil is sleek and cool, its surface twisting subtly under your
-    touch, like a coiled serpent ready to strike.

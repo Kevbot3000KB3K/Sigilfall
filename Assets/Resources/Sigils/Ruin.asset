@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: a61661e0115f64e4bad05c2cb453ba9d, type: 3}
   IDNumber: '#112'
   trailColor: {r: 0.2901961, g: 0.19215687, b: 0.15294118, a: 1}
+  description: This sigil radiates with decaying energy, its surface cracked and
+    weathered, like the remnants of a long-forgotten ruin.
   family: {fileID: 11400000, guid: f36e3519c41ac4a41b833d25d2d45f51, type: 2}
-  advantage: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
-  special: {fileID: 11400000, guid: cde5ba3b867cc514785233f0bf35af92, type: 2}
+  vsHoly: 2
+  vsDark: 3
+  vsRock: 3
+  vsWind: 3
+  vsFire: 4
+  vsWater: 2
+  vsLightning: 2
+  vsIce: 1
+  vsWood: 2
+  vsGhost: 2
+  vsPrimal: 1
+  vsArcane: 3
   difficulty: 1
+  special: {fileID: 11400000, guid: cde5ba3b867cc514785233f0bf35af92, type: 2}
   ingredient1: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
   ingredient2: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
   ingredient3: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
-  description: This sigil radiates with decaying energy, its surface cracked and
-    weathered, like the remnants of a long-forgotten ruin.

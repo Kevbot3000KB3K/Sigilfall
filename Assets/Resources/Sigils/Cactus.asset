@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 2f29ea513a14264419237fef106d9174, type: 3}
   IDNumber: '#106'
   trailColor: {r: 0.27450982, g: 0.49803922, b: 0.08235294, a: 1}
+  description: This sigil radiates a harsh, unyielding energy, its surface spiked
+    and rough, like the resilient flesh of a desert cactus.
   family: {fileID: 11400000, guid: dea1f0d2a8fadf942981f4b06c853479, type: 2}
-  advantage: {fileID: 11400000, guid: 9296f4a181ada5c40925a0a2a9139a00, type: 2}
-  special: {fileID: 11400000, guid: d3bb8be874ba06146813c41a8e647812, type: 2}
+  vsHoly: 4
+  vsDark: 2
+  vsRock: 2
+  vsWind: 3
+  vsFire: 2
+  vsWater: 2
+  vsLightning: 1
+  vsIce: 4
+  vsWood: 1
+  vsGhost: 2
+  vsPrimal: 2
+  vsArcane: 3
   difficulty: 3
+  special: {fileID: 11400000, guid: d3bb8be874ba06146813c41a8e647812, type: 2}
   ingredient1: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
   ingredient2: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
   ingredient3: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
-  description: This sigil radiates a harsh, unyielding energy, its surface spiked
-    and rough, like the resilient flesh of a desert cactus.

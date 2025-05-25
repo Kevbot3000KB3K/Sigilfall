@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 100b54bce07ba8d45a753fbfc55c09f2, type: 3}
   IDNumber: '#208'
   trailColor: {r: 0.5411765, g: 0.43137255, b: 0.39607844, a: 1}
+  description: The sigil is smooth and curved, its surface cool to the touch, like
+    the polished exterior of a deep-sea shell.
   family: {fileID: 11400000, guid: 9296f4a181ada5c40925a0a2a9139a00, type: 2}
-  advantage: {fileID: 11400000, guid: 9296f4a181ada5c40925a0a2a9139a00, type: 2}
-  special: {fileID: 11400000, guid: 3350f55698b68404bb01b82b28c19401, type: 2}
+  vsHoly: 2
+  vsDark: 1
+  vsRock: 2
+  vsWind: 2
+  vsFire: 1
+  vsWater: 5
+  vsLightning: 2
+  vsIce: 4
+  vsWood: 2
+  vsGhost: 4
+  vsPrimal: 2
+  vsArcane: 1
   difficulty: 3
+  special: {fileID: 11400000, guid: 3350f55698b68404bb01b82b28c19401, type: 2}
   ingredient1: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
   ingredient2: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
   ingredient3: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
-  description: The sigil is smooth and curved, its surface cool to the touch, like
-    the polished exterior of a deep-sea shell.

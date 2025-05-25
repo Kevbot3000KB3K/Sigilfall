@@ -16,11 +16,22 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: b509f5f625b4b684db980e20930a8306, type: 3}
   IDNumber: '#225'
   trailColor: {r: 0.5921569, g: 0.49803922, b: 0.3764706, a: 1}
+  description: This sigil wears the marks of time, its surface weathered..
   family: {fileID: 11400000, guid: a0295b76cae2ecf4c8c05d8e2cfc43d6, type: 2}
-  advantage: {fileID: 11400000, guid: 72af06d072ce3594d812569a68d3c9ed, type: 2}
-  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
+  vsHoly: 2
+  vsDark: 2
+  vsRock: 1
+  vsWind: 1
+  vsFire: 4
+  vsWater: 1
+  vsLightning: 2
+  vsIce: 4
+  vsWood: 3
+  vsGhost: 3
+  vsPrimal: 3
+  vsArcane: 2
   difficulty: 2
+  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
   ingredient1: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
   ingredient2: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
   ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
-  description: This sigil wears the marks of time, its surface weathered..

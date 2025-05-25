@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 3d4f9e52ed5577646bd176dd5453ca18, type: 3}
   IDNumber: '#159'
   trailColor: {r: 0.4, g: 0.8392157, b: 0.61960787, a: 1}
+  description: This sigil shimmers with a protective aura, its surface unyielding,
+    as if it holds the strength of an impenetrable shield.
   family: {fileID: 11400000, guid: 884ed06150d1a9e4c8a916681b351a7a, type: 2}
-  advantage: {fileID: 11400000, guid: 9296f4a181ada5c40925a0a2a9139a00, type: 2}
-  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
+  vsHoly: 2
+  vsDark: 3
+  vsRock: 2
+  vsWind: 2
+  vsFire: 1
+  vsWater: 3
+  vsLightning: 1
+  vsIce: 2
+  vsWood: 3
+  vsGhost: 4
+  vsPrimal: 3
+  vsArcane: 2
   difficulty: 1
+  special: {fileID: 11400000, guid: 4cf177de155116542b33de664ab3fa32, type: 2}
   ingredient1: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
   ingredient2: {fileID: 11400000, guid: 31fa1bfc92381094cac227706f21adc7, type: 2}
   ingredient3: {fileID: 11400000, guid: 79237779b4d875342b33e52c60b2fa89, type: 2}
-  description: This sigil shimmers with a protective aura, its surface unyielding,
-    as if it holds the strength of an impenetrable shield.

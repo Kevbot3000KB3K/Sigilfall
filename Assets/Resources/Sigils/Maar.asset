@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: feda215e85beb98448a41b118c28e5ec, type: 3}
   IDNumber: '#143'
   trailColor: {r: 0.35686275, g: 0.44705883, b: 0.58431375, a: 1}
+  description: This sigil pulses with deep, molten energy, its surface bubbling and
+    shifting, like lava seeping through cracked earth.
   family: {fileID: 11400000, guid: d269a2696269d794389eb618de08b4de, type: 2}
-  advantage: {fileID: 11400000, guid: f36e3519c41ac4a41b833d25d2d45f51, type: 2}
-  special: {fileID: 11400000, guid: 1527504ee8e5a6c41a7945cd64ae0a50, type: 2}
+  vsHoly: 2
+  vsDark: 3
+  vsRock: 4
+  vsWind: 2
+  vsFire: 3
+  vsWater: 1
+  vsLightning: 4
+  vsIce: 1
+  vsWood: 1
+  vsGhost: 4
+  vsPrimal: 1
+  vsArcane: 2
   difficulty: 2
+  special: {fileID: 11400000, guid: 1527504ee8e5a6c41a7945cd64ae0a50, type: 2}
   ingredient1: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient2: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
   ingredient3: {fileID: 11400000, guid: 010e4079499e5ba4cb4d3456c5414eb6, type: 2}
-  description: This sigil pulses with deep, molten energy, its surface bubbling and
-    shifting, like lava seeping through cracked earth.

@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: e2cdae6f569bf7241948790473f20eaa, type: 3}
   IDNumber: '#277'
   trailColor: {r: 0.7137255, g: 0.3882353, b: 0.46666667, a: 1}
+  description: This sigil hums with inevitable power, its surface etched, like the
+    threads of destiny woven through time.
   family: {fileID: 11400000, guid: 72af06d072ce3594d812569a68d3c9ed, type: 2}
-  advantage: {fileID: 11400000, guid: f36e3519c41ac4a41b833d25d2d45f51, type: 2}
-  special: {fileID: 11400000, guid: 2053ebda035fe074e9b272b289df4b6b, type: 2}
+  vsHoly: 1
+  vsDark: 4
+  vsRock: 2
+  vsWind: 3
+  vsFire: 1
+  vsWater: 4
+  vsLightning: 2
+  vsIce: 2
+  vsWood: 2
+  vsGhost: 1
+  vsPrimal: 3
+  vsArcane: 3
   difficulty: 1
+  special: {fileID: 11400000, guid: 2053ebda035fe074e9b272b289df4b6b, type: 2}
   ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient2: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient3: {fileID: 11400000, guid: c1b417346fde59a4fa77ee8b4f6abea2, type: 2}
-  description: This sigil hums with inevitable power, its surface etched, like the
-    threads of destiny woven through time.

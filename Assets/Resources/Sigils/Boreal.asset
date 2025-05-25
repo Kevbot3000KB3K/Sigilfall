@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 1f10194964b058b41ad5cd76d9457ecd, type: 3}
   IDNumber: '#154'
   trailColor: {r: 0.3882353, g: 0.43137255, b: 0.4, a: 1}
+  description: This sigil shimmers with a cold, northern light, its surface frosted
+    and shimmering, like the serene glow of the aurora borealis.
   family: {fileID: 11400000, guid: f36e3519c41ac4a41b833d25d2d45f51, type: 2}
-  advantage: {fileID: 11400000, guid: 517163ae0dd01404aab4e2beb8aab529, type: 2}
-  special: {fileID: 11400000, guid: 3350f55698b68404bb01b82b28c19401, type: 2}
+  vsHoly: 1
+  vsDark: 1
+  vsRock: 2
+  vsWind: 4
+  vsFire: 1
+  vsWater: 4
+  vsLightning: 3
+  vsIce: 3
+  vsWood: 1
+  vsGhost: 2
+  vsPrimal: 3
+  vsArcane: 3
   difficulty: 3
+  special: {fileID: 11400000, guid: 3350f55698b68404bb01b82b28c19401, type: 2}
   ingredient1: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
   ingredient2: {fileID: 11400000, guid: a57f13387023a56439a12b4fb7906299, type: 2}
   ingredient3: {fileID: 11400000, guid: 3781ff0599a9b444281f0f1ed01cc83b, type: 2}
-  description: This sigil shimmers with a cold, northern light, its surface frosted
-    and shimmering, like the serene glow of the aurora borealis.

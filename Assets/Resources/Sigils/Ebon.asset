@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 68c66fb4aa1efbb49b63357793949776, type: 3}
   IDNumber: '#095'
   trailColor: {r: 0.26666668, g: 0.019607844, b: 0.3882353, a: 1}
+  description: This sigil pulses with dark intensity, its surface obsidian, like
+    the depths of a midnight abyss.
   family: {fileID: 11400000, guid: 9296f4a181ada5c40925a0a2a9139a00, type: 2}
-  advantage: {fileID: 11400000, guid: 9a36df753cc75a9458e290092ff173cb, type: 2}
-  special: {fileID: 11400000, guid: 4ac7fc6d64ee3ae4f947a05a118153b8, type: 2}
+  vsHoly: 1
+  vsDark: 2
+  vsRock: 1
+  vsWind: 2
+  vsFire: 1
+  vsWater: 3
+  vsLightning: 2
+  vsIce: 3
+  vsWood: 4
+  vsGhost: 4
+  vsPrimal: 3
+  vsArcane: 2
   difficulty: 1
+  special: {fileID: 11400000, guid: 4ac7fc6d64ee3ae4f947a05a118153b8, type: 2}
   ingredient1: {fileID: 11400000, guid: 44739f58c9fe6b24fb062d3e2bc80ae2, type: 2}
   ingredient2: {fileID: 11400000, guid: 2e995d2177f3a9f409c6c23a4d1a3464, type: 2}
   ingredient3: {fileID: 11400000, guid: cf948cc974882d04bb788a709b9f40e3, type: 2}
-  description: This sigil pulses with dark intensity, its surface obsidian, like
-    the depths of a midnight abyss.

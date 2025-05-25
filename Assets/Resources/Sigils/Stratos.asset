@@ -16,12 +16,23 @@ MonoBehaviour:
   sigilSprite: {fileID: 21300000, guid: 472b59c5eb659af49b50be85fe271c3d, type: 3}
   IDNumber: '#218'
   trailColor: {r: 0.5686275, g: 0.42352942, b: 0.34901962, a: 1}
+  description: The sigil is light and expansive, its surface smooth and cool, like
+    the endless sky stretching high above.
   family: {fileID: 11400000, guid: cbfb1916c004682439aebd15bc697180, type: 2}
-  advantage: {fileID: 11400000, guid: 9296f4a181ada5c40925a0a2a9139a00, type: 2}
-  special: {fileID: 11400000, guid: 8bb97d07a42541d40a3a0a950409474a, type: 2}
+  vsHoly: 4
+  vsDark: 1
+  vsRock: 3
+  vsWind: 4
+  vsFire: 1
+  vsWater: 4
+  vsLightning: 3
+  vsIce: 2
+  vsWood: 2
+  vsGhost: 1
+  vsPrimal: 2
+  vsArcane: 1
   difficulty: 2
+  special: {fileID: 11400000, guid: 8bb97d07a42541d40a3a0a950409474a, type: 2}
   ingredient1: {fileID: 11400000, guid: 0cd23068b1cb7514cb23e4c25c8ae7d9, type: 2}
   ingredient2: {fileID: 11400000, guid: 1f1327b39c55fd64bba33eb75140f038, type: 2}
   ingredient3: {fileID: 11400000, guid: a45931d484b858f4295025b23badaf5c, type: 2}
-  description: The sigil is light and expansive, its surface smooth and cool, like
-    the endless sky stretching high above.
