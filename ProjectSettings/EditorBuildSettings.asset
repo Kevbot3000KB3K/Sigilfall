@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Title Screen.unity
     guid: 6a36fd80d8ea1724fb06cd1639353709
   - enabled: 1
+    path: Assets/Scenes/ShipHub.unity
+    guid: a69483658f059d94fb41dfc14556d678
+  - enabled: 1
     path: Assets/Scenes/Sigil Lab.unity
     guid: f39bb170754343442842d52df553f005
   - enabled: 1
@@ -27,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Scenes/GameOver.unity
     guid: bb5fcf1fe3e63084097f8a390e5f0081
   - enabled: 1
-    path: Assets/Scenes/Config.unity
+    path: Assets/Scenes/Collections.unity
     guid: b2e270224aa97194fb2c83fb14d31f3c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
