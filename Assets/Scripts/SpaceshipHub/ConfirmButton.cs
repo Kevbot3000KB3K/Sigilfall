@@ -83,6 +83,7 @@ public class ConfirmButton : MonoBehaviour
     {
         if (engineIdleSource != null && engineIdleSource.isPlaying)
             engineIdleSource.Stop();
+        Debug.Log("ShipTransform: " + shipTransform);
 
         engineHushSource?.Play();
         engineAccelSource?.Play();

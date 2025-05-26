@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using TMPro;
+using System.Collections;
 
 public class ShipHubManager : MonoBehaviour
 {
@@ -18,13 +19,14 @@ public class ShipHubManager : MonoBehaviour
 
     private void Start()
     {
-        RoomSelector.SetRoomLabel(roomLabel);
-        RoomSelector.SetUIManager(this.GetComponent<RoomUIManager>());
-
-        if (shipRoot != null) shipStartPos = shipRoot.localPosition;
-        if (canvasRoot != null) canvasStartPos = canvasRoot.anchoredPosition;
+        StartCoroutine(DelayedInit());
     }
-
+    private IEnumerator DelayedInit()
+    {
+        yield return null; // ⏱ wait 1 frame AFTER the scene is fully loaded
+        RoomSelector.SetRoomLabel(roomLabel);
+        RoomSelector.SetUIManager(GetComponent<RoomUIManager>());
+    }
     private void Update()
     {
         float floatOffset = Mathf.Sin(Time.time * floatFrequency) * floatAmplitude;
