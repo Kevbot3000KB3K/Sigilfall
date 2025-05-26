@@ -33,6 +33,9 @@ public class ConfirmButton : MonoBehaviour
     public float delayBeforeSceneLoad = 2f;
     [Header("Collections Room Zoom")]
     public Transform collectionsTarget;
+    [Header("Additional Room Zooms")]
+    public Transform configurationsTarget;
+    public Transform recordsTarget;
 
     private string sceneToLoad;
 
@@ -71,6 +74,14 @@ public class ConfirmButton : MonoBehaviour
         {
             ZoomFadeAndLoad(collectionsTarget, Color.white);
         }
+        else if (sceneToLoad == "Configurations" || selectedRoomName == "Configurations")
+        {
+            ZoomFadeAndLoad(configurationsTarget, Color.white);
+        }
+        else if (sceneToLoad == "Records" || selectedRoomName == "Records")
+        {
+            ZoomFadeAndLoad(recordsTarget, Color.white);
+        }
 
         else
         {
@@ -83,6 +94,7 @@ public class ConfirmButton : MonoBehaviour
     {
         if (engineIdleSource != null && engineIdleSource.isPlaying)
             engineIdleSource.Stop();
+
         Debug.Log("ShipTransform: " + shipTransform);
 
         engineHushSource?.Play();
@@ -91,12 +103,27 @@ public class ConfirmButton : MonoBehaviour
         if (shipTransform != null)
         {
             Vector3 targetPos = shipTransform.localPosition + launchOffset;
-            LeanTween.moveLocal(shipTransform.gameObject, targetPos, launchDuration).setEaseInQuad();
+
+            LeanTween.moveLocal(shipTransform.gameObject, targetPos, launchDuration)
+                .setEaseInQuad()
+                .setOnComplete(() =>
+                {
+                    // Lock the ship's final position
+                    shipTransform.localPosition = targetPos;
+                });
+
+            // ⏱ Fade out slightly after launch starts, but *before* the snap back could be seen
+            float fadeDelay = Mathf.Max(launchDuration - 0.5f, 0.1f);
+            LeanTween.delayedCall(fadeDelay, () =>
+            {
+                FadeScreen(Color.black, 0.6f);
+            });
         }
 
-        // ⏱ Delay fade so we SEE the takeoff before blacking out
+        // Final scene load after everything
         Invoke(nameof(LoadScene), delayBeforeSceneLoad);
     }
+
 
 
     private void HandleSigilLabZoom()

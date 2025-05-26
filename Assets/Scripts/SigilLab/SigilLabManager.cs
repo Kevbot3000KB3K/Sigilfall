@@ -50,6 +50,13 @@ public class SigilLabManager : MonoBehaviour
     [Header("Library UI")]
     public RectTransform libraryPanel, libraryIconTarget;
     public float libraryTweenDuration = 0.8f;
+    [Header("Duplicate Warning UI")]
+    public GameObject duplicateWarningPanel;
+    public TextMeshProUGUI duplicateWarningText;
+    public AudioClip errorSFX;
+    public AudioSource uiAudioSource;
+    private CanvasGroup duplicateWarningGroup;
+
 
     private Coroutine shimmerLoopRoutine;
     private bool isInformReveal = false;
@@ -63,6 +70,8 @@ public class SigilLabManager : MonoBehaviour
         ringStartY = spinningRing.localPosition.y;
         shardSlotsStartY = shardSlotGroup.localPosition.y;
         combineButton.gameObject.SetActive(false);
+        if (duplicateWarningPanel != null)
+            duplicateWarningGroup = duplicateWarningPanel.GetComponent<CanvasGroup>();
     }
 
     /// <summary>
@@ -78,10 +87,40 @@ public class SigilLabManager : MonoBehaviour
     /// </summary>
     public void CombineShards()
     {
-        SLSoundFX.Instance?.PlaySFX(SLSoundFX.Instance.sigilCombine);
         Sigil result = SigilDatabase.Instance.GetSigilFromShards(alterSlots.Select(s => s.currentShardSO).ToArray());
 
+        if (result == null)
+        {
+            Debug.LogWarning("❌ No sigil result for this combination.");
+            return;
+        }
+
+        if (PlayerSigilCollection.Instance.HasDiscovered(result))
+        {
+            Debug.Log($"🛑 Already discovered: {result.sigilName}");
+
+            // Play error sound
+            if (uiAudioSource != null && errorSFX != null)
+                uiAudioSource.PlayOneShot(errorSFX);
+
+            // Show popup warning
+            if (duplicateWarningPanel != null && duplicateWarningText != null)
+            {
+                duplicateWarningText.text = $"You’ve already discovered the <b><color=#00FFFF>{result.sigilName} Sigil</color></b>!";
+
+                duplicateWarningPanel.SetActive(true);
+
+                // Optional auto-hide
+                StartCoroutine(HideDuplicateWarningAfterDelay(2.5f));
+            }
+
+            return; // Exit early
+        }
+
+        // Proceed with combination animation
+        SLSoundFX.Instance?.PlaySFX(SLSoundFX.Instance.sigilCombine);
         combineButton.gameObject.SetActive(false);
+
         float targetY = 425f;
         float duration = 1.2f;
         int finishedTweens = 0;
@@ -92,6 +131,7 @@ public class SigilLabManager : MonoBehaviour
         LeanTween.moveLocalY(spinningRing.gameObject, targetY, duration).setEaseOutCubic().setOnComplete(onComplete);
         LeanTween.moveLocalY(shardSlotGroup.gameObject, targetY, duration).setEaseOutCubic().setOnComplete(onComplete);
     }
+
 
     /// <summary>
     /// Animates a UI panel from its current to target position.
@@ -152,16 +192,19 @@ public class SigilLabManager : MonoBehaviour
         infoUIPanel.SetActive(true);
         // Clear all before animation starts
         Image[] advImages = {
-    holyAdv, darkAdv, rockAdv, windAdv, fireAdv, waterAdv,
-    lightningAdv, iceAdv, woodAdv, ghostAdv, primalAdv, arcaneAdv
-};
+        holyAdv, darkAdv, rockAdv, windAdv, fireAdv, waterAdv,
+        lightningAdv, iceAdv, woodAdv, ghostAdv, primalAdv, arcaneAdv
+            };
+
 
         foreach (var img in advImages)
         {
             img.sprite = modEmpty;
             img.preserveAspect = true;
         }
-
+        sigilDisplayImage.rectTransform.localScale = Vector3.one;
+        sigilDisplayImage.rectTransform.anchoredPosition = Vector2.zero;
+        sigilDisplayImage.transform.localPosition = Vector3.zero;
         StartCoroutine(AnimateSigilReveal(sigil));
 
         AnimatePanelIn(namePanel, new Vector2(-3.85f, 4f));
@@ -193,6 +236,7 @@ public class SigilLabManager : MonoBehaviour
         shimmerOverlay.SetActive(true);
         shimmerAnim?.Play("Shimmer");
         if (!isInformReveal) SLSoundFX.Instance?.PlaySFX(SLSoundFX.Instance.sigilRevealSFX);
+        sigilDisplayImage.gameObject.SetActive(true);
 
         confirmButton.gameObject.SetActive(true);
         if (shimmerLoopRoutine != null) StopCoroutine(shimmerLoopRoutine);
@@ -237,6 +281,10 @@ public class SigilLabManager : MonoBehaviour
         infoUIPanel.SetActive(false);
         shimmerOverlay.SetActive(false);
         confirmButton.gameObject.SetActive(false);
+        sigilDisplayImage.gameObject.SetActive(true);
+        sigilDisplayImage.rectTransform.localScale = Vector3.one;
+        sigilDisplayImage.rectTransform.anchoredPosition = Vector2.zero;
+        sigilDisplayImage.color = new Color(1f, 1f, 1f, 0f); // Transparent, ready for next fade-in
 
         foreach (var slot in alterSlots) slot.Clear();
         ResetRevealPanelPositions();
@@ -409,6 +457,34 @@ public class SigilLabManager : MonoBehaviour
             yield return delay;
         }
     }
+    private IEnumerator HideDuplicateWarningAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        if (duplicateWarningGroup != null)
+        {
+            float fadeDuration = 0.5f;
+            float elapsed = 0f;
+            float startAlpha = duplicateWarningGroup.alpha;
+
+            while (elapsed < fadeDuration)
+            {
+                elapsed += Time.deltaTime;
+                float newAlpha = Mathf.Lerp(startAlpha, 0f, elapsed / fadeDuration);
+                duplicateWarningGroup.alpha = newAlpha;
+                yield return null;
+            }
+
+            duplicateWarningGroup.alpha = 0f;
+            duplicateWarningPanel.SetActive(false);
+            duplicateWarningGroup.alpha = 1f;
+        }
+        else if (duplicateWarningPanel != null)
+        {
+            duplicateWarningPanel.SetActive(false);
+        }
+    }
+
 
     private IEnumerator DelayedAdvantageAnimation(Sigil sigil, float delay)
     {
