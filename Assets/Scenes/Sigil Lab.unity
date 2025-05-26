@@ -83340,9 +83340,14 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 5658e26833766e74cae50561a2bfffb1, type: 3}
   - {fileID: 21300000, guid: 751066696c93ddb4180bdc45d94bc3d7, type: 3}
   - {fileID: 21300000, guid: 3f3c3842840f9b74fba450a9a7943f48, type: 3}
-  modEmpty: {fileID: 0}
-  modSounds: []
-  advantageAudioSource: {fileID: 0}
+  modEmpty: {fileID: 21300000, guid: faeb331056a86694a879b05f7c865278, type: 3}
+  modSounds:
+  - {fileID: 8300000, guid: 0d9b0ee8c2adb234b80b58c0970f8dbe, type: 3}
+  - {fileID: 8300000, guid: 33fd853ce66b1314a8f264077e346d47, type: 3}
+  - {fileID: 8300000, guid: 9e17d0ef26d85964bad5c82c944506c5, type: 3}
+  - {fileID: 8300000, guid: c17c7ad0e14902a4e8222bcb4161f901, type: 3}
+  - {fileID: 8300000, guid: 48a9eb8197533f34280a8c1c36c13846, type: 3}
+  advantageAudioSource: {fileID: 1135452492}
   libraryPanel: {fileID: 1173001683}
   libraryIconTarget: {fileID: 2119594531}
   libraryTweenDuration: 0.8

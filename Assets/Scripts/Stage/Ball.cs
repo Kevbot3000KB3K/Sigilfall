@@ -18,6 +18,7 @@ public class Ball : MonoBehaviour
     public bool skipInitialReset = false;
     public bool isLaunched { get; set; }
     public bool attachedToPaddle = true;
+    public Sigil sigil { get; private set; }
 
     [Header("Audio Clips")]
     public AudioClip wallHitSFX;
@@ -54,6 +55,7 @@ public class Ball : MonoBehaviour
         if (PlayerData.Instance != null && PlayerData.Instance.HasEquippedSigil())
         {
             Sigil mySigil = PlayerData.Instance.equippedSigil;
+            sigil = mySigil; // ✅ Assign to this Ball's sigil reference
 
             // Sprite & trail
             GetComponent<SpriteRenderer>().sprite = mySigil.sigilSprite;
@@ -66,6 +68,7 @@ public class Ball : MonoBehaviour
                 activeEffects.Add(mySigil.special);
             }
         }
+
 
         // Remove any null effects
         activeEffects = activeEffects?.Where(e => e != null).ToList();

@@ -10,7 +10,7 @@ public class LifegainEffect : BallEffect
     [Header("Effect Chance")]
     [Tooltip("Chance (0 to 1) to gain a life when the ball hits a brick.")]
     [Range(0f, 1f)]
-    public float lifegainChance = 0.5f;
+    public float lifegainChance = 0.1f;
 
     [Header("Visual & Audio Feedback")]
     [Tooltip("Icon used for UI effect feedback (optional).")]

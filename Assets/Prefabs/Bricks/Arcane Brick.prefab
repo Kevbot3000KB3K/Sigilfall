@@ -157,3 +157,5 @@ MonoBehaviour:
   unbreakable: 0
   shatterEffectPrefab: {fileID: 6061269018977642957, guid: 738963631b805d342b22b8be5cf88211, type: 3}
   breakSound: {fileID: 8300000, guid: 509bb06975b5c4146ac075dca3028123, type: 3}
+  family: {fileID: 11400000, guid: 26cff4a3345a4b74d9e2d90fe956b018, type: 2}
+  damagePopupPrefab: {fileID: 881107177791923783, guid: 9934b96975bf4ec46b61292827b32bfb, type: 3}
