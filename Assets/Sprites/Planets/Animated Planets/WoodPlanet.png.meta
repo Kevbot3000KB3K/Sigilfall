@@ -1,103 +1,103 @@
 fileFormatVersion: 2
-guid: 96854cd38c0fe22469214381ca0b446f
+guid: a89f12ab868e1ff4b8e9bfa50f63c84f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6283318919465738081
-    second: Arcane Planet_0
+      213: -5151163796962666158
+    second: WoodPlanet_0
   - first:
-      213: -1956607545919818154
-    second: Arcane Planet_1
+      213: 5729269500512861221
+    second: WoodPlanet_1
   - first:
-      213: 2809139289684454065
-    second: Arcane Planet_2
+      213: 1185758196233992438
+    second: WoodPlanet_2
   - first:
-      213: 7721689297535934991
-    second: Arcane Planet_3
+      213: -7473074374437105666
+    second: WoodPlanet_3
   - first:
-      213: 1275098378840364988
-    second: Arcane Planet_4
+      213: 2821863570320978376
+    second: WoodPlanet_4
   - first:
-      213: 1331067056039939971
-    second: Arcane Planet_5
+      213: -3733904697769832895
+    second: WoodPlanet_5
   - first:
-      213: -8672069668324837739
-    second: Arcane Planet_6
+      213: 3847992584731210922
+    second: WoodPlanet_6
   - first:
-      213: 3432659573573384386
-    second: Arcane Planet_7
+      213: -6800863694195073371
+    second: WoodPlanet_7
   - first:
-      213: 8743693172609278640
-    second: Arcane Planet_8
+      213: 9210348974119204838
+    second: WoodPlanet_8
   - first:
-      213: 4375281886987162703
-    second: Arcane Planet_9
+      213: -8329899120581281610
+    second: WoodPlanet_9
   - first:
-      213: 1192805890824973174
-    second: Arcane Planet_10
+      213: 4372638602035417696
+    second: WoodPlanet_10
   - first:
-      213: -3162581677873897194
-    second: Arcane Planet_11
+      213: -7363949893250130123
+    second: WoodPlanet_11
   - first:
-      213: -868786753481224872
-    second: Arcane Planet_12
+      213: -7219710563778826992
+    second: WoodPlanet_12
   - first:
-      213: -1492525849471837303
-    second: Arcane Planet_13
+      213: -2392050868099791993
+    second: WoodPlanet_13
   - first:
-      213: -1696395805144086526
-    second: Arcane Planet_14
+      213: 8132998425345912659
+    second: WoodPlanet_14
   - first:
-      213: 5385659057824090668
-    second: Arcane Planet_15
+      213: 976755019016823311
+    second: WoodPlanet_15
   - first:
-      213: -3557381382648692790
-    second: Arcane Planet_16
+      213: 1677211394609915537
+    second: WoodPlanet_16
   - first:
-      213: 340561851903799655
-    second: Arcane Planet_17
+      213: -8664799180916393344
+    second: WoodPlanet_17
   - first:
-      213: -233194216498320347
-    second: Arcane Planet_18
+      213: 6075896587749702819
+    second: WoodPlanet_18
   - first:
-      213: 7105147523323955206
-    second: Arcane Planet_19
+      213: 2129763228631300329
+    second: WoodPlanet_19
   - first:
-      213: 6375923688282357717
-    second: Arcane Planet_20
+      213: 7353039212148961480
+    second: WoodPlanet_20
   - first:
-      213: 4920322476786149721
-    second: Arcane Planet_21
+      213: -268749776775907531
+    second: WoodPlanet_21
   - first:
-      213: -2874824917400993318
-    second: Arcane Planet_22
+      213: -8154728271053726863
+    second: WoodPlanet_22
   - first:
-      213: 5982446248507198219
-    second: Arcane Planet_23
+      213: -4062922712866261875
+    second: WoodPlanet_23
   - first:
-      213: 4256796603419232671
-    second: Arcane Planet_24
+      213: 2202824704383594494
+    second: WoodPlanet_24
   - first:
-      213: -837140372250720777
-    second: Arcane Planet_25
+      213: 6747330270716249499
+    second: WoodPlanet_25
   - first:
-      213: 6742801869016964038
-    second: Arcane Planet_26
+      213: 8611790191356261387
+    second: WoodPlanet_26
   - first:
-      213: 2255099702404460732
-    second: Arcane Planet_27
+      213: 4473166008064087861
+    second: WoodPlanet_27
   - first:
-      213: 5524595087244059502
-    second: Arcane Planet_28
+      213: 6277435642125194428
+    second: WoodPlanet_28
   - first:
-      213: -8934805252164619403
-    second: Arcane Planet_29
+      213: -593717696710958572
+    second: WoodPlanet_29
   - first:
-      213: -9125539742981366931
-    second: Arcane Planet_30
+      213: 288542114985931640
+    second: WoodPlanet_30
   - first:
-      213: 1573776799626383643
-    second: Arcane Planet_31
+      213: 1234536942266992720
+    second: WoodPlanet_31
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,7 +165,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -193,13 +193,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Arcane Planet_0
+      name: WoodPlanet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,42 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f90e0c2bbba2dc8a0800000000000000
-      internalID: -6283318919465738081
+      spriteID: 259103691d36388b0800000000000000
+      internalID: -5151163796962666158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Arcane Planet_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 656b994bdcbb8d4e0800000000000000
-      internalID: -1956607545919818154
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Arcane Planet_2
+      name: WoodPlanet_1
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,42 +230,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ba2c3eec411cf620800000000000000
-      internalID: 2809139289684454065
+      spriteID: 52c7c887144728f40800000000000000
+      internalID: 5729269500512861221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Arcane Planet_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f02a09d3183f82b60800000000000000
-      internalID: 7721689297535934991
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Arcane Planet_4
+      name: WoodPlanet_2
       rect:
         serializedVersion: 2
         x: 128
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,42 +252,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cb7d474483f02b110800000000000000
-      internalID: 1275098378840364988
+      spriteID: 6f8f80c0cc8a47010800000000000000
+      internalID: 1185758196233992438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Arcane Planet_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 38f4c776f66e87210800000000000000
-      internalID: 1331067056039939971
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Arcane Planet_6
+      name: WoodPlanet_3
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,42 +274,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 596fe00559e96a780800000000000000
-      internalID: -8672069668324837739
+      spriteID: eff0a93537e4a4890800000000000000
+      internalID: -7473074374437105666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Arcane Planet_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c87fa5f1b143af20800000000000000
-      internalID: 3432659573573384386
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Arcane Planet_8
+      name: WoodPlanet_4
       rect:
         serializedVersion: 2
         x: 256
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,42 +296,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0b2626a4d96d75970800000000000000
-      internalID: 8743693172609278640
+      spriteID: 8c1f89167f5492720800000000000000
+      internalID: 2821863570320978376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Arcane Planet_9
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f44121ae1bf18bc30800000000000000
-      internalID: 4375281886987162703
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Arcane Planet_10
+      name: WoodPlanet_5
       rect:
         serializedVersion: 2
         x: 320
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,42 +318,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67bad9053a2bd8010800000000000000
-      internalID: 1192805890824973174
+      spriteID: 14e4440e5718e2cc0800000000000000
+      internalID: -3733904697769832895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Arcane Planet_11
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 611ea2558b04c14d0800000000000000
-      internalID: -3162581677873897194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Arcane Planet_12
+      name: WoodPlanet_6
       rect:
         serializedVersion: 2
         x: 384
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -472,42 +340,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85dcf2dfc0371f3f0800000000000000
-      internalID: -868786753481224872
+      spriteID: aa4bd374ed0d66530800000000000000
+      internalID: 3847992584731210922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Arcane Planet_13
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 98b942cc5ab794be0800000000000000
-      internalID: -1492525849471837303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Arcane Planet_14
+      name: WoodPlanet_7
       rect:
         serializedVersion: 2
         x: 448
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -516,42 +362,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2088cebc0013578e0800000000000000
-      internalID: -1696395805144086526
+      spriteID: 5aed6ada08a7e91a0800000000000000
+      internalID: -6800863694195073371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Arcane Planet_15
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c2a48fee064bdba40800000000000000
-      internalID: 5385659057824090668
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Arcane Planet_16
+      name: WoodPlanet_8
       rect:
         serializedVersion: 2
         x: 512
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -560,42 +384,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: acff2a4fa74a1aec0800000000000000
-      internalID: -3557381382648692790
+      spriteID: 6e732cbe79bb1df70800000000000000
+      internalID: 9210348974119204838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Arcane Planet_17
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 76176ce233be9b400800000000000000
-      internalID: 340561851903799655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Arcane Planet_18
+      name: WoodPlanet_9
       rect:
         serializedVersion: 2
         x: 576
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -604,42 +406,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52c21f9781783ccf0800000000000000
-      internalID: -233194216498320347
+      spriteID: 6b8f9ee22e0466c80800000000000000
+      internalID: -8329899120581281610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Arcane Planet_19
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 608887c170e8a9260800000000000000
-      internalID: 7105147523323955206
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Arcane Planet_20
+      name: WoodPlanet_10
       rect:
         serializedVersion: 2
         x: 640
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -648,42 +428,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5df711b30d4db7850800000000000000
-      internalID: 6375923688282357717
+      spriteID: 0625b7d24abbeac30800000000000000
+      internalID: 4372638602035417696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Arcane Planet_21
-      rect:
-        serializedVersion: 2
-        x: 672
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9596531493f784440800000000000000
-      internalID: 4920322476786149721
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Arcane Planet_22
+      name: WoodPlanet_11
       rect:
         serializedVersion: 2
         x: 704
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -692,42 +450,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad14fd618f19a18d0800000000000000
-      internalID: -2874824917400993318
+      spriteID: 53fdc05869efdc990800000000000000
+      internalID: -7363949893250130123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Arcane Planet_23
-      rect:
-        serializedVersion: 2
-        x: 736
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b0bc32aaa2be50350800000000000000
-      internalID: 5982446248507198219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Arcane Planet_24
+      name: WoodPlanet_12
       rect:
         serializedVersion: 2
         x: 768
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -736,42 +472,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f9984e315fd231b30800000000000000
-      internalID: 4256796603419232671
+      spriteID: 01de3d07e7f6ecb90800000000000000
+      internalID: -7219710563778826992
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Arcane Planet_25
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7f58bdc4441e164f0800000000000000
-      internalID: -837140372250720777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Arcane Planet_26
+      name: WoodPlanet_13
       rect:
         serializedVersion: 2
         x: 832
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -780,42 +494,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6cb9891339e339d50800000000000000
-      internalID: 6742801869016964038
+      spriteID: 7834f3ab86abdced0800000000000000
+      internalID: -2392050868099791993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Arcane Planet_27
-      rect:
-        serializedVersion: 2
-        x: 864
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cb038e63b39bb4f10800000000000000
-      internalID: 2255099702404460732
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Arcane Planet_28
+      name: WoodPlanet_14
       rect:
         serializedVersion: 2
         x: 896
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -824,42 +516,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e63ec0716fd4bac40800000000000000
-      internalID: 5524595087244059502
+      spriteID: 35fed853af63ed070800000000000000
+      internalID: 8132998425345912659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Arcane Planet_29
-      rect:
-        serializedVersion: 2
-        x: 928
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 573fe6736f1310480800000000000000
-      internalID: -8934805252164619403
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Arcane Planet_30
+      name: WoodPlanet_15
       rect:
         serializedVersion: 2
         x: 960
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -868,20 +538,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d6bd2e3f3f19b5180800000000000000
-      internalID: -9125539742981366931
+      spriteID: f02e315c3812e8d00800000000000000
+      internalID: 976755019016823311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Arcane Planet_31
+      name: WoodPlanet_16
       rect:
         serializedVersion: 2
-        x: 992
+        x: 1024
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -890,8 +560,338 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b115b7939ad27d510800000000000000
-      internalID: 1573776799626383643
+      spriteID: 19626fc80e6a64710800000000000000
+      internalID: 1677211394609915537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPlanet_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08af1639d0370c780800000000000000
+      internalID: -8664799180916393344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPlanet_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac34dc41cbe15450800000000000000
+      internalID: 6075896587749702819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPlanet_19
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8f14a5f507e8d10800000000000000
+      internalID: 2129763228631300329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPlanet_20
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c038a3943e3b0660800000000000000
+      internalID: 7353039212148961480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPlanet_21
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5377ecd7085354cf0800000000000000
+      internalID: -268749776775907531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPlanet_22
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17bd104d7d594de80800000000000000
+      internalID: -8154728271053726863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPlanet_23
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d847db5a1599d97c0800000000000000
+      internalID: -4062922712866261875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPlanet_24
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff2d37c561029e10800000000000000
+      internalID: 2202824704383594494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPlanet_25
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b954840e12553ad50800000000000000
+      internalID: 6747330270716249499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPlanet_26
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04bbf34d89338770800000000000000
+      internalID: 8611790191356261387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPlanet_27
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5371304d8c0e31e30800000000000000
+      internalID: 4473166008064087861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPlanet_28
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb49f3d057eed1750800000000000000
+      internalID: 6277435642125194428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPlanet_29
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4122ea686e0b2c7f0800000000000000
+      internalID: -593717696710958572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPlanet_30
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873f97a568b110400800000000000000
+      internalID: 288542114985931640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPlanet_31
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058cbe1eec4f12110800000000000000
+      internalID: 1234536942266992720
       vertices: []
       indices: 
       edges: []
@@ -900,7 +900,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4d51e2582f185b840a988bf6a8256d7d
+    spriteID: d8e0301a92a4514478aebba9a3584ee0
     internalID: 0
     vertices: []
     indices: 
@@ -910,38 +910,38 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Arcane Planet_0: -6283318919465738081
-      Arcane Planet_1: -1956607545919818154
-      Arcane Planet_10: 1192805890824973174
-      Arcane Planet_11: -3162581677873897194
-      Arcane Planet_12: -868786753481224872
-      Arcane Planet_13: -1492525849471837303
-      Arcane Planet_14: -1696395805144086526
-      Arcane Planet_15: 5385659057824090668
-      Arcane Planet_16: -3557381382648692790
-      Arcane Planet_17: 340561851903799655
-      Arcane Planet_18: -233194216498320347
-      Arcane Planet_19: 7105147523323955206
-      Arcane Planet_2: 2809139289684454065
-      Arcane Planet_20: 6375923688282357717
-      Arcane Planet_21: 4920322476786149721
-      Arcane Planet_22: -2874824917400993318
-      Arcane Planet_23: 5982446248507198219
-      Arcane Planet_24: 4256796603419232671
-      Arcane Planet_25: -837140372250720777
-      Arcane Planet_26: 6742801869016964038
-      Arcane Planet_27: 2255099702404460732
-      Arcane Planet_28: 5524595087244059502
-      Arcane Planet_29: -8934805252164619403
-      Arcane Planet_3: 7721689297535934991
-      Arcane Planet_30: -9125539742981366931
-      Arcane Planet_31: 1573776799626383643
-      Arcane Planet_4: 1275098378840364988
-      Arcane Planet_5: 1331067056039939971
-      Arcane Planet_6: -8672069668324837739
-      Arcane Planet_7: 3432659573573384386
-      Arcane Planet_8: 8743693172609278640
-      Arcane Planet_9: 4375281886987162703
+      WoodPlanet_0: -5151163796962666158
+      WoodPlanet_1: 5729269500512861221
+      WoodPlanet_10: 4372638602035417696
+      WoodPlanet_11: -7363949893250130123
+      WoodPlanet_12: -7219710563778826992
+      WoodPlanet_13: -2392050868099791993
+      WoodPlanet_14: 8132998425345912659
+      WoodPlanet_15: 976755019016823311
+      WoodPlanet_16: 1677211394609915537
+      WoodPlanet_17: -8664799180916393344
+      WoodPlanet_18: 6075896587749702819
+      WoodPlanet_19: 2129763228631300329
+      WoodPlanet_2: 1185758196233992438
+      WoodPlanet_20: 7353039212148961480
+      WoodPlanet_21: -268749776775907531
+      WoodPlanet_22: -8154728271053726863
+      WoodPlanet_23: -4062922712866261875
+      WoodPlanet_24: 2202824704383594494
+      WoodPlanet_25: 6747330270716249499
+      WoodPlanet_26: 8611790191356261387
+      WoodPlanet_27: 4473166008064087861
+      WoodPlanet_28: 6277435642125194428
+      WoodPlanet_29: -593717696710958572
+      WoodPlanet_3: -7473074374437105666
+      WoodPlanet_30: 288542114985931640
+      WoodPlanet_31: 1234536942266992720
+      WoodPlanet_4: 2821863570320978376
+      WoodPlanet_5: -3733904697769832895
+      WoodPlanet_6: 3847992584731210922
+      WoodPlanet_7: -6800863694195073371
+      WoodPlanet_8: 9210348974119204838
+      WoodPlanet_9: -8329899120581281610
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,103 +1,103 @@
 fileFormatVersion: 2
-guid: dd1db6cd50f70504ab71df4708f54dbb
+guid: 9ece47e4f123f1d48bab86c02c33804e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5535569767371529314
-    second: Fire Planet_0
+      213: 2530430426828117236
+    second: ArcanePlanet_0
   - first:
-      213: 4215725512647981378
-    second: Fire Planet_1
+      213: -5683141176690392639
+    second: ArcanePlanet_1
   - first:
-      213: -5583786951079260531
-    second: Fire Planet_2
+      213: -1703707178351164273
+    second: ArcanePlanet_2
   - first:
-      213: -3921102870625845788
-    second: Fire Planet_3
+      213: -7147900281039571591
+    second: ArcanePlanet_3
   - first:
-      213: -2546757678223161318
-    second: Fire Planet_4
+      213: 2594168368274940595
+    second: ArcanePlanet_4
   - first:
-      213: -1697733828082474254
-    second: Fire Planet_5
+      213: -2149334366783835644
+    second: ArcanePlanet_5
   - first:
-      213: 4020142841671136724
-    second: Fire Planet_6
+      213: -6685700878994400648
+    second: ArcanePlanet_6
   - first:
-      213: 5125373138888484824
-    second: Fire Planet_7
+      213: 1779120620968514465
+    second: ArcanePlanet_7
   - first:
-      213: 4502764591510399525
-    second: Fire Planet_8
+      213: -3247306273891882166
+    second: ArcanePlanet_8
   - first:
-      213: 3786127715382645291
-    second: Fire Planet_9
+      213: 7087717107357957962
+    second: ArcanePlanet_9
   - first:
-      213: -4317627950296053516
-    second: Fire Planet_10
+      213: -3537007672486078784
+    second: ArcanePlanet_10
   - first:
-      213: 8220039209184618049
-    second: Fire Planet_11
+      213: -5345047512116395905
+    second: ArcanePlanet_11
   - first:
-      213: -7171561632744005787
-    second: Fire Planet_12
+      213: 9011614665558003831
+    second: ArcanePlanet_12
   - first:
-      213: 5702113771687156521
-    second: Fire Planet_13
+      213: -4406778706638304743
+    second: ArcanePlanet_13
   - first:
-      213: -1539900582365171007
-    second: Fire Planet_14
+      213: -7317303878003320479
+    second: ArcanePlanet_14
   - first:
-      213: -49477334912085560
-    second: Fire Planet_15
+      213: 8441557569983305504
+    second: ArcanePlanet_15
   - first:
-      213: -7313744952032354787
-    second: Fire Planet_16
+      213: 8440826772152657042
+    second: ArcanePlanet_16
   - first:
-      213: 4178822670314808677
-    second: Fire Planet_17
+      213: 698898611116487757
+    second: ArcanePlanet_17
   - first:
-      213: -1411513167445157215
-    second: Fire Planet_18
+      213: 8503932245296449351
+    second: ArcanePlanet_18
   - first:
-      213: 169728147880841683
-    second: Fire Planet_19
+      213: -7321180044107818854
+    second: ArcanePlanet_19
   - first:
-      213: -7238227768353134769
-    second: Fire Planet_20
+      213: -7902125659811865495
+    second: ArcanePlanet_20
   - first:
-      213: -3995981837760302722
-    second: Fire Planet_21
+      213: -710990589944722488
+    second: ArcanePlanet_21
   - first:
-      213: 2016026831035068228
-    second: Fire Planet_22
+      213: -994082027075088041
+    second: ArcanePlanet_22
   - first:
-      213: 1437022359241199370
-    second: Fire Planet_23
+      213: -8831777941192437377
+    second: ArcanePlanet_23
   - first:
-      213: 3189977722645791440
-    second: Fire Planet_24
+      213: -9046519528153750573
+    second: ArcanePlanet_24
   - first:
-      213: -6494541717576709206
-    second: Fire Planet_25
+      213: -6011411770124275904
+    second: ArcanePlanet_25
   - first:
-      213: 6832329066028700880
-    second: Fire Planet_26
+      213: 9047645966965882554
+    second: ArcanePlanet_26
   - first:
-      213: -8237989149636932319
-    second: Fire Planet_27
+      213: 6496419523146919567
+    second: ArcanePlanet_27
   - first:
-      213: -5390249416069075467
-    second: Fire Planet_28
+      213: 1197721092798108392
+    second: ArcanePlanet_28
   - first:
-      213: -7656187283547472777
-    second: Fire Planet_29
+      213: -4310847794815788122
+    second: ArcanePlanet_29
   - first:
-      213: -5722872457706978414
-    second: Fire Planet_30
+      213: -834982422606601143
+    second: ArcanePlanet_30
   - first:
-      213: 2585267225744893070
-    second: Fire Planet_31
+      213: -7956974508935854323
+    second: ArcanePlanet_31
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,7 +165,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -193,13 +193,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fire Planet_0
+      name: ArcanePlanet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,42 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e93ad6210a4bd23b0800000000000000
-      internalID: -5535569767371529314
+      spriteID: 4f41eeff015ed1320800000000000000
+      internalID: 2530430426828117236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Planet_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2493fe39404418a30800000000000000
-      internalID: 4215725512647981378
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire Planet_2
+      name: ArcanePlanet_1
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,42 +230,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d8e85772a576282b0800000000000000
-      internalID: -5583786951079260531
+      spriteID: 1c149fad53d6121b0800000000000000
+      internalID: -5683141176690392639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Planet_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4edf49cc6b17599c0800000000000000
-      internalID: -3921102870625845788
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire Planet_4
+      name: ArcanePlanet_2
       rect:
         serializedVersion: 2
         x: 128
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,42 +252,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a18828c826918acd0800000000000000
-      internalID: -2546757678223161318
+      spriteID: f84881119573b58e0800000000000000
+      internalID: -1703707178351164273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Planet_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2f2eafd04107078e0800000000000000
-      internalID: -1697733828082474254
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire Planet_6
+      name: ArcanePlanet_3
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,42 +274,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d533286d9a6ac730800000000000000
-      internalID: 4020142841671136724
+      spriteID: 975b8bac09e8dcc90800000000000000
+      internalID: -7147900281039571591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Planet_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8d7e6c4e6bbf02740800000000000000
-      internalID: 5125373138888484824
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire Planet_8
+      name: ArcanePlanet_4
       rect:
         serializedVersion: 2
         x: 256
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,42 +296,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52a2f201a880d7e30800000000000000
-      internalID: 4502764591510399525
+      spriteID: 3b2259ee266500420800000000000000
+      internalID: 2594168368274940595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Planet_9
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b22d4ade8170b8430800000000000000
-      internalID: 3786127715382645291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire Planet_10
+      name: ArcanePlanet_5
       rect:
         serializedVersion: 2
         x: 320
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,42 +318,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f84e464144b414c0800000000000000
-      internalID: -4317627950296053516
+      spriteID: 4027f44f7c70c22e0800000000000000
+      internalID: -2149334366783835644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Planet_11
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1466b3feb12731270800000000000000
-      internalID: 8220039209184618049
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire Planet_12
+      name: ArcanePlanet_6
       rect:
         serializedVersion: 2
         x: 384
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -472,42 +340,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 56f197b01be797c90800000000000000
-      internalID: -7171561632744005787
+      spriteID: 87a9501197e9733a0800000000000000
+      internalID: -6685700878994400648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Planet_13
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 92b9646a34af12f40800000000000000
-      internalID: 5702113771687156521
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire Planet_14
+      name: ArcanePlanet_7
       rect:
         serializedVersion: 2
         x: 448
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -516,42 +362,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c2f4be349c21aae0800000000000000
-      internalID: -1539900582365171007
+      spriteID: 1a3966157c4b0b810800000000000000
+      internalID: 1779120620968514465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Planet_15
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c1d12440a8305ff0800000000000000
-      internalID: -49477334912085560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire Planet_16
+      name: ArcanePlanet_8
       rect:
         serializedVersion: 2
         x: 512
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -560,42 +384,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1e1e4c47bb508a90800000000000000
-      internalID: -7313744952032354787
+      spriteID: a4be6cb16204fe2d0800000000000000
+      internalID: -3247306273891882166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Planet_17
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 565a67b04192ef930800000000000000
-      internalID: 4178822670314808677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire Planet_18
+      name: ArcanePlanet_9
       rect:
         serializedVersion: 2
         x: 576
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -604,42 +406,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1aa15a2b04c496ce0800000000000000
-      internalID: -1411513167445157215
+      spriteID: a4fb7842821ac5260800000000000000
+      internalID: 7087717107357957962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Planet_19
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3d192dae9defa5200800000000000000
-      internalID: 169728147880841683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire Planet_20
+      name: ArcanePlanet_10
       rect:
         serializedVersion: 2
         x: 640
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -648,42 +428,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f4761f7c136ac8b90800000000000000
-      internalID: -7238227768353134769
+      spriteID: 0c6d2a103460aeec0800000000000000
+      internalID: -3537007672486078784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Planet_21
-      rect:
-        serializedVersion: 2
-        x: 672
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e71726fa0bb6b88c0800000000000000
-      internalID: -3995981837760302722
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire Planet_22
+      name: ArcanePlanet_11
       rect:
         serializedVersion: 2
         x: 704
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -692,42 +450,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 44f6081b8bd5afb10800000000000000
-      internalID: 2016026831035068228
+      spriteID: f7087b46b9392d5b0800000000000000
+      internalID: -5345047512116395905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Planet_23
-      rect:
-        serializedVersion: 2
-        x: 736
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a0f8dd8d83451f310800000000000000
-      internalID: 1437022359241199370
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire Planet_24
+      name: ArcanePlanet_12
       rect:
         serializedVersion: 2
         x: 768
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -736,42 +472,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d246b766d3154c20800000000000000
-      internalID: 3189977722645791440
+      spriteID: 7701941facfaf0d70800000000000000
+      internalID: 9011614665558003831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Planet_25
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aab82e8a7b0ced5a0800000000000000
-      internalID: -6494541717576709206
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire Planet_26
+      name: ArcanePlanet_13
       rect:
         serializedVersion: 2
         x: 832
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -780,42 +494,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d49739161f41de50800000000000000
-      internalID: 6832329066028700880
+      spriteID: 91a811b4d1af7d2c0800000000000000
+      internalID: -4406778706638304743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Planet_27
-      rect:
-        serializedVersion: 2
-        x: 864
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 12d4e50e388ccad80800000000000000
-      internalID: -8237989149636932319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire Planet_28
+      name: ArcanePlanet_14
       rect:
         serializedVersion: 2
         x: 896
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -824,42 +516,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5fd227007bcf135b0800000000000000
-      internalID: -5390249416069075467
+      spriteID: 169160644e6b37a90800000000000000
+      internalID: -7317303878003320479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Planet_29
-      rect:
-        serializedVersion: 2
-        x: 928
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 77c3a46da32cfb590800000000000000
-      internalID: -7656187283547472777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire Planet_30
+      name: ArcanePlanet_15
       rect:
         serializedVersion: 2
         x: 960
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -868,20 +538,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 293428f12d54490b0800000000000000
-      internalID: -5722872457706978414
+      spriteID: 0275dd572ef662570800000000000000
+      internalID: 8441557569983305504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Planet_31
+      name: ArcanePlanet_16
       rect:
         serializedVersion: 2
-        x: 992
+        x: 1024
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -890,8 +560,338 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e84ebff28d6b0e320800000000000000
-      internalID: 2585267225744893070
+      spriteID: 29424c45a37d32570800000000000000
+      internalID: 8440826772152657042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcanePlanet_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44bc99759cf2b900800000000000000
+      internalID: 698898611116487757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcanePlanet_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74782e24259040670800000000000000
+      internalID: 8503932245296449351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcanePlanet_19
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9856460a81f56a90800000000000000
+      internalID: -7321180044107818854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcanePlanet_20
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c1a646492065290800000000000000
+      internalID: -7902125659811865495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcanePlanet_21
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb03bf43dd0226f0800000000000000
+      internalID: -710990589944722488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcanePlanet_22
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751d69ac9af4432f0800000000000000
+      internalID: -994082027075088041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcanePlanet_23
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f71181851c83f6580800000000000000
+      internalID: -8831777941192437377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcanePlanet_24
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3e2ce6b6e447280800000000000000
+      internalID: -9046519528153750573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcanePlanet_25
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04fe32b48dc239ca0800000000000000
+      internalID: -6011411770124275904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcanePlanet_26
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe3f7a0212bf8d70800000000000000
+      internalID: 9047645966965882554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcanePlanet_27
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ea515032be72a50800000000000000
+      internalID: 6496419523146919567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcanePlanet_28
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e25934fcf82f9010800000000000000
+      internalID: 1197721092798108392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcanePlanet_29
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab9a3d35cacc24c0800000000000000
+      internalID: -4310847794815788122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcanePlanet_30
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944a6da19eb8964f0800000000000000
+      internalID: -834982422606601143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcanePlanet_31
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d074a0c87d5239190800000000000000
+      internalID: -7956974508935854323
       vertices: []
       indices: 
       edges: []
@@ -900,7 +900,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9e8b3821978492e45a538c56665724e1
+    spriteID: d04eefbf2e7ddf048921738df76f9561
     internalID: 0
     vertices: []
     indices: 
@@ -910,38 +910,38 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Fire Planet_0: -5535569767371529314
-      Fire Planet_1: 4215725512647981378
-      Fire Planet_10: -4317627950296053516
-      Fire Planet_11: 8220039209184618049
-      Fire Planet_12: -7171561632744005787
-      Fire Planet_13: 5702113771687156521
-      Fire Planet_14: -1539900582365171007
-      Fire Planet_15: -49477334912085560
-      Fire Planet_16: -7313744952032354787
-      Fire Planet_17: 4178822670314808677
-      Fire Planet_18: -1411513167445157215
-      Fire Planet_19: 169728147880841683
-      Fire Planet_2: -5583786951079260531
-      Fire Planet_20: -7238227768353134769
-      Fire Planet_21: -3995981837760302722
-      Fire Planet_22: 2016026831035068228
-      Fire Planet_23: 1437022359241199370
-      Fire Planet_24: 3189977722645791440
-      Fire Planet_25: -6494541717576709206
-      Fire Planet_26: 6832329066028700880
-      Fire Planet_27: -8237989149636932319
-      Fire Planet_28: -5390249416069075467
-      Fire Planet_29: -7656187283547472777
-      Fire Planet_3: -3921102870625845788
-      Fire Planet_30: -5722872457706978414
-      Fire Planet_31: 2585267225744893070
-      Fire Planet_4: -2546757678223161318
-      Fire Planet_5: -1697733828082474254
-      Fire Planet_6: 4020142841671136724
-      Fire Planet_7: 5125373138888484824
-      Fire Planet_8: 4502764591510399525
-      Fire Planet_9: 3786127715382645291
+      ArcanePlanet_0: 2530430426828117236
+      ArcanePlanet_1: -5683141176690392639
+      ArcanePlanet_10: -3537007672486078784
+      ArcanePlanet_11: -5345047512116395905
+      ArcanePlanet_12: 9011614665558003831
+      ArcanePlanet_13: -4406778706638304743
+      ArcanePlanet_14: -7317303878003320479
+      ArcanePlanet_15: 8441557569983305504
+      ArcanePlanet_16: 8440826772152657042
+      ArcanePlanet_17: 698898611116487757
+      ArcanePlanet_18: 8503932245296449351
+      ArcanePlanet_19: -7321180044107818854
+      ArcanePlanet_2: -1703707178351164273
+      ArcanePlanet_20: -7902125659811865495
+      ArcanePlanet_21: -710990589944722488
+      ArcanePlanet_22: -994082027075088041
+      ArcanePlanet_23: -8831777941192437377
+      ArcanePlanet_24: -9046519528153750573
+      ArcanePlanet_25: -6011411770124275904
+      ArcanePlanet_26: 9047645966965882554
+      ArcanePlanet_27: 6496419523146919567
+      ArcanePlanet_28: 1197721092798108392
+      ArcanePlanet_29: -4310847794815788122
+      ArcanePlanet_3: -7147900281039571591
+      ArcanePlanet_30: -834982422606601143
+      ArcanePlanet_31: -7956974508935854323
+      ArcanePlanet_4: 2594168368274940595
+      ArcanePlanet_5: -2149334366783835644
+      ArcanePlanet_6: -6685700878994400648
+      ArcanePlanet_7: 1779120620968514465
+      ArcanePlanet_8: -3247306273891882166
+      ArcanePlanet_9: 7087717107357957962
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

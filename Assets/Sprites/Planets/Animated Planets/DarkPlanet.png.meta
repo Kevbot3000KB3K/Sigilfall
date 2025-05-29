@@ -1,103 +1,103 @@
 fileFormatVersion: 2
-guid: b016573b90500d549be0504552286dbb
+guid: f9c1e0be9df45124f95b7f51255da312
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6733386434358328645
-    second: Primal Planet_0
+      213: -1293768133493602666
+    second: DarkPlanet_0
   - first:
-      213: 2100362779431431075
-    second: Primal Planet_1
+      213: -5489750281576112175
+    second: DarkPlanet_1
   - first:
-      213: -5469903787751725301
-    second: Primal Planet_2
+      213: -3720421700886353174
+    second: DarkPlanet_2
   - first:
-      213: 8762574530839778839
-    second: Primal Planet_3
+      213: -4112755682976413232
+    second: DarkPlanet_3
   - first:
-      213: 1413075234839811880
-    second: Primal Planet_4
+      213: -1721361528559433334
+    second: DarkPlanet_4
   - first:
-      213: 6307923396231730711
-    second: Primal Planet_5
+      213: -4967489785066888827
+    second: DarkPlanet_5
   - first:
-      213: -6690129634546090475
-    second: Primal Planet_6
+      213: 2067434244379633063
+    second: DarkPlanet_6
   - first:
-      213: -3374895032940976478
-    second: Primal Planet_7
+      213: -8181547084722198906
+    second: DarkPlanet_7
   - first:
-      213: 3899043765429952467
-    second: Primal Planet_8
+      213: -7414929751649300770
+    second: DarkPlanet_8
   - first:
-      213: -3181896880071886367
-    second: Primal Planet_9
+      213: -7508749459325386315
+    second: DarkPlanet_9
   - first:
-      213: 6028233597537056777
-    second: Primal Planet_10
+      213: 5632111361001288622
+    second: DarkPlanet_10
   - first:
-      213: 847596901046450485
-    second: Primal Planet_11
+      213: -3669535300271458137
+    second: DarkPlanet_11
   - first:
-      213: -3163524812711631935
-    second: Primal Planet_12
+      213: -5354339149755653715
+    second: DarkPlanet_12
   - first:
-      213: 1585790348648823663
-    second: Primal Planet_13
+      213: 6400126382981705681
+    second: DarkPlanet_13
   - first:
-      213: 3164472170730182930
-    second: Primal Planet_14
+      213: -6799374739186325907
+    second: DarkPlanet_14
   - first:
-      213: 8340007277126139281
-    second: Primal Planet_15
+      213: -4089179140495915163
+    second: DarkPlanet_15
   - first:
-      213: 5914890402844899800
-    second: Primal Planet_16
+      213: 4344549648390690912
+    second: DarkPlanet_16
   - first:
-      213: -9086773408320543368
-    second: Primal Planet_17
+      213: -9097199076625495664
+    second: DarkPlanet_17
   - first:
-      213: 7614977846277557046
-    second: Primal Planet_18
+      213: 7922128735762073904
+    second: DarkPlanet_18
   - first:
-      213: -4734175396597691389
-    second: Primal Planet_19
+      213: 3194781435520068223
+    second: DarkPlanet_19
   - first:
-      213: 4096444298391082900
-    second: Primal Planet_20
+      213: 3869162201557601833
+    second: DarkPlanet_20
   - first:
-      213: 3242615719917131354
-    second: Primal Planet_21
+      213: 4581419348234329876
+    second: DarkPlanet_21
   - first:
-      213: -8942686359795645326
-    second: Primal Planet_22
+      213: 3170725617662004396
+    second: DarkPlanet_22
   - first:
-      213: -4603470593346291121
-    second: Primal Planet_23
+      213: 8497354820754126522
+    second: DarkPlanet_23
   - first:
-      213: 5498409048309068679
-    second: Primal Planet_24
+      213: -341103422584743856
+    second: DarkPlanet_24
   - first:
-      213: -8173085528590893817
-    second: Primal Planet_25
+      213: 99119394422052985
+    second: DarkPlanet_25
   - first:
-      213: 1812140284463757983
-    second: Primal Planet_26
+      213: 2201837553255442923
+    second: DarkPlanet_26
   - first:
-      213: 2014342533749725607
-    second: Primal Planet_27
+      213: -4779920964075985112
+    second: DarkPlanet_27
   - first:
-      213: 8924700307087428567
-    second: Primal Planet_28
+      213: -7951197499993254179
+    second: DarkPlanet_28
   - first:
-      213: 2071801246246693475
-    second: Primal Planet_29
+      213: -8165861286500834993
+    second: DarkPlanet_29
   - first:
-      213: 3892797263193483502
-    second: Primal Planet_30
+      213: -8311024477976613807
+    second: DarkPlanet_30
   - first:
-      213: -2294474650774392963
-    second: Primal Planet_31
+      213: 3748275987121668234
+    second: DarkPlanet_31
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,7 +165,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -193,13 +193,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Primal Planet_0
+      name: DarkPlanet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,42 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb243a486b43e82a0800000000000000
-      internalID: -6733386434358328645
+      spriteID: 696c46dbcbc9b0ee0800000000000000
+      internalID: -1293768133493602666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Primal Planet_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3ab6677d1dcf52d10800000000000000
-      internalID: 2100362779431431075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Primal Planet_2
+      name: DarkPlanet_1
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,42 +230,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b07ae7f5c7ff614b0800000000000000
-      internalID: -5469903787751725301
+      spriteID: 1df1e01743d70d3b0800000000000000
+      internalID: -5489750281576112175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Primal Planet_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 71617941c1bea9970800000000000000
-      internalID: 8762574530839778839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Primal Planet_4
+      name: DarkPlanet_2
       rect:
         serializedVersion: 2
         x: 128
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,42 +252,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 827578570704c9310800000000000000
-      internalID: 1413075234839811880
+      spriteID: aeaa308bc286e5cc0800000000000000
+      internalID: -3720421700886353174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Primal Planet_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 71694c678ee3a8750800000000000000
-      internalID: 6307923396231730711
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Primal Planet_6
+      name: DarkPlanet_3
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,42 +274,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51ef09f0b82e723a0800000000000000
-      internalID: -6690129634546090475
+      spriteID: 0d9c8342f7e8ce6c0800000000000000
+      internalID: -4112755682976413232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Primal Planet_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2a6a25739d6f921d0800000000000000
-      internalID: -3374895032940976478
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Primal Planet_8
+      name: DarkPlanet_4
       rect:
         serializedVersion: 2
         x: 256
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,42 +296,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3df572a85af2c1630800000000000000
-      internalID: 3899043765429952467
+      spriteID: a8901385fce7c18e0800000000000000
+      internalID: -1721361528559433334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Primal Planet_9
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1e9346f55a1a7d3d0800000000000000
-      internalID: -3181896880071886367
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Primal Planet_10
+      name: DarkPlanet_5
       rect:
         serializedVersion: 2
         x: 320
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,42 +318,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 908754c948698a350800000000000000
-      internalID: 6028233597537056777
+      spriteID: 581e4bffb5eef0bb0800000000000000
+      internalID: -4967489785066888827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Primal Planet_11
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 539789704e443cb00800000000000000
-      internalID: 847596901046450485
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Primal Planet_12
+      name: DarkPlanet_6
       rect:
         serializedVersion: 2
         x: 384
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -472,42 +340,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c36034a1f6e814d0800000000000000
-      internalID: -3163524812711631935
+      spriteID: 7a5e9b4dd7001bc10800000000000000
+      internalID: 2067434244379633063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Primal Planet_13
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f6bb4739bebd10610800000000000000
-      internalID: 1585790348648823663
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Primal Planet_14
+      name: DarkPlanet_7
       rect:
         serializedVersion: 2
         x: 448
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -516,42 +362,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2195bf55ca67aeb20800000000000000
-      internalID: 3164472170730182930
+      spriteID: 686200e264e457e80800000000000000
+      internalID: -8181547084722198906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Primal Planet_15
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 19db6496e68adb370800000000000000
-      internalID: 8340007277126139281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Primal Planet_16
+      name: DarkPlanet_8
       rect:
         serializedVersion: 2
         x: 512
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -560,42 +384,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d9ffe2ab79e51250800000000000000
-      internalID: 5914890402844899800
+      spriteID: edec7764da0e81990800000000000000
+      internalID: -7414929751649300770
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Primal Planet_17
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 875a69a9abb45e180800000000000000
-      internalID: -9086773408320543368
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Primal Planet_18
+      name: DarkPlanet_9
       rect:
         serializedVersion: 2
         x: 576
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -604,42 +406,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 63bc7db5106dda960800000000000000
-      internalID: 7614977846277557046
+      spriteID: 5b1018956209bc790800000000000000
+      internalID: -7508749459325386315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Primal Planet_19
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 30c866d3f84dc4eb0800000000000000
-      internalID: -4734175396597691389
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Primal Planet_20
+      name: DarkPlanet_10
       rect:
         serializedVersion: 2
         x: 640
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -648,42 +428,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 49756cfa26e79d830800000000000000
-      internalID: 4096444298391082900
+      spriteID: ea37cef4177492e40800000000000000
+      internalID: 5632111361001288622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Primal Planet_21
-      rect:
-        serializedVersion: 2
-        x: 672
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a5612c031d5100d20800000000000000
-      internalID: 3242615719917131354
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Primal Planet_22
+      name: DarkPlanet_11
       rect:
         serializedVersion: 2
         x: 704
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -692,42 +450,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 27446aad22235e380800000000000000
-      internalID: -8942686359795645326
+      spriteID: 7a830902611331dc0800000000000000
+      internalID: -3669535300271458137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Primal Planet_23
-      rect:
-        serializedVersion: 2
-        x: 736
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f4a33a5b2ef2d10c0800000000000000
-      internalID: -4603470593346291121
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Primal Planet_24
+      name: DarkPlanet_12
       rect:
         serializedVersion: 2
         x: 768
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -736,42 +472,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 783714ac5e54e4c40800000000000000
-      internalID: 5498409048309068679
+      spriteID: da1e8db69e091b5b0800000000000000
+      internalID: -5354339149755653715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Primal Planet_25
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 70d347db30e539e80800000000000000
-      internalID: -8173085528590893817
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Primal Planet_26
+      name: DarkPlanet_13
       rect:
         serializedVersion: 2
         x: 832
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -780,42 +494,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f9a33a2dcf3062910800000000000000
-      internalID: 1812140284463757983
+      spriteID: 1dfea373901d1d850800000000000000
+      internalID: 6400126382981705681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Primal Planet_27
-      rect:
-        serializedVersion: 2
-        x: 864
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7a9dc1cacd164fb10800000000000000
-      internalID: 2014342533749725607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Primal Planet_28
+      name: DarkPlanet_14
       rect:
         serializedVersion: 2
         x: 896
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -824,42 +516,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7db04cae4a7eadb70800000000000000
-      internalID: 8924700307087428567
+      spriteID: d66e80803b4c3a1a0800000000000000
+      internalID: -6799374739186325907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Primal Planet_29
-      rect:
-        serializedVersion: 2
-        x: 928
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 36aeebfa14480cc10800000000000000
-      internalID: 2071801246246693475
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Primal Planet_30
+      name: DarkPlanet_15
       rect:
         serializedVersion: 2
         x: 960
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -868,20 +538,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee8a2476c7ef50630800000000000000
-      internalID: 3892797263193483502
+      spriteID: 567cdc3bc315047c0800000000000000
+      internalID: -4089179140495915163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Primal Planet_31
+      name: DarkPlanet_16
       rect:
         serializedVersion: 2
-        x: 992
+        x: 1024
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -890,8 +560,338 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7f247636736820e0800000000000000
-      internalID: -2294474650774392963
+      spriteID: 068106503e0fa4c30800000000000000
+      internalID: 4344549648390690912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkPlanet_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099c9ba83a140c180800000000000000
+      internalID: -9097199076625495664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkPlanet_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0394308ac1e01fd60800000000000000
+      internalID: 7922128735762073904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkPlanet_19
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7aaf27f9c4265c20800000000000000
+      internalID: 3194781435520068223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkPlanet_20
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e853ac58602b530800000000000000
+      internalID: 3869162201557601833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkPlanet_21
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41fdb92bf98749f30800000000000000
+      internalID: 4581419348234329876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkPlanet_22
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac89f8662ea00c20800000000000000
+      internalID: 3170725617662004396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkPlanet_23
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6b085403bace570800000000000000
+      internalID: 8497354820754126522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkPlanet_24
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0589a219e38244bf0800000000000000
+      internalID: -341103422584743856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkPlanet_25
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978d0e66094206100800000000000000
+      internalID: 99119394422052985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkPlanet_26
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9e7eeb69f7e8e10800000000000000
+      internalID: 2201837553255442923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkPlanet_27
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827eec1553f4aadb0800000000000000
+      internalID: -4779920964075985112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkPlanet_28
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd69de1400ca7a190800000000000000
+      internalID: -7951197499993254179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkPlanet_29
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41e00dac680dae80800000000000000
+      internalID: -8165861286500834993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkPlanet_30
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ca0ae554f49ac80800000000000000
+      internalID: -8311024477976613807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkPlanet_31
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80838ca62d840430800000000000000
+      internalID: 3748275987121668234
       vertices: []
       indices: 
       edges: []
@@ -900,7 +900,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fc65cf0d2b5ae194fb6a9f9435fd5298
+    spriteID: 23580e8b49a0f324abd7dd05b3354bc7
     internalID: 0
     vertices: []
     indices: 
@@ -910,38 +910,38 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Primal Planet_0: -6733386434358328645
-      Primal Planet_1: 2100362779431431075
-      Primal Planet_10: 6028233597537056777
-      Primal Planet_11: 847596901046450485
-      Primal Planet_12: -3163524812711631935
-      Primal Planet_13: 1585790348648823663
-      Primal Planet_14: 3164472170730182930
-      Primal Planet_15: 8340007277126139281
-      Primal Planet_16: 5914890402844899800
-      Primal Planet_17: -9086773408320543368
-      Primal Planet_18: 7614977846277557046
-      Primal Planet_19: -4734175396597691389
-      Primal Planet_2: -5469903787751725301
-      Primal Planet_20: 4096444298391082900
-      Primal Planet_21: 3242615719917131354
-      Primal Planet_22: -8942686359795645326
-      Primal Planet_23: -4603470593346291121
-      Primal Planet_24: 5498409048309068679
-      Primal Planet_25: -8173085528590893817
-      Primal Planet_26: 1812140284463757983
-      Primal Planet_27: 2014342533749725607
-      Primal Planet_28: 8924700307087428567
-      Primal Planet_29: 2071801246246693475
-      Primal Planet_3: 8762574530839778839
-      Primal Planet_30: 3892797263193483502
-      Primal Planet_31: -2294474650774392963
-      Primal Planet_4: 1413075234839811880
-      Primal Planet_5: 6307923396231730711
-      Primal Planet_6: -6690129634546090475
-      Primal Planet_7: -3374895032940976478
-      Primal Planet_8: 3899043765429952467
-      Primal Planet_9: -3181896880071886367
+      DarkPlanet_0: -1293768133493602666
+      DarkPlanet_1: -5489750281576112175
+      DarkPlanet_10: 5632111361001288622
+      DarkPlanet_11: -3669535300271458137
+      DarkPlanet_12: -5354339149755653715
+      DarkPlanet_13: 6400126382981705681
+      DarkPlanet_14: -6799374739186325907
+      DarkPlanet_15: -4089179140495915163
+      DarkPlanet_16: 4344549648390690912
+      DarkPlanet_17: -9097199076625495664
+      DarkPlanet_18: 7922128735762073904
+      DarkPlanet_19: 3194781435520068223
+      DarkPlanet_2: -3720421700886353174
+      DarkPlanet_20: 3869162201557601833
+      DarkPlanet_21: 4581419348234329876
+      DarkPlanet_22: 3170725617662004396
+      DarkPlanet_23: 8497354820754126522
+      DarkPlanet_24: -341103422584743856
+      DarkPlanet_25: 99119394422052985
+      DarkPlanet_26: 2201837553255442923
+      DarkPlanet_27: -4779920964075985112
+      DarkPlanet_28: -7951197499993254179
+      DarkPlanet_29: -8165861286500834993
+      DarkPlanet_3: -4112755682976413232
+      DarkPlanet_30: -8311024477976613807
+      DarkPlanet_31: 3748275987121668234
+      DarkPlanet_4: -1721361528559433334
+      DarkPlanet_5: -4967489785066888827
+      DarkPlanet_6: 2067434244379633063
+      DarkPlanet_7: -8181547084722198906
+      DarkPlanet_8: -7414929751649300770
+      DarkPlanet_9: -7508749459325386315
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

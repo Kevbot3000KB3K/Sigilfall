@@ -1,103 +1,103 @@
 fileFormatVersion: 2
-guid: e5998fc3909b25d4a9f2cbd021177ad5
+guid: f9af7fb6ba636d343b9fe1818635d9a1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3324017170076023671
-    second: Ice Planet_0
+      213: 1399321254255031244
+    second: LightningPlanet_0
   - first:
-      213: 8618783961100215854
-    second: Ice Planet_1
+      213: -367689673633347180
+    second: LightningPlanet_1
   - first:
-      213: -8037173848983426095
-    second: Ice Planet_2
+      213: -2738378202663208589
+    second: LightningPlanet_2
   - first:
-      213: -7892251806183401753
-    second: Ice Planet_3
+      213: -820536681897848166
+    second: LightningPlanet_3
   - first:
-      213: 2365647952798887642
-    second: Ice Planet_4
+      213: 8187314445181321224
+    second: LightningPlanet_4
   - first:
-      213: -9112457821357287085
-    second: Ice Planet_5
+      213: -4804944618002499994
+    second: LightningPlanet_5
   - first:
-      213: 4704953737854986510
-    second: Ice Planet_6
+      213: 4510396845022107213
+    second: LightningPlanet_6
   - first:
-      213: 7178492650218679231
-    second: Ice Planet_7
+      213: 7106506820948587339
+    second: LightningPlanet_7
   - first:
-      213: -683911921080828297
-    second: Ice Planet_8
+      213: -7714191681495056945
+    second: LightningPlanet_8
   - first:
-      213: -886276456069223
-    second: Ice Planet_9
+      213: 6424006908424396832
+    second: LightningPlanet_9
   - first:
-      213: 2611786079971813123
-    second: Ice Planet_10
+      213: -1458957541155240575
+    second: LightningPlanet_10
   - first:
-      213: -3889787375467261771
-    second: Ice Planet_11
+      213: -4614042192702930846
+    second: LightningPlanet_11
   - first:
-      213: 7297867166055851894
-    second: Ice Planet_12
+      213: 6232893344277183178
+    second: LightningPlanet_12
   - first:
-      213: -1183043671624418024
-    second: Ice Planet_13
+      213: -5063317231199568440
+    second: LightningPlanet_13
   - first:
-      213: -4931098262466267812
-    second: Ice Planet_14
+      213: 7719500640353044036
+    second: LightningPlanet_14
   - first:
-      213: 3212625481364568377
-    second: Ice Planet_15
+      213: 1090747163615997802
+    second: LightningPlanet_15
   - first:
-      213: -8691018090803568765
-    second: Ice Planet_16
+      213: -7201847475832975185
+    second: LightningPlanet_16
   - first:
-      213: 2360649224151127538
-    second: Ice Planet_17
+      213: 6432422903714586299
+    second: LightningPlanet_17
   - first:
-      213: 8467364545517186436
-    second: Ice Planet_18
+      213: 1450017914789066041
+    second: LightningPlanet_18
   - first:
-      213: -8643269765252615820
-    second: Ice Planet_19
+      213: -5477690367145095964
+    second: LightningPlanet_19
   - first:
-      213: 4717499340798140506
-    second: Ice Planet_20
+      213: 1544782587117494359
+    second: LightningPlanet_20
   - first:
-      213: 970604159634371620
-    second: Ice Planet_21
+      213: -8054781062554478617
+    second: LightningPlanet_21
   - first:
-      213: -7029470693519290531
-    second: Ice Planet_22
+      213: 5159841284974989505
+    second: LightningPlanet_22
   - first:
-      213: -897595266624678402
-    second: Ice Planet_23
+      213: 2620123534861381650
+    second: LightningPlanet_23
   - first:
-      213: -1418747159531669634
-    second: Ice Planet_24
+      213: -6814123778801215903
+    second: LightningPlanet_24
   - first:
-      213: -213084009300880492
-    second: Ice Planet_25
+      213: -8068429515411964375
+    second: LightningPlanet_25
   - first:
-      213: 1684480255122871808
-    second: Ice Planet_26
+      213: -4162753084335706743
+    second: LightningPlanet_26
   - first:
-      213: -3120116018081679240
-    second: Ice Planet_27
+      213: -6385543256370222586
+    second: LightningPlanet_27
   - first:
-      213: 5526168176531304537
-    second: Ice Planet_28
+      213: -4115450614553485999
+    second: LightningPlanet_28
   - first:
-      213: -296294496321711725
-    second: Ice Planet_29
+      213: 9196329107160055384
+    second: LightningPlanet_29
   - first:
-      213: 671341256487653569
-    second: Ice Planet_30
+      213: 4315867992985573709
+    second: LightningPlanet_30
   - first:
-      213: 3971968328792644842
-    second: Ice Planet_31
+      213: -3443330176458289915
+    second: LightningPlanet_31
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,7 +165,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -193,13 +193,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ice Planet_0
+      name: LightningPlanet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,42 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 984c156cef7bed1d0800000000000000
-      internalID: -3324017170076023671
+      spriteID: cc3768e44436b6310800000000000000
+      internalID: 1399321254255031244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ice Planet_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e26663d29521c9770800000000000000
-      internalID: 8618783961100215854
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ice Planet_2
+      name: LightningPlanet_1
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,42 +230,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1dba84597f8367090800000000000000
-      internalID: -8037173848983426095
+      spriteID: 499418f9034b5eaf0800000000000000
+      internalID: -367689673633347180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ice Planet_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7e6d0861cc6197290800000000000000
-      internalID: -7892251806183401753
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ice Planet_4
+      name: LightningPlanet_2
       rect:
         serializedVersion: 2
         x: 128
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,42 +252,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ade2532874874d020800000000000000
-      internalID: 2365647952798887642
+      spriteID: 379369188835ff9d0800000000000000
+      internalID: -2738378202663208589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ice Planet_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 359d44f24eb0a8180800000000000000
-      internalID: -9112457821357287085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ice Planet_6
+      name: LightningPlanet_3
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,42 +274,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e092e752f7a5b4140800000000000000
-      internalID: 4704953737854986510
+      spriteID: a921d463c3edc94f0800000000000000
+      internalID: -820536681897848166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ice Planet_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fbb690738012f9360800000000000000
-      internalID: 7178492650218679231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ice Planet_8
+      name: LightningPlanet_4
       rect:
         serializedVersion: 2
         x: 256
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,42 +296,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77e72563bb14286f0800000000000000
-      internalID: -683911921080828297
+      spriteID: 80005711c1f2f9170800000000000000
+      internalID: 8187314445181321224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ice Planet_9
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 997c9aeafe9dcfff0800000000000000
-      internalID: -886276456069223
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ice Planet_10
+      name: LightningPlanet_5
       rect:
         serializedVersion: 2
         x: 320
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,42 +318,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 307a7061a9dee3420800000000000000
-      internalID: 2611786079971813123
+      spriteID: 666398ed358615db0800000000000000
+      internalID: -4804944618002499994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ice Planet_11
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5b09971bdf2b40ac0800000000000000
-      internalID: -3889787375467261771
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ice Planet_12
+      name: LightningPlanet_6
       rect:
         serializedVersion: 2
         x: 384
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -472,42 +340,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 677eeb2958b374560800000000000000
-      internalID: 7297867166055851894
+      spriteID: d46d59f8806289e30800000000000000
+      internalID: 4510396845022107213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ice Planet_13
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 81d7d077c0cf49fe0800000000000000
-      internalID: -1183043671624418024
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ice Planet_14
+      name: LightningPlanet_7
       rect:
         serializedVersion: 2
         x: 448
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -516,42 +362,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c55f621a148319bb0800000000000000
-      internalID: -4931098262466267812
+      spriteID: b43f7804d426f9260800000000000000
+      internalID: 7106506820948587339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ice Planet_15
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9397a15aad9859c20800000000000000
-      internalID: 3212625481364568377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ice Planet_16
+      name: LightningPlanet_8
       rect:
         serializedVersion: 2
         x: 512
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -560,42 +384,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38fd829e71d436780800000000000000
-      internalID: -8691018090803568765
+      spriteID: fcdb637898fa1f490800000000000000
+      internalID: -7714191681495056945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ice Planet_17
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2f554dc46f5b2c020800000000000000
-      internalID: 2360649224151127538
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ice Planet_18
+      name: LightningPlanet_9
       rect:
         serializedVersion: 2
         x: 576
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -604,42 +406,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 48de94f213f128570800000000000000
-      internalID: 8467364545517186436
+      spriteID: 020aa435f38a62950800000000000000
+      internalID: 6424006908424396832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ice Planet_19
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4717e3841ffec0880800000000000000
-      internalID: -8643269765252615820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ice Planet_20
+      name: LightningPlanet_10
       rect:
         serializedVersion: 2
         x: 640
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -648,42 +428,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a50a964f7ace77140800000000000000
-      internalID: 4717499340798140506
+      spriteID: 1858011a8ddb0cbe0800000000000000
+      internalID: -1458957541155240575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ice Planet_21
-      rect:
-        serializedVersion: 2
-        x: 672
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 424f5883757487d00800000000000000
-      internalID: 970604159634371620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ice Planet_22
+      name: LightningPlanet_11
       rect:
         serializedVersion: 2
         x: 704
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -692,42 +450,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d5f83c1e5ad427e90800000000000000
-      internalID: -7029470693519290531
+      spriteID: 260074d6211a7ffb0800000000000000
+      internalID: -4614042192702930846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ice Planet_23
-      rect:
-        serializedVersion: 2
-        x: 736
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ef593c45cd91b83f0800000000000000
-      internalID: -897595266624678402
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ice Planet_24
+      name: LightningPlanet_12
       rect:
         serializedVersion: 2
         x: 768
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -736,42 +472,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e77350aa9f89f4ce0800000000000000
-      internalID: -1418747159531669634
+      spriteID: acab98c297faf7650800000000000000
+      internalID: 6232893344277183178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ice Planet_25
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4931e46f839fa0df0800000000000000
-      internalID: -213084009300880492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ice Planet_26
+      name: LightningPlanet_13
       rect:
         serializedVersion: 2
         x: 832
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -780,42 +494,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00612c50ed9706710800000000000000
-      internalID: 1684480255122871808
+      spriteID: 8cd3c390ecb7bb9b0800000000000000
+      internalID: -5063317231199568440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ice Planet_27
-      rect:
-        serializedVersion: 2
-        x: 864
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8783c3c330f13b4d0800000000000000
-      internalID: -3120116018081679240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ice Planet_28
+      name: LightningPlanet_14
       rect:
         serializedVersion: 2
         x: 896
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -824,42 +516,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 950773b7da4e0bc40800000000000000
-      internalID: 5526168176531304537
+      spriteID: 446c4a7ceec212b60800000000000000
+      internalID: 7719500640353044036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ice Planet_29
-      rect:
-        serializedVersion: 2
-        x: 928
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 39157d5b9b953ebf0800000000000000
-      internalID: -296294496321711725
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ice Planet_30
+      name: LightningPlanet_15
       rect:
         serializedVersion: 2
         x: 960
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -868,20 +538,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c0d20cd055115900800000000000000
-      internalID: 671341256487653569
+      spriteID: a6fa81b24cc132f00800000000000000
+      internalID: 1090747163615997802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ice Planet_31
+      name: LightningPlanet_16
       rect:
         serializedVersion: 2
-        x: 992
+        x: 1024
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -890,8 +560,338 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aec99c096244f1730800000000000000
-      internalID: 3971968328792644842
+      spriteID: fa09e64b0e5ed0c90800000000000000
+      internalID: -7201847475832975185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningPlanet_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe9efcec8e844950800000000000000
+      internalID: 6432422903714586299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningPlanet_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93574f86c9f7f1410800000000000000
+      internalID: 1450017914789066041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningPlanet_19
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ecccb412a55bf3b0800000000000000
+      internalID: -5477690367145095964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningPlanet_20
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750e850149b207510800000000000000
+      internalID: 1544782587117494359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningPlanet_21
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e795e6bc4ba73090800000000000000
+      internalID: -8054781062554478617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningPlanet_22
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c054588f407b9740800000000000000
+      internalID: 5159841284974989505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningPlanet_23
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210bd03197c8c5420800000000000000
+      internalID: 2620123534861381650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningPlanet_24
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166d205a68e5f61a0800000000000000
+      internalID: -6814123778801215903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningPlanet_25
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92eb796aa1e270090800000000000000
+      internalID: -8068429515411964375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningPlanet_26
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d2280002eea36c0800000000000000
+      internalID: -4162753084335706743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningPlanet_27
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a692a8d3ef167a0800000000000000
+      internalID: -6385543256370222586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningPlanet_28
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d50ec787bf2e6c0800000000000000
+      internalID: -4115450614553485999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningPlanet_29
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e3cd5499cef9f70800000000000000
+      internalID: 9196329107160055384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningPlanet_30
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49126bb21b05eb30800000000000000
+      internalID: 4315867992985573709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightningPlanet_31
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d02d3b275d630d0800000000000000
+      internalID: -3443330176458289915
       vertices: []
       indices: 
       edges: []
@@ -900,7 +900,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4b823b624bcfa3147aaaaa35de24fafc
+    spriteID: dd909ef15564a50459c501cca9d103fa
     internalID: 0
     vertices: []
     indices: 
@@ -910,38 +910,38 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ice Planet_0: -3324017170076023671
-      Ice Planet_1: 8618783961100215854
-      Ice Planet_10: 2611786079971813123
-      Ice Planet_11: -3889787375467261771
-      Ice Planet_12: 7297867166055851894
-      Ice Planet_13: -1183043671624418024
-      Ice Planet_14: -4931098262466267812
-      Ice Planet_15: 3212625481364568377
-      Ice Planet_16: -8691018090803568765
-      Ice Planet_17: 2360649224151127538
-      Ice Planet_18: 8467364545517186436
-      Ice Planet_19: -8643269765252615820
-      Ice Planet_2: -8037173848983426095
-      Ice Planet_20: 4717499340798140506
-      Ice Planet_21: 970604159634371620
-      Ice Planet_22: -7029470693519290531
-      Ice Planet_23: -897595266624678402
-      Ice Planet_24: -1418747159531669634
-      Ice Planet_25: -213084009300880492
-      Ice Planet_26: 1684480255122871808
-      Ice Planet_27: -3120116018081679240
-      Ice Planet_28: 5526168176531304537
-      Ice Planet_29: -296294496321711725
-      Ice Planet_3: -7892251806183401753
-      Ice Planet_30: 671341256487653569
-      Ice Planet_31: 3971968328792644842
-      Ice Planet_4: 2365647952798887642
-      Ice Planet_5: -9112457821357287085
-      Ice Planet_6: 4704953737854986510
-      Ice Planet_7: 7178492650218679231
-      Ice Planet_8: -683911921080828297
-      Ice Planet_9: -886276456069223
+      LightningPlanet_0: 1399321254255031244
+      LightningPlanet_1: -367689673633347180
+      LightningPlanet_10: -1458957541155240575
+      LightningPlanet_11: -4614042192702930846
+      LightningPlanet_12: 6232893344277183178
+      LightningPlanet_13: -5063317231199568440
+      LightningPlanet_14: 7719500640353044036
+      LightningPlanet_15: 1090747163615997802
+      LightningPlanet_16: -7201847475832975185
+      LightningPlanet_17: 6432422903714586299
+      LightningPlanet_18: 1450017914789066041
+      LightningPlanet_19: -5477690367145095964
+      LightningPlanet_2: -2738378202663208589
+      LightningPlanet_20: 1544782587117494359
+      LightningPlanet_21: -8054781062554478617
+      LightningPlanet_22: 5159841284974989505
+      LightningPlanet_23: 2620123534861381650
+      LightningPlanet_24: -6814123778801215903
+      LightningPlanet_25: -8068429515411964375
+      LightningPlanet_26: -4162753084335706743
+      LightningPlanet_27: -6385543256370222586
+      LightningPlanet_28: -4115450614553485999
+      LightningPlanet_29: 9196329107160055384
+      LightningPlanet_3: -820536681897848166
+      LightningPlanet_30: 4315867992985573709
+      LightningPlanet_31: -3443330176458289915
+      LightningPlanet_4: 8187314445181321224
+      LightningPlanet_5: -4804944618002499994
+      LightningPlanet_6: 4510396845022107213
+      LightningPlanet_7: 7106506820948587339
+      LightningPlanet_8: -7714191681495056945
+      LightningPlanet_9: 6424006908424396832
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
