@@ -35,7 +35,7 @@ public class PlanetSelector : MonoBehaviour
         { "Dark", "StageSelect_Dark" },
         { "Rock", "StageSelect_Rock" },
         { "Wind", "StageSelect_Wind" },
-        { "Fir", "StageSelect_Fire" },
+        { "Fire", "StageSelect_Fire" },
         { "Water", "StageSelect_Water" },
         { "Lightning", "StageSelect_Lightning" },
         { "Wood", "StageSelect_Wood" },
