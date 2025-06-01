@@ -6,37 +6,37 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Global.unity
+    path: Assets/_Project/Scenes/Global.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/Title Screen.unity
+    path: Assets/_Project/Scenes/Title Screen.unity
     guid: 6a36fd80d8ea1724fb06cd1639353709
   - enabled: 1
-    path: Assets/Scenes/ShipHub.unity
+    path: Assets/_Project/Scenes/ShipHub.unity
     guid: a69483658f059d94fb41dfc14556d678
   - enabled: 1
-    path: Assets/Scenes/Sigil Lab.unity
+    path: Assets/_Project/Scenes/Sigil Lab.unity
     guid: f39bb170754343442842d52df553f005
   - enabled: 1
-    path: Assets/Scenes/Planets Screen.unity
+    path: Assets/_Project/Scenes/Planets Screen.unity
     guid: 245f8bd05d1973d4abc895f9cab42b07
   - enabled: 1
-    path: Assets/Scenes/Stage Selector/StageSelect_Holy.unity
+    path: Assets/_Project/Scenes/Stage Selector/StageSelect_Holy.unity
     guid: 252cde5ddbdfbc74383b99ef3e82c339
   - enabled: 1
-    path: Assets/Scenes/Stages/Stage I Holy.unity
+    path: Assets/_Project/Scenes/Stages/Stage I Holy.unity
     guid: 6a3490a96d8e35340991a3aeb486571d
   - enabled: 1
-    path: Assets/Scenes/GameOver.unity
+    path: Assets/_Project/Scenes/GameOver.unity
     guid: bb5fcf1fe3e63084097f8a390e5f0081
   - enabled: 1
-    path: Assets/Scenes/Collections.unity
+    path: Assets/_Project/Scenes/Collections.unity
     guid: b2e270224aa97194fb2c83fb14d31f3c
   - enabled: 1
-    path: Assets/Scenes/Records.unity
+    path: Assets/_Project/Scenes/Records.unity
     guid: 9e0374a3bc312dc4ea01861f70236405
   - enabled: 1
-    path: Assets/Scenes/Configurations.unity
+    path: Assets/_Project/Scenes/Configurations.unity
     guid: 8561ca1322b893949a705a88d3462159
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
