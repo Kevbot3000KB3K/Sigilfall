@@ -58713,7 +58713,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6913510743215080254, guid: ea5a42d5496829a46abbef079abb4e8b, type: 3}
       propertyPath: m_Name
-      value: Back to Title
+      value: Back Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 8995759518365755095, guid: ea5a42d5496829a46abbef079abb4e8b, type: 3}
+      propertyPath: sceneToLoad
+      value: ShipHub
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

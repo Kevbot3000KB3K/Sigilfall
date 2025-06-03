@@ -2959,7 +2959,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 167c278991c945846acece004fb5e94a, type: 3}
     - target: {fileID: 6913510743215080254, guid: ea5a42d5496829a46abbef079abb4e8b, type: 3}
       propertyPath: m_Name
-      value: Back to Title
+      value: Back Button
       objectReference: {fileID: 0}
     - target: {fileID: 8995759518365755095, guid: ea5a42d5496829a46abbef079abb4e8b, type: 3}
       propertyPath: sceneToLoad

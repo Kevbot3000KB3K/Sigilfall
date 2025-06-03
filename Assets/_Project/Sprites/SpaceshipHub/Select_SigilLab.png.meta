@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b41abbb02e5d6884fb22eb149d2f6e8a
+guid: ec3ccdce59b40214ba67783e8892b66e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -479583118514150787
-    second: RoomSelectMedium_0
+      213: -7583527263018905247
+    second: Select_SigilLab_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +46,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 14
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RoomSelectMedium_0
+      name: Select_SigilLab_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 56
-        height: 38
+        width: 50
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d72a0b4d1bd2859f0800000000000000
-      internalID: -479583118514150787
+      spriteID: 161944f2226e1c690800000000000000
+      internalID: -7583527263018905247
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RoomSelectMedium_0: -479583118514150787
+      Select_SigilLab_0: -7583527263018905247
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
