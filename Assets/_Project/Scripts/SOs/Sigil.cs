@@ -93,10 +93,10 @@ public class Sigil : ScriptableObject
             return difficulty switch
             {
                 1 => 10,
-                2 => 15,
-                3 => 20,
-                4 => 25,
-                5 => 30,
+                2 => 10,
+                3 => 10,
+                4 => 10,
+                5 => 10,
                 _ => 10
             };
         }

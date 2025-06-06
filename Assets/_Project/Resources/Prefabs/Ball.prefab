@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 503278426637793721}
   - component: {fileID: 3508074601683953089}
   - component: {fileID: 1793382142212271130}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,15 +170,15 @@ MonoBehaviour:
   speed: 20
   distanceFromPaddle: 0.8
   damage: 1
-  activeEffects: []
-  attachedToPaddle: 0
   skipInitialReset: 0
+  attachedToPaddle: 0
   wallHitSFX: {fileID: 8300000, guid: 464331911fedadf47ba1279ee654e9d1, type: 3}
   brickHitSFX: {fileID: 8300000, guid: 42d74a6bc6a06ef4eb456e700f7cbbd7, type: 3}
-  paddleHitSFX: {fileID: 8300000, guid: 2020e0e8d99f64548a08629f7b880853, type: 3}
-  launchSFX: {fileID: 8300000, guid: 424cafe9c5f4d01449a1d26a66879935, type: 3}
-  isGrown: 0
+  paddleHitSFX: {fileID: 8300000, guid: 76ab959781650cb48be331554c900e9f, type: 3}
+  launchSFX: {fileID: 8300000, guid: 76ab959781650cb48be331554c900e9f, type: 3}
+  activeEffects: []
   hasKillzoneReflectPowerup: 0
+  isGrown: 0
 --- !u!96 &3508074601683953089
 TrailRenderer:
   serializedVersion: 3

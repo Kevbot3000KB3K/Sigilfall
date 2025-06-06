@@ -158,14 +158,10 @@ public class Ball : MonoBehaviour
 
     private void Update()
     {
-        // Follow paddle until launched
-        if (!isLaunched && attachedToPaddle)
+        
+        if (isLaunched)
         {
-            transform.position = paddle.position + Vector3.up * distanceFromPaddle;
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                Launch();
-            }
+            rigidbody.linearVelocity = rigidbody.linearVelocity.normalized * sigil.BallSpeed;
         }
 
         // Active effect updates
@@ -291,4 +287,23 @@ public class Ball : MonoBehaviour
 
         Debug.Log("Spawned ball with velocity: " + velocity);
     }
+
+    public void ForceUpward(float forceAmount)
+    {
+        rigidbody.linearVelocity = Vector2.zero;
+
+        // Pick a random angle between 60 and 120 degrees
+        float angle = Random.Range(60f, 120f) * Mathf.Deg2Rad;
+
+        // Convert angle to vector
+        Vector2 direction = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle)).normalized;
+
+        // Apply force in that direction
+        rigidbody.AddForce(direction * forceAmount, ForceMode2D.Impulse);
+
+        Debug.Log($"Ball forced upward at angle: {angle * Mathf.Rad2Deg} degrees with strength: {forceAmount}");
+    }
+
+
+
 }

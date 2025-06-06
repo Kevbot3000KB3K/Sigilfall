@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/_Project/Scenes/Stages/Stage I Holy.unity
     guid: 6a3490a96d8e35340991a3aeb486571d
   - enabled: 1
+    path: Assets/_Project/Scenes/Stages/Stage I Holy Spacegirl.unity
+    guid: f8d6c6f66ad25a5448217386c1a2f949
+  - enabled: 1
     path: Assets/_Project/Scenes/GameOver.unity
     guid: bb5fcf1fe3e63084097f8a390e5f0081
   - enabled: 1

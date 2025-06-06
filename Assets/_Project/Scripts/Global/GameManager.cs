@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
 
     public int level = 1;
     public int score = 0;
-    public int lives = 3;
+    public int lives = 99;
 
     private int ballsInPlay = 0;
 

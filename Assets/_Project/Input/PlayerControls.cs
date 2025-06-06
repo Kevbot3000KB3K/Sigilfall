@@ -88,6 +88,76 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     ""name"": ""PlayerControls"",
     ""maps"": [
         {
+            ""name"": ""Stage"",
+            ""id"": ""c0d90529-34be-46f9-a897-290aeb8e74b1"",
+            ""actions"": [
+                {
+                    ""name"": ""Move"",
+                    ""type"": ""Value"",
+                    ""id"": ""583ecfda-c449-4417-93cf-5d3dc817c036"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Strike"",
+                    ""type"": ""Button"",
+                    ""id"": ""26824ac0-5483-4735-bd77-83e95e6fe951"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": ""1D Axis"",
+                    ""id"": ""a8e2372d-b2c4-4086-8cfa-e6ff8ccb0713"",
+                    ""path"": ""1DAxis"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""negative"",
+                    ""id"": ""3cda1e53-fe9c-443c-aa70-b88a0d80944e"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""positive"",
+                    ""id"": ""10b48d1a-03d3-4c7a-a3c1-59029b23fc96"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""db908d38-e97a-4343-b410-f0e7c26e1eb2"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Strike"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
+        },
+        {
             ""name"": ""UI"",
             ""id"": ""7711dffe-27b6-4bfa-aea2-c2f824c058c9"",
             ""actions"": [
@@ -280,100 +350,14 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
-        },
-        {
-            ""name"": ""Stage"",
-            ""id"": ""c0d90529-34be-46f9-a897-290aeb8e74b1"",
-            ""actions"": [
-                {
-                    ""name"": ""MovePlatformLeft"",
-                    ""type"": ""Button"",
-                    ""id"": ""583ecfda-c449-4417-93cf-5d3dc817c036"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""MovePlatofrmRight"",
-                    ""type"": ""Button"",
-                    ""id"": ""d171b7eb-caee-4967-b16c-c9c73858bd27"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""LaunchBall"",
-                    ""type"": ""Button"",
-                    ""id"": ""26824ac0-5483-4735-bd77-83e95e6fe951"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""2a15e3ae-b490-46b4-9bc5-63dc74377cf1"",
-                    ""path"": ""<Keyboard>/leftArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""MovePlatformLeft"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""50bce833-0a02-4384-96e5-7770b50094c8"",
-                    ""path"": ""<Keyboard>/a"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""MovePlatformLeft"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""97c5923f-409a-4999-afdc-87ddf3ff7c57"",
-                    ""path"": ""<Keyboard>/rightArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""MovePlatofrmRight"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""5f34f363-45c0-4690-ba46-e4beb88f5213"",
-                    ""path"": ""<Keyboard>/d"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""MovePlatofrmRight"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""db908d38-e97a-4343-b410-f0e7c26e1eb2"",
-                    ""path"": ""<Keyboard>/space"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""LaunchBall"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
         }
     ],
     ""controlSchemes"": []
 }");
+        // Stage
+        m_Stage = asset.FindActionMap("Stage", throwIfNotFound: true);
+        m_Stage_Move = m_Stage.FindAction("Move", throwIfNotFound: true);
+        m_Stage_Strike = m_Stage.FindAction("Strike", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_NavigateUp = m_UI.FindAction("NavigateUp", throwIfNotFound: true);
@@ -382,17 +366,12 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         m_UI_NavigateRight = m_UI.FindAction("NavigateRight", throwIfNotFound: true);
         m_UI_Confirm = m_UI.FindAction("Confirm", throwIfNotFound: true);
         m_UI_Cancel = m_UI.FindAction("Cancel", throwIfNotFound: true);
-        // Stage
-        m_Stage = asset.FindActionMap("Stage", throwIfNotFound: true);
-        m_Stage_MovePlatformLeft = m_Stage.FindAction("MovePlatformLeft", throwIfNotFound: true);
-        m_Stage_MovePlatofrmRight = m_Stage.FindAction("MovePlatofrmRight", throwIfNotFound: true);
-        m_Stage_LaunchBall = m_Stage.FindAction("LaunchBall", throwIfNotFound: true);
     }
 
     ~@PlayerControls()
     {
-        UnityEngine.Debug.Assert(!m_UI.enabled, "This will cause a leak and performance issues, PlayerControls.UI.Disable() has not been called.");
         UnityEngine.Debug.Assert(!m_Stage.enabled, "This will cause a leak and performance issues, PlayerControls.Stage.Disable() has not been called.");
+        UnityEngine.Debug.Assert(!m_UI.enabled, "This will cause a leak and performance issues, PlayerControls.UI.Disable() has not been called.");
     }
 
     /// <summary>
@@ -464,6 +443,113 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     {
         return asset.FindBinding(bindingMask, out action);
     }
+
+    // Stage
+    private readonly InputActionMap m_Stage;
+    private List<IStageActions> m_StageActionsCallbackInterfaces = new List<IStageActions>();
+    private readonly InputAction m_Stage_Move;
+    private readonly InputAction m_Stage_Strike;
+    /// <summary>
+    /// Provides access to input actions defined in input action map "Stage".
+    /// </summary>
+    public struct StageActions
+    {
+        private @PlayerControls m_Wrapper;
+
+        /// <summary>
+        /// Construct a new instance of the input action map wrapper class.
+        /// </summary>
+        public StageActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
+        /// <summary>
+        /// Provides access to the underlying input action "Stage/Move".
+        /// </summary>
+        public InputAction @Move => m_Wrapper.m_Stage_Move;
+        /// <summary>
+        /// Provides access to the underlying input action "Stage/Strike".
+        /// </summary>
+        public InputAction @Strike => m_Wrapper.m_Stage_Strike;
+        /// <summary>
+        /// Provides access to the underlying input action map instance.
+        /// </summary>
+        public InputActionMap Get() { return m_Wrapper.m_Stage; }
+        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Enable()" />
+        public void Enable() { Get().Enable(); }
+        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Disable()" />
+        public void Disable() { Get().Disable(); }
+        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.enabled" />
+        public bool enabled => Get().enabled;
+        /// <summary>
+        /// Implicitly converts an <see ref="StageActions" /> to an <see ref="InputActionMap" /> instance.
+        /// </summary>
+        public static implicit operator InputActionMap(StageActions set) { return set.Get(); }
+        /// <summary>
+        /// Adds <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
+        /// </summary>
+        /// <param name="instance">Callback instance.</param>
+        /// <remarks>
+        /// If <paramref name="instance" /> is <c>null</c> or <paramref name="instance"/> have already been added this method does nothing.
+        /// </remarks>
+        /// <seealso cref="StageActions" />
+        public void AddCallbacks(IStageActions instance)
+        {
+            if (instance == null || m_Wrapper.m_StageActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_StageActionsCallbackInterfaces.Add(instance);
+            @Move.started += instance.OnMove;
+            @Move.performed += instance.OnMove;
+            @Move.canceled += instance.OnMove;
+            @Strike.started += instance.OnStrike;
+            @Strike.performed += instance.OnStrike;
+            @Strike.canceled += instance.OnStrike;
+        }
+
+        /// <summary>
+        /// Removes <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
+        /// </summary>
+        /// <remarks>
+        /// Calling this method when <paramref name="instance" /> have not previously been registered has no side-effects.
+        /// </remarks>
+        /// <seealso cref="StageActions" />
+        private void UnregisterCallbacks(IStageActions instance)
+        {
+            @Move.started -= instance.OnMove;
+            @Move.performed -= instance.OnMove;
+            @Move.canceled -= instance.OnMove;
+            @Strike.started -= instance.OnStrike;
+            @Strike.performed -= instance.OnStrike;
+            @Strike.canceled -= instance.OnStrike;
+        }
+
+        /// <summary>
+        /// Unregisters <param cref="instance" /> and unregisters all input action callbacks via <see cref="StageActions.UnregisterCallbacks(IStageActions)" />.
+        /// </summary>
+        /// <seealso cref="StageActions.UnregisterCallbacks(IStageActions)" />
+        public void RemoveCallbacks(IStageActions instance)
+        {
+            if (m_Wrapper.m_StageActionsCallbackInterfaces.Remove(instance))
+                UnregisterCallbacks(instance);
+        }
+
+        /// <summary>
+        /// Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via <param cref="instance" />.
+        /// </summary>
+        /// <remarks>
+        /// If <paramref name="instance" /> is <c>null</c>, calling this method will only unregister all existing callbacks but not register any new callbacks.
+        /// </remarks>
+        /// <seealso cref="StageActions.AddCallbacks(IStageActions)" />
+        /// <seealso cref="StageActions.RemoveCallbacks(IStageActions)" />
+        /// <seealso cref="StageActions.UnregisterCallbacks(IStageActions)" />
+        public void SetCallbacks(IStageActions instance)
+        {
+            foreach (var item in m_Wrapper.m_StageActionsCallbackInterfaces)
+                UnregisterCallbacks(item);
+            m_Wrapper.m_StageActionsCallbackInterfaces.Clear();
+            AddCallbacks(instance);
+        }
+    }
+    /// <summary>
+    /// Provides a new <see cref="StageActions" /> instance referencing this action map.
+    /// </summary>
+    public StageActions @Stage => new StageActions(this);
 
     // UI
     private readonly InputActionMap m_UI;
@@ -615,124 +701,28 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     /// Provides a new <see cref="UIActions" /> instance referencing this action map.
     /// </summary>
     public UIActions @UI => new UIActions(this);
-
-    // Stage
-    private readonly InputActionMap m_Stage;
-    private List<IStageActions> m_StageActionsCallbackInterfaces = new List<IStageActions>();
-    private readonly InputAction m_Stage_MovePlatformLeft;
-    private readonly InputAction m_Stage_MovePlatofrmRight;
-    private readonly InputAction m_Stage_LaunchBall;
     /// <summary>
-    /// Provides access to input actions defined in input action map "Stage".
+    /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "Stage" which allows adding and removing callbacks.
     /// </summary>
-    public struct StageActions
+    /// <seealso cref="StageActions.AddCallbacks(IStageActions)" />
+    /// <seealso cref="StageActions.RemoveCallbacks(IStageActions)" />
+    public interface IStageActions
     {
-        private @PlayerControls m_Wrapper;
-
         /// <summary>
-        /// Construct a new instance of the input action map wrapper class.
+        /// Method invoked when associated input action "Move" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
-        public StageActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnMove(InputAction.CallbackContext context);
         /// <summary>
-        /// Provides access to the underlying input action "Stage/MovePlatformLeft".
+        /// Method invoked when associated input action "Strike" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
-        public InputAction @MovePlatformLeft => m_Wrapper.m_Stage_MovePlatformLeft;
-        /// <summary>
-        /// Provides access to the underlying input action "Stage/MovePlatofrmRight".
-        /// </summary>
-        public InputAction @MovePlatofrmRight => m_Wrapper.m_Stage_MovePlatofrmRight;
-        /// <summary>
-        /// Provides access to the underlying input action "Stage/LaunchBall".
-        /// </summary>
-        public InputAction @LaunchBall => m_Wrapper.m_Stage_LaunchBall;
-        /// <summary>
-        /// Provides access to the underlying input action map instance.
-        /// </summary>
-        public InputActionMap Get() { return m_Wrapper.m_Stage; }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Enable()" />
-        public void Enable() { Get().Enable(); }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Disable()" />
-        public void Disable() { Get().Disable(); }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.enabled" />
-        public bool enabled => Get().enabled;
-        /// <summary>
-        /// Implicitly converts an <see ref="StageActions" /> to an <see ref="InputActionMap" /> instance.
-        /// </summary>
-        public static implicit operator InputActionMap(StageActions set) { return set.Get(); }
-        /// <summary>
-        /// Adds <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-        /// </summary>
-        /// <param name="instance">Callback instance.</param>
-        /// <remarks>
-        /// If <paramref name="instance" /> is <c>null</c> or <paramref name="instance"/> have already been added this method does nothing.
-        /// </remarks>
-        /// <seealso cref="StageActions" />
-        public void AddCallbacks(IStageActions instance)
-        {
-            if (instance == null || m_Wrapper.m_StageActionsCallbackInterfaces.Contains(instance)) return;
-            m_Wrapper.m_StageActionsCallbackInterfaces.Add(instance);
-            @MovePlatformLeft.started += instance.OnMovePlatformLeft;
-            @MovePlatformLeft.performed += instance.OnMovePlatformLeft;
-            @MovePlatformLeft.canceled += instance.OnMovePlatformLeft;
-            @MovePlatofrmRight.started += instance.OnMovePlatofrmRight;
-            @MovePlatofrmRight.performed += instance.OnMovePlatofrmRight;
-            @MovePlatofrmRight.canceled += instance.OnMovePlatofrmRight;
-            @LaunchBall.started += instance.OnLaunchBall;
-            @LaunchBall.performed += instance.OnLaunchBall;
-            @LaunchBall.canceled += instance.OnLaunchBall;
-        }
-
-        /// <summary>
-        /// Removes <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-        /// </summary>
-        /// <remarks>
-        /// Calling this method when <paramref name="instance" /> have not previously been registered has no side-effects.
-        /// </remarks>
-        /// <seealso cref="StageActions" />
-        private void UnregisterCallbacks(IStageActions instance)
-        {
-            @MovePlatformLeft.started -= instance.OnMovePlatformLeft;
-            @MovePlatformLeft.performed -= instance.OnMovePlatformLeft;
-            @MovePlatformLeft.canceled -= instance.OnMovePlatformLeft;
-            @MovePlatofrmRight.started -= instance.OnMovePlatofrmRight;
-            @MovePlatofrmRight.performed -= instance.OnMovePlatofrmRight;
-            @MovePlatofrmRight.canceled -= instance.OnMovePlatofrmRight;
-            @LaunchBall.started -= instance.OnLaunchBall;
-            @LaunchBall.performed -= instance.OnLaunchBall;
-            @LaunchBall.canceled -= instance.OnLaunchBall;
-        }
-
-        /// <summary>
-        /// Unregisters <param cref="instance" /> and unregisters all input action callbacks via <see cref="StageActions.UnregisterCallbacks(IStageActions)" />.
-        /// </summary>
-        /// <seealso cref="StageActions.UnregisterCallbacks(IStageActions)" />
-        public void RemoveCallbacks(IStageActions instance)
-        {
-            if (m_Wrapper.m_StageActionsCallbackInterfaces.Remove(instance))
-                UnregisterCallbacks(instance);
-        }
-
-        /// <summary>
-        /// Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via <param cref="instance" />.
-        /// </summary>
-        /// <remarks>
-        /// If <paramref name="instance" /> is <c>null</c>, calling this method will only unregister all existing callbacks but not register any new callbacks.
-        /// </remarks>
-        /// <seealso cref="StageActions.AddCallbacks(IStageActions)" />
-        /// <seealso cref="StageActions.RemoveCallbacks(IStageActions)" />
-        /// <seealso cref="StageActions.UnregisterCallbacks(IStageActions)" />
-        public void SetCallbacks(IStageActions instance)
-        {
-            foreach (var item in m_Wrapper.m_StageActionsCallbackInterfaces)
-                UnregisterCallbacks(item);
-            m_Wrapper.m_StageActionsCallbackInterfaces.Clear();
-            AddCallbacks(instance);
-        }
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnStrike(InputAction.CallbackContext context);
     }
-    /// <summary>
-    /// Provides a new <see cref="StageActions" /> instance referencing this action map.
-    /// </summary>
-    public StageActions @Stage => new StageActions(this);
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "UI" which allows adding and removing callbacks.
     /// </summary>
@@ -782,34 +772,5 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnCancel(InputAction.CallbackContext context);
-    }
-    /// <summary>
-    /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "Stage" which allows adding and removing callbacks.
-    /// </summary>
-    /// <seealso cref="StageActions.AddCallbacks(IStageActions)" />
-    /// <seealso cref="StageActions.RemoveCallbacks(IStageActions)" />
-    public interface IStageActions
-    {
-        /// <summary>
-        /// Method invoked when associated input action "MovePlatformLeft" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnMovePlatformLeft(InputAction.CallbackContext context);
-        /// <summary>
-        /// Method invoked when associated input action "MovePlatofrmRight" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnMovePlatofrmRight(InputAction.CallbackContext context);
-        /// <summary>
-        /// Method invoked when associated input action "LaunchBall" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnLaunchBall(InputAction.CallbackContext context);
     }
 }
