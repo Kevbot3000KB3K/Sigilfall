@@ -13,7 +13,12 @@ public class ConfirmStage : MonoBehaviour
     /// Set this before calling ConfirmStageSelection().
     /// </summary>
     private string selectedStageSceneName;
+    GameManager gm;
 
+    void Awake()
+    {
+        gm = FindFirstObjectByType<GameManager>();
+    }
     /// <summary>
     /// Sets the selected stage name to be loaded later.
     /// </summary>
@@ -53,5 +58,14 @@ public class ConfirmStage : MonoBehaviour
 
         // 🚀 Load the selected stage
         SceneManager.LoadScene(selectedStageSceneName);
+        if (gm != null)
+        {
+            Debug.Log("we reached here!!!");
+            gm.NewGame();
+        }
+        else
+        {
+            Debug.LogWarning("GameManager not found after scene load.");
+        }
     }
 }

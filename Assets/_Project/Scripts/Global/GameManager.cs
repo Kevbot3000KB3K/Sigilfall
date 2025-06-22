@@ -66,16 +66,6 @@ public class GameManager : MonoBehaviour
     {
         score = 0;
         lives = 3;
-        LoadLevel(1);
-    }
-
-    /// <summary>
-    /// Loads the specified level scene by number.
-    /// </summary>
-    private void LoadLevel(int level)
-    {
-        this.level = level;
-        SceneManager.LoadScene("level " + level);
     }
 
     /// <summary>
@@ -134,6 +124,7 @@ public class GameManager : MonoBehaviour
     public void Miss()
     {
         lives--;
+        Debug.Log("Life lost! Total lives: " + lives);
 
         if (lives > 0)
         {

@@ -13,9 +13,6 @@ public class SceneLoader : MonoBehaviour
     [Tooltip("Scene to load if no scene is passed into LoadSceneWithFade(string).")]
     public string sceneToLoad = "Level1";
 
-    [Tooltip("If true, calls GameManager.NewGame() after the scene loads.")]
-    public bool callNewGameAfterLoad = false;
-
     [Header("Audio & Visual")]
     [Tooltip("Sound effect played when the transition begins.")]
     public AudioClip clickSFX;
@@ -73,19 +70,6 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene(finalSceneName);
 
         yield return null;
-
-        if (callNewGameAfterLoad)
-        {
-            GameManager gm = Object.FindFirstObjectByType<GameManager>(); // ✅ Replaces deprecated FindObjectOfType
-            if (gm != null)
-            {
-                gm.NewGame();
-            }
-            else
-            {
-                Debug.LogWarning("GameManager not found after scene load.");
-            }
-        }
     }
 
     /// <summary>
